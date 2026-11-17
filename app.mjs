@@ -1,4 +1,4 @@
-import {cleanJourney,journeyDay,mountJourney} from './journey.mjs?v=29';
+import {cleanJourney,journeyDay,mountJourney} from './journey.mjs?v=30';
 import {weatherCondition,createWeatherService,startWeatherRefresh,forecastWindow,WEATHER_HOUR} from './weather.mjs?v=26';
 import {resolveMobileView,shareableAppURL} from './mobile.mjs';
 import {googleEmbedURL,googleOpenURL} from './google-map.mjs';
