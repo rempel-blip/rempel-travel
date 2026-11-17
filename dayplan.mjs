@@ -1,0 +1,31 @@
+// Fixed daily anchors restored from the trip discussions; dates are travel-local.
+export const DAY_ANCHORS={
+ collina:{kind:'fixed',label:'Сначала La Collina, затем Нара'},
+ nigatsudo:{kind:'sunset',label:'Закат · Nigatsu-dō'},
+ umeda:{kind:'sunset',label:'Закат · Umeda Sky'},
+ ryuguden:{kind:'sunrise',label:'06:00 · онсэн, затем рассвет',time:'06:00'},
+ inamura:{kind:'sunset',label:'Закат · Инамурагасаки'},
+ sky:{kind:'sunset',label:'15:00–15:20 · вход, остаёмся до заката',time:'15:00–15:20'},
+ jingshan:{kind:'sunrise',label:'Рассвет · Цзиншань'}
+};
+const DEFAULT_ORDERS={'2026-12-01':['collina','nara','todaiji','kasuga','kofuku','nigatsudo'],'2026-12-02':['castle','kuromon','gate','umeda','shinsaibashi','hashi','watami','shinsekai']};
+export function dayAnchor(p){return DAY_ANCHORS[p.id]||(p.time?{kind:'fixed',label:p.time,time:p.time}:null);}
+export function hotelEndpoints(hotels=[],date){return {morning:hotels.find(h=>h.from<date&&date<=h.to)||null,evening:hotels.find(h=>h.from<=date&&date<h.to)||null};}
+export function baseDayOrder(places,date){const list=places.filter(p=>p.date===date&&!p.archived),ids=DEFAULT_ORDERS[date]||list.map(p=>p.id);return [...list].sort((a,b)=>(ids.includes(a.id)?ids.indexOf(a.id):ids.length+list.indexOf(a))-(ids.includes(b.id)?ids.indexOf(b.id):ids.length+list.indexOf(b)));}
+export function dayGroups(list,journey={}){
+ const anchors=list.filter(dayAnchor),keys=['start',...anchors.map(p=>p.id)],groups=keys.map((key,i)=>({key,anchor:i?anchors[i-1]:null,places:[]}));let current='start';
+ for(const p of list){if(dayAnchor(p)){current=p.id;continue;}let key=journey.periods?.[p.id];if(!keys.includes(key))key=current;if(anchors[0]?.id==='collina'&&key==='start')key='collina';groups.find(g=>g.key===key).places.push(p);}
+ return groups;
+}
+export function arrangeDay(list,journey={}){return dayGroups(list,journey).flatMap(g=>g.anchor?[g.anchor,...g.places]:g.places);}
+export function periodLabel(group,index,groups){const next=groups[index+1]?.anchor;if(group.key==='start')return next?'До '+next.name:'Дневные места';if(dayAnchor(group.anchor)?.kind==='sunset')return 'После заката';if(next)return 'Между '+group.anchor.name+' и '+next.name;return dayAnchor(group.anchor)?.kind==='sunrise'?'После рассвета':'После '+group.anchor.name;}
+export function hotelStop(h,role,date){return h?{id:h.id,name:h.name,query:h.name+' '+h.city,city:h.city,country:'JP',date,category:'Отели',priority:'main',hotel:true,role,coordinateId:h.id==='ryugudenHotel'?'ryuguden':h.id}:null;}
+export function completeDay(list,hotels,date){const {morning,evening}=hotelEndpoints(hotels,date),start=hotelStop(morning,'start',date),end=hotelStop(evening,'end',date),arrival=morning&&evening&&morning.id!==evening.id&&['2026-12-03','2026-12-07'].includes(date)?hotelStop(evening,'luggage',date):null;return {morning,evening,start,end,arrival,stops:[...(start?[start]:[]),...(arrival?[arrival]:[]),...list,...(end?[end]:[])]};}
+export function pointFor(p,coordinate){return p?coordinate(p.coordinateId||p.id):null;}
+export function geoDistance(a,b){const r=x=>x*Math.PI/180,x=Math.sin(r(b[0]-a[0])/2)**2+Math.cos(r(a[0]))*Math.cos(r(b[0]))*Math.sin(r(b[1]-a[1])/2)**2;return 12742000*Math.atan2(Math.sqrt(x),Math.sqrt(Math.max(0,1-x)));}
+export function plannedMode(j,date,p,from,coordinate){if(j.modes?.[date+'|'+p.id])return j.modes[date+'|'+p.id];const a=pointFor(from,coordinate),b=pointFor(p,coordinate);return a&&b&&geoDistance(a,b)<=1800?'walking':'transit';}
+export function improveSegment(stops,start,end,coordinate){
+ let pool=[...stops],out=[],from=start;if(!from&&pool.length){out.push(pool.shift());from=coordinate(out[0].id);}while(pool.length){pool.sort((a,b)=>geoDistance(from,coordinate(a.id))-geoDistance(from,coordinate(b.id)));const p=pool.shift();out.push(p);from=coordinate(p.id);}
+ const score=arr=>{let sum=0,prev=start;for(const p of arr){const c=coordinate(p.id);if(prev)sum+=geoDistance(prev,c);prev=c;}if(prev&&end)sum+=geoDistance(prev,end);return sum;};
+ let best=score(out),changed=true,loops=0;while(changed&&loops++<30){changed=false;for(let i=start?0:1;i<out.length-1;i++)for(let k=i+1;k<out.length;k++){const next=[...out.slice(0,i),...out.slice(i,k+1).reverse(),...out.slice(k+1)],s=score(next);if(s+1<best){out=next;best=s;changed=true;}}}return out;
+}
