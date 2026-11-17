@@ -31,3 +31,5 @@ body,button,input,select,textarea,h1,h2,h3,h4,.hero h1,.leaflet-container,.leafl
 
 /* Fixed illustration proportions: all shapes scale together. */
 .landscape{aspect-ratio:9/8;height:auto;min-height:0;align-self:center;border-radius:100% 100% 0 0 / 75% 75% 0 0}.landscape .sun{width:27.3%;height:auto;aspect-ratio:1;top:20%;left:30%}.landscape .mountain{height:65%;bottom:-3.6%}.landscape .mountain.back{height:60%;bottom:0}
+
+.road-routes{margin:18px 0;padding:16px;border:1px solid var(--line,#daddd3);border-radius:12px;font-size:16px}.road-routes summary{cursor:pointer;font-weight:700}.road-routes p{line-height:1.5}.road-routes label{display:block;margin:12px 0}.road-routes input,.road-routes select{display:block;width:100%;max-width:100%;box-sizing:border-box;margin-top:8px;min-height:44px}.road-routes button{min-height:44px;white-space:normal}.road-routes li{margin:12px 0;overflow-wrap:anywhere}.road-routes ol{padding-left:22px}.road-routes [hidden]{display:none!important}
