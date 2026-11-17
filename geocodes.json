@@ -757,5 +757,89 @@
     "source": "https://photon.komoot.io/api/?limit=1&q=Shibuya%20Scramble%20Square",
     "retrieved": "2026-11-17",
     "precision": "Региональная точка для расчёта света и погоды; не отдельное место."
+  },
+  "lively": {
+    "query": "THE LIVELY Osaka Honmachi",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5075433,
+          34.68274861
+        ]
+      },
+      "properties": {
+        "name": "THE LIVELY Osaka Honmachi",
+        "countrycode": "JP",
+        "sourceURL": "https://www.city.osaka.lg.jp/kenko/cmsfiles/contents/0000382/382418/202512ketsugo.pdf"
+      }
+    },
+    "source": "https://www.city.osaka.lg.jp/kenko/cmsfiles/contents/0000382/382418/202512ketsugo.pdf",
+    "retrieved": "2026-11-18",
+    "precision": "Город Осака, реестр средств размещения на 31.12.2025, стр. 39. Координата объекта; вход не проверен."
+  },
+  "kuromon": {
+    "query": "Kuromon Market",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.506238,
+          34.6653515
+        ]
+      },
+      "properties": {
+        "name": "Kuromon Market",
+        "countrycode": "JP",
+        "sourceURL": "https://discover.osaka-info.jp/en/spots/kuromon-market"
+      }
+    },
+    "source": "https://discover.osaka-info.jp/en/spots/kuromon-market",
+    "retrieved": "2026-11-18",
+    "precision": "Точка на карте официального туристического бюро Осаки. Рынок протяжённый; это ориентир, не проверенный вход."
+  },
+  "shinsaibashi": {
+    "query": "Shinsaibashi-Suji Shopping Street",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50163,
+          34.67344
+        ]
+      },
+      "properties": {
+        "name": "Shinsaibashi-Suji Shopping Street",
+        "countrycode": "JP",
+        "sourceURL": "https://osaka-info.jp/en/spot/shinsaibashi-suji-shopping-street/"
+      }
+    },
+    "source": "https://osaka-info.jp/en/spot/shinsaibashi-suji-shopping-street/",
+    "retrieved": "2026-11-18",
+    "precision": "Координата из ссылки карты официального туристического бюро Осаки. Ориентир торговой улицы, не отдельный магазин."
+  },
+  "hashi": {
+    "query": "HASHI LAB Shinsaibashi",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5032604860414,
+          34.676978505116445
+        ]
+      },
+      "properties": {
+        "name": "HASHI LAB Shinsaibashi",
+        "countrycode": "JP",
+        "sourceURL": "https://osaka-info.jp/en/spot/hashi_lab/"
+      }
+    },
+    "source": "https://osaka-info.jp/en/spot/hashi_lab/",
+    "retrieved": "2026-11-18",
+    "precision": "Координата из ссылки карты официального туристического бюро Осаки. Osaka Norin Kaikan, 3-2-6 Minamisemba, комната 507; вход и этаж на месте не проверены."
   }
 }
