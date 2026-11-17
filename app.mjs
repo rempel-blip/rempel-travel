@@ -8,8 +8,8 @@ import {days,hotels,places,priorityFor,filterPlaces,linksFor,placesForView} from
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const KEY='rempel-travel-v1',labels={main:'Обязательно',optional:'По желанию',reserve:'Резерв'};let storageOK=true;
 function read(){try{return JSON.parse(localStorage.getItem(KEY)||'{}');}catch{return {};}}
-export function cleanState(v){const ids=new Set(places.map(p=>p.id));if(!v||typeof v!=='object')throw Error('Неверный формат файла');return {journey:cleanJourney(v.journey,places,days),variant:v.variant==='B'?'B':'A',visited:Object.fromEntries(Object.entries(v.visited||{}).filter(([k,x])=>ids.has(k)&&typeof x==='boolean')),priorities:Object.fromEntries(Object.entries(v.priorities||{}).filter(([k,x])=>ids.has(k)&&Object.keys(labels).includes(x)))};}
-let state=cleanState(read()),date=days[0].date,geo={},shown=[],map,layer,weatherToken=0,modalId=null,mapMode='google',googlePlaceId='',basemapMounted=false,mobileScreen='day',lastMobileDay=days[0].date,lastMobileCatalog='catalog';
+export function cleanState(v){const ids=new Set(places.map(p=>p.id));if(!v||typeof v!=='object')throw Error('Неверный формат файла');return {mapMode:v.mapMode==='google'?'google':'route',journey:cleanJourney(v.journey,places,days),variant:v.variant==='B'?'B':'A',visited:Object.fromEntries(Object.entries(v.visited||{}).filter(([k,x])=>ids.has(k)&&typeof x==='boolean')),priorities:Object.fromEntries(Object.entries(v.priorities||{}).filter(([k,x])=>ids.has(k)&&Object.keys(labels).includes(x)))};}
+let state=cleanState(read()),date=days[0].date,geo={},shown=[],map,layer,weatherToken=0,modalId=null,mapMode=state.mapMode,googlePlaceId='',basemapMounted=false,mobileScreen='day',lastMobileDay=days[0].date,lastMobileCatalog='catalog';
 let journeyUI,roadUI,roadLayer;
 function setVisited(id,value,method='manual'){state.visited[id]=value;if(value){state.journey.visits[id]={at:Date.now(),method};const p=places.find(p=>p.id===id);if(p)delete state.journey.skipped[p.date+'|'+id];}else delete state.journey.visits[id];}
 function toast(s){$('#toast').textContent=s;$('#toast').classList.add('show');setTimeout(()=>$('#toast').classList.remove('show'),3500);}
@@ -24,7 +24,7 @@ function googleQuery(){
  return day?cities[day.geo]||day.city:$('#city').value||'Japan';
 }
 function setMapMode(mode){
- mapMode=mode==='route'?'route':'google';$('#mapMode').value=mapMode;
+ mapMode=mode==='route'?'route':'google';state.mapMode=mapMode;save();$('#mapMode').value=mapMode;
  $('#googleFrame').hidden=mapMode!=='google';$('#googlePlaceField').hidden=mapMode!=='google';$('#map').hidden=mapMode==='google';$('#esriSourceField').hidden=mapMode==='google';$('#fit').hidden=mapMode==='google';
  if(mapMode==='route'&&map){if(!basemapMounted){mountBasemap(map,{L,status:{set textContent(v){if(mapMode==='route')$('#mapState').textContent=v;}},selector:$('#mapProvider'),retry:$('#retryMap')});basemapMounted=true;}requestAnimationFrame(()=>map.invalidateSize());}
  renderGoogleMap();$('#retryMap').onclick=()=>{if(mapMode==='google')$('#googleFrame').src=googleEmbedURL(googleQuery());else if(basemapMounted){map.invalidateSize();$('#mapProvider').onchange();}};
@@ -38,7 +38,7 @@ function renderGoogleMap(){
  $('#googleMap').href=googleOpenURL(query);
  $('#mapState').textContent='Google Maps · '+query+'. Цветные маркеры и линии доступны в режиме «Маршрут с цветными отметками». Для карты нужен интернет.';
 }
-function showOnGoogle(id){if(isMobile())applyMobileView('map');googlePlaceId=id;setMapMode('google');$('#googleFrame').scrollIntoView({block:'center',behavior:'smooth'});}
+function showOnGoogle(id){if(isMobile())applyMobileView('map');const c=coordinate(id);if(c&&map){setMapMode('route');map.setView(c,16);$('#map').scrollIntoView({block:'center',behavior:'smooth'});}else{googlePlaceId=id;setMapMode('google');toast('Координат пока нет — открываем поиск Google по названию.');$('#googleFrame').scrollIntoView({block:'center',behavior:'smooth'});}}
 $('#mapMode').onchange=e=>setMapMode(e.target.value);
 $('#googlePlace').onchange=e=>{googlePlaceId=e.target.value;renderGoogleMap();};
 
@@ -129,7 +129,7 @@ try{const r=await fetch('./geocodes.json',{signal:AbortSignal.timeout(5000)});if
 if(globalThis.L){map=L.map('map',{scrollWheelZoom:false}).setView([35,137],5);layer=L.layerGroup().addTo(map);roadLayer=L.layerGroup().addTo(map);}else $('#map').textContent='Картографическая библиотека недоступна. Используйте ссылки в карточках.';
 journeyUI=mountJourney({root:$('#journeyFollow'),getModel:()=>({date,days,places:effective(),journey:state.journey,visited:state.visited,hotels}),coordinate,priority:p=>priorityFor(p,state.variant),setVisited,changed:()=>{save();render();},onMap:showOnGoogle,notify:toast});
 roadUI=mountRoadRoutes({root:$('#roadRoutes'),getModel:()=>({date,days,places:effective(),journey:state.journey}),coordinate,priority:p=>priorityFor(p,state.variant),clear:()=>roadLayer?.clearLayers(),draw:roads=>{if(!roadLayer)return;roadLayer.clearLayers();for(const r of roads)L.polyline(r.coordinates,{color:r.mode==='walking'?'#bd4c34':'#315d98',weight:5,opacity:.9}).bindTooltip(esc(r.from+' → '+r.to)).addTo(roadLayer);},showMap:()=>{if(isMobile())applyMobileView('map');setMapMode('route');if(roadLayer?.getLayers().length){const bounds=L.latLngBounds(roadLayer.getLayers().flatMap(l=>l.getLatLngs()));map.fitBounds(bounds,{padding:[25,25],maxZoom:16});}$('#map').scrollIntoView({block:'center',behavior:'smooth'});}});
-save();render();renderWeather(true);startWeatherRefresh({refresh:()=>renderWeather(true)});applyMobileView('day',false);setMapMode('google');$('#retryMap').onclick=()=>{if(mapMode==='google'){const frame=$('#googleFrame');frame.src=googleEmbedURL(googleQuery());}else if(basemapMounted){map.invalidateSize();$('#mapProvider').onchange();}};if(map){requestAnimationFrame(()=>map.invalidateSize());if(globalThis.ResizeObserver)new ResizeObserver(()=>map.invalidateSize()).observe(document.getElementById('map'));}
+save();render();renderWeather(true);startWeatherRefresh({refresh:()=>renderWeather(true)});applyMobileView('day',false);setMapMode(state.mapMode);$('#retryMap').onclick=()=>{if(mapMode==='google'){const frame=$('#googleFrame');frame.src=googleEmbedURL(googleQuery());}else if(basemapMounted){map.invalidateSize();$('#mapProvider').onchange();}};if(map){requestAnimationFrame(()=>map.invalidateSize());if(globalThis.ResizeObserver)new ResizeObserver(()=>map.invalidateSize()).observe(document.getElementById('map'));}
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>toast('Офлайн-режим не включился. Откройте приложение по HTTPS или localhost.'));
 
 
