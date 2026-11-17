@@ -1,4 +1,4 @@
-const CACHE='rempel-travel-v30';
+const CACHE='rempel-travel-v31';
 const FILES=['./','./index.html','./style.css','./mobile.css','./share.html','./app.mjs','./journey.mjs','./journey.css','./weather.mjs','./map.mjs','./google-map.mjs','./mobile.mjs','./data.mjs','./catalog.mjs','./geocodes.json','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./leaflet.js','./leaflet.css','./suncalc.js'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('rempel-travel-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
