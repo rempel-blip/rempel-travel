@@ -21,3 +21,5 @@
 @media(max-width:800px){.mobile-cover .sun{width:70px;height:70px;top:25px;left:37%}.mobile-cover .mountain{height:120px;bottom:-10px}.mobile-cover .mountain.back{height:105px;bottom:0}}
 
 @media(max-width:800px){.mobile-cover h1{font-size:36px;font-weight:400;line-height:1.06;margin:10px 0 22px;letter-spacing:-.5px;color:var(--ink)}.mobile-cover h1 span,.mobile-cover h1 em{display:block}.mobile-cover h1 em{font-weight:400;color:var(--red);font-style:italic}.mobile-cover .landscape,.hero .landscape{aspect-ratio:9/8;height:auto;min-height:0;max-width:420px;width:100%;margin:0 auto 20px;border-radius:100% 100% 0 0 / 75% 75% 0 0}.mobile-cover .landscape .sun,.hero .landscape .sun{width:27.3%;height:auto;aspect-ratio:1;top:20%;left:30%}.mobile-cover .landscape .mountain,.hero .landscape .mountain{height:65%;bottom:-3.6%}.mobile-cover .landscape .mountain.back,.hero .landscape .mountain.back{height:60%;bottom:0}}
+
+.mobile-forecast{font-size:14px;line-height:1.45;color:var(--ink);margin:15px 0 0}.weather-auto-note{font-size:13px;color:var(--muted)}
