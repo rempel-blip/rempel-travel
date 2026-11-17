@@ -5988,7 +5988,7 @@ function updateMobileSummary(){
   $('#mobileDayProgress').innerHTML=`<span>Посещено ${done} из ${list.length}</span><progress aria-label="Прогресс дня" value="${done}" max="${list.length||1}"></progress>`;
   $('#mobileLight').innerHTML=solar(day,date==='2026-12-06'?'ryuguden':day.geo);
  }else{
-  lastMobileCatalog=date;$('#mobileDayTitle').innerHTML='<strong>Все открытия — под рукой</strong><span>Япония + Китай · 163 карточки</span>';$('#mobileDayProgress').innerHTML='';$('#mobileLight').innerHTML='';
+  lastMobileCatalog=date;$('#mobileDayTitle').innerHTML='<strong>Все открытия — под рукой</strong><span>Япония + Китай · '+places.length+' мест</span>';$('#mobileDayProgress').innerHTML='';$('#mobileLight').innerHTML='';
  }
 }
 document.querySelectorAll('[data-mobile-screen]').forEach(b=>b.onclick=()=>navigateMobile(b.dataset.mobileScreen));
