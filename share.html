@@ -1249,7 +1249,7 @@ const mobileSections=['day','map','catalog','stays','more'];
 function resolveMobileView({date,lastDay='2026-11-29',lastCatalog='catalog'},target){
  const screen=mobileSections.includes(target)?target:'day';
  const isDay=/^2026-\d{2}-\d{2}$/.test(date);
- return {screen,date:screen==='day'?(isDay?date:lastDay):screen==='catalog'?(!isDay?date:lastCatalog):date,lastDay:isDay?date:lastDay,lastCatalog:!isDay&&['catalog','reserve','archive'].includes(date)?date:lastCatalog};
+ return {screen,date:screen==='day'?(isDay?date:lastDay):screen==='catalog'?(!isDay?date:lastCatalog):date,lastDay:isDay?date:lastDay,lastCatalog:!isDay&&['catalog','reserve'].includes(date)?date:lastCatalog};
 }
 function shareableAppURL(value){
  try{const u=new URL(value);if(u.protocol!=='https:'||/^(localhost|127\.|0\.0\.0\.0|\[::1\]|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(u.hostname))return null;u.hash='';return u.href;}catch{return null;}
@@ -1311,7 +1311,7 @@ function mountBasemap(map,{L,status,selector,retry,schedule=setTimeout,cancel=cl
   return {select,destroy(){disposed=true;generation++;cancel(timer);layers.forEach(l=>map.removeLayer(l));}};
 }
 
-// Japan and China only, source records preserved as JSON data.
+// Active Japan and China locations only.
 const catalogRecords=[
   {
     "id": "p1",
@@ -2612,28 +2612,6 @@ const catalogRecords=[
     "query": "Haneda Airport Terminal 3 Токио"
   },
   {
-    "id": "p119",
-    "region": "Япония",
-    "city": "Отменённые",
-    "category": "Рестораны",
-    "name": "Shunya-chan",
-    "date": "—",
-    "why": "Ранее обсуждалось; затем явно исключено.",
-    "tag": "отменено",
-    "query": "Shunya-chan Отменённые"
-  },
-  {
-    "id": "p120",
-    "region": "Япония",
-    "city": "Отменённые",
-    "category": "Рестораны",
-    "name": "Kisaburō Nōjō",
-    "date": "—",
-    "why": "Ранее обсуждалось; затем явно исключено.",
-    "tag": "отменено",
-    "query": "Kisaburō Nōjō Отменённые"
-  },
-  {
     "id": "p121",
     "region": "Китай",
     "city": "Гуанчжоу",
@@ -2863,50 +2841,6 @@ const catalogRecords=[
     "why": "Рассветный панорамный вид на ось старого Пекина; доступ в нужный час проверить.",
     "tag": "проверить",
     "query": "Jingshan Park / Wanchun Pavilion Пекин"
-  },
-  {
-    "id": "p142",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Достопримечательности",
-    "name": "Victoria Harbour Hong Kong",
-    "date": "—",
-    "why": "Ранний вариант стоповера в Гонконге, позже заменён.",
-    "tag": "альтернатива",
-    "query": "Victoria Harbour Hong Kong Альтернативный транзит"
-  },
-  {
-    "id": "p143",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Достопримечательности",
-    "name": "Kowloon Hong Kong",
-    "date": "—",
-    "why": "Ранний район для прогулки при стоповере.",
-    "tag": "альтернатива",
-    "query": "Kowloon Hong Kong Альтернативный транзит"
-  },
-  {
-    "id": "p144",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Достопримечательности",
-    "name": "Central Hong Kong",
-    "date": "—",
-    "why": "Ранний район для прогулки при стоповере.",
-    "tag": "альтернатива",
-    "query": "Central Hong Kong Альтернативный транзит"
-  },
-  {
-    "id": "p145",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Транспорт",
-    "name": "Shanghai stopover",
-    "date": "—",
-    "why": "Ранний рассматривавшийся транзит, без подтверждённой отдельной точки.",
-    "tag": "альтернатива",
-    "query": "Shanghai stopover Альтернативный транзит"
   }
 ];
 const catalogLinks=[
@@ -3973,24 +3907,6 @@ const catalogLinks=[
     "tag": "история"
   },
   {
-    "sourceId": "p119",
-    "placeId": "catalog-p119",
-    "name": "Shunya-chan",
-    "region": "Япония",
-    "city": "Отменённые",
-    "date": "—",
-    "tag": "отменено"
-  },
-  {
-    "sourceId": "p120",
-    "placeId": "catalog-p120",
-    "name": "Kisaburō Nōjō",
-    "region": "Япония",
-    "city": "Отменённые",
-    "date": "—",
-    "tag": "отменено"
-  },
-  {
     "sourceId": "p121",
     "placeId": "can",
     "name": "Guangzhou Baiyun International Airport T2",
@@ -4178,42 +4094,6 @@ const catalogLinks=[
     "city": "Пекин",
     "date": "11.12",
     "tag": "проверить"
-  },
-  {
-    "sourceId": "p142",
-    "placeId": "catalog-p142",
-    "name": "Victoria Harbour Hong Kong",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
-  },
-  {
-    "sourceId": "p143",
-    "placeId": "catalog-p143",
-    "name": "Kowloon Hong Kong",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
-  },
-  {
-    "sourceId": "p144",
-    "placeId": "catalog-p144",
-    "name": "Central Hong Kong",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
-  },
-  {
-    "sourceId": "p145",
-    "placeId": "catalog-p145",
-    "name": "Shanghai stopover",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
   }
 ];
 const catalogExtraPlaces=[
@@ -5730,48 +5610,6 @@ const catalogExtraPlaces=[
     "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
   },
   {
-    "id": "catalog-p119",
-    "date": "",
-    "name": "Shunya-chan",
-    "city": "Отменённые",
-    "region": "Япония",
-    "category": "Еда",
-    "priority": "reserve",
-    "note": "Ранее обсуждалось; затем явно исключено.",
-    "query": "Shunya-chan Отменённые",
-    "local": "",
-    "time": "",
-    "country": "JP",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "отменено",
-    "sourceIds": [
-      "p119"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p120",
-    "date": "",
-    "name": "Kisaburō Nōjō",
-    "city": "Отменённые",
-    "region": "Япония",
-    "category": "Еда",
-    "priority": "reserve",
-    "note": "Ранее обсуждалось; затем явно исключено.",
-    "query": "Kisaburō Nōjō Отменённые",
-    "local": "",
-    "time": "",
-    "country": "JP",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "отменено",
-    "sourceIds": [
-      "p120"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
     "id": "catalog-p125",
     "date": "",
     "name": "On store at Guangzhou MixC",
@@ -5980,93 +5818,8 @@ const catalogExtraPlaces=[
       "p140"
     ],
     "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p142",
-    "date": "",
-    "name": "Victoria Harbour Hong Kong",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Город",
-    "priority": "reserve",
-    "note": "Ранний вариант стоповера в Гонконге, позже заменён. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Victoria Harbour Hong Kong Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p142"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p143",
-    "date": "",
-    "name": "Kowloon Hong Kong",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Город",
-    "priority": "reserve",
-    "note": "Ранний район для прогулки при стоповере. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Kowloon Hong Kong Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p143"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p144",
-    "date": "",
-    "name": "Central Hong Kong",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Город",
-    "priority": "reserve",
-    "note": "Ранний район для прогулки при стоповере. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Central Hong Kong Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p144"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p145",
-    "date": "",
-    "name": "Shanghai stopover",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Транспорт",
-    "priority": "reserve",
-    "note": "Ранний рассматривавшийся транзит, без подтверждённой отдельной точки. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Shanghai stopover Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p145"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
   }
 ];
-
 const days=[
 ['2026-11-29','Гуанчжоу','Пересадка и вечер у реки','CN','guangzhou','Ночёвка в SPA не подтверждена. Ocean Palace — только после проверки работы.'],
 ['2026-11-30','Осака','Первый вечер в Японии','JP','osaka','Из Гуанчжоу в Осаку. Прилёт KIX 14:10 — из истории, сверить билет.'],
@@ -6251,7 +6004,7 @@ $('#shareLink').onclick=async()=>{const url=shareableAppURL(location.href);if(!u
 
 function renderDays(){
  const nav=$('#days');
- nav.innerHTML=[['catalog','Все места'],['reserve','Без даты'],['archive','Архив']].map(([id,label])=>`<button data-date="${id}" class="catalog-tab ${date===id?'active':''}" aria-pressed="${date===id}">${label}<strong>${places.filter(p=>id==='archive'?p.archived:id==='reserve'?!p.archived&&!p.date:!p.archived).length}</strong></button>`).join('')+days.map(d=>`<button class="${d.date===date?'active':''}" data-date="${d.date}" aria-pressed="${d.date===date}">${new Intl.DateTimeFormat('ru',{month:'short',timeZone:'UTC'}).format(new Date(d.date+'T12:00:00Z'))}<strong>${d.date.slice(-2)}</strong>${new Intl.DateTimeFormat('ru',{weekday:'short',timeZone:'UTC'}).format(new Date(d.date+'T12:00:00Z'))}</button>`).join('');
+ nav.innerHTML=[['catalog','Все места'],['reserve','Без даты']].map(([id,label])=>`<button data-date="${id}" class="catalog-tab ${date===id?'active':''}" aria-pressed="${date===id}">${label}<strong>${places.filter(p=>id==='reserve'?!p.archived&&!p.date:!p.archived).length}</strong></button>`).join('')+days.map(d=>`<button class="${d.date===date?'active':''}" data-date="${d.date}" aria-pressed="${d.date===date}">${new Intl.DateTimeFormat('ru',{month:'short',timeZone:'UTC'}).format(new Date(d.date+'T12:00:00Z'))}<strong>${d.date.slice(-2)}</strong>${new Intl.DateTimeFormat('ru',{weekday:'short',timeZone:'UTC'}).format(new Date(d.date+'T12:00:00Z'))}</button>`).join('');
  nav.querySelectorAll('button').forEach(b=>b.onclick=()=>{date=b.dataset.date;render();renderWeather();if(isMobile()&&mobileScreen!=='map')applyMobileView(days.some(d=>d.date===date)?'day':'catalog',false);$(`[data-date="${date}"]`).scrollIntoView({block:'nearest',inline:'nearest'});});
 }
 function navHTML(p,origin=''){const links=linksFor(p,'transit',origin),walk=linksFor(p,'walking',origin);return `<div class="place-links"><button class="map-place-button" data-google="${p.id}" type="button">На карте</button><a href="${esc(links.google)}" target="_blank" rel="noopener">Google · транспорт ↗</a><a href="${esc(walk.google)}" target="_blank" rel="noopener">Пешком ↗</a><a href="${esc(links.apple)}" target="_blank" rel="noopener">Apple Maps ↗</a>${p.country==='CN'?`<a href="${esc(links.amap)}" target="_blank" rel="noopener">AMap · поиск ↗</a>`:''}</div>`;}
@@ -6263,7 +6016,7 @@ function render(){
  const scope=day?journeyDay(all,date,state.journey):placesForView(all,date);
  shown=filterPlaces(scope,{date:day?date:'',category:$('#category').value,priority:$('#priority').value,status:$('#status').value,query:$('#search').value,city:$('#city').value,variant:state.variant,visited:state.visited});
  if(day){const count=places.filter(p=>p.date===date&&state.visited[p.id]).length;$('#dayIntro').innerHTML=`<div class="day-kicker">${esc(day.city)} · ${day.country==='CN'?'UTC+8':'UTC+9'}</div><h2>${esc(day.title)}</h2><p class="day-note">${esc(day.note)}</p><div class="result-count">${shown.length} мест по фильтрам · посещено ${count} из ${places.filter(p=>p.date===date).length}</div>`;}
- else {const titles={catalog:'Все места поездки',reserve:'Места без назначенной даты',archive:'Архив и прежние варианты'};const notes={catalog:'Добавлены все 145 записей каталога Японии и Китая: совпадающие места объединены с текущими карточками, прежние варианты доступны в архиве. Согласованные дни и отели сохранены.',reserve:'Предложенные даты из старого каталога указаны в карточках. Эти точки ещё не включены в расписание; они не меняют согласованный маршрут.',archive:'Отменённые места и альтернативные транзиты сохранены для справки. В текущий маршрут Япония + Китай они не включены.'};$('#dayIntro').innerHTML=`<div class="day-kicker">КАТАЛОГ ЛОКАЦИЙ</div><h2>${titles[date]}</h2><p class="day-note">${notes[date]}</p><div class="result-count">${shown.length} мест по фильтрам</div>`;}
+ else {const titles={catalog:'Все места поездки',reserve:'Места без назначенной даты'};const notes={catalog:'Каталог актуальных мест Японии и Китая. Совпадающие места объединены с текущими карточками. Согласованные дни и отели сохранены.',reserve:'Предложенные даты из старого каталога указаны в карточках. Эти точки ещё не включены в расписание; они не меняют согласованный маршрут.'};$('#dayIntro').innerHTML=`<div class="day-kicker">КАТАЛОГ ЛОКАЦИЙ</div><h2>${titles[date]}</h2><p class="day-note">${notes[date]}</p><div class="result-count">${shown.length} мест по фильтрам</div>`;}
  $('#places').innerHTML=shown.length?shown.map(card).join(''):'<p class="empty">По этим фильтрам мест нет. Попробуйте сбросить фильтры.</p>';
  const active=places.filter(p=>!p.archived);$('#progress').innerHTML=`${active.filter(p=>state.visited[p.id]).length} <small>из ${active.length} посещено</small>`;
  document.querySelectorAll('[data-check]').forEach(c=>c.onchange=()=>{setVisited(c.dataset.check,c.checked);save();render();});document.querySelectorAll('[data-detail]').forEach(b=>b.onclick=()=>detail(b.dataset.detail));document.querySelectorAll('[data-google]').forEach(b=>b.onclick=()=>showOnGoogle(b.dataset.google));renderMap();updateMobileSummary();journeyUI?.render();roadUI?.update();

@@ -1,4 +1,4 @@
-// Japan and China only, source records preserved as JSON data.
+// Active Japan and China locations only.
 export const catalogRecords=[
   {
     "id": "p1",
@@ -1299,28 +1299,6 @@ export const catalogRecords=[
     "query": "Haneda Airport Terminal 3 Токио"
   },
   {
-    "id": "p119",
-    "region": "Япония",
-    "city": "Отменённые",
-    "category": "Рестораны",
-    "name": "Shunya-chan",
-    "date": "—",
-    "why": "Ранее обсуждалось; затем явно исключено.",
-    "tag": "отменено",
-    "query": "Shunya-chan Отменённые"
-  },
-  {
-    "id": "p120",
-    "region": "Япония",
-    "city": "Отменённые",
-    "category": "Рестораны",
-    "name": "Kisaburō Nōjō",
-    "date": "—",
-    "why": "Ранее обсуждалось; затем явно исключено.",
-    "tag": "отменено",
-    "query": "Kisaburō Nōjō Отменённые"
-  },
-  {
     "id": "p121",
     "region": "Китай",
     "city": "Гуанчжоу",
@@ -1550,50 +1528,6 @@ export const catalogRecords=[
     "why": "Рассветный панорамный вид на ось старого Пекина; доступ в нужный час проверить.",
     "tag": "проверить",
     "query": "Jingshan Park / Wanchun Pavilion Пекин"
-  },
-  {
-    "id": "p142",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Достопримечательности",
-    "name": "Victoria Harbour Hong Kong",
-    "date": "—",
-    "why": "Ранний вариант стоповера в Гонконге, позже заменён.",
-    "tag": "альтернатива",
-    "query": "Victoria Harbour Hong Kong Альтернативный транзит"
-  },
-  {
-    "id": "p143",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Достопримечательности",
-    "name": "Kowloon Hong Kong",
-    "date": "—",
-    "why": "Ранний район для прогулки при стоповере.",
-    "tag": "альтернатива",
-    "query": "Kowloon Hong Kong Альтернативный транзит"
-  },
-  {
-    "id": "p144",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Достопримечательности",
-    "name": "Central Hong Kong",
-    "date": "—",
-    "why": "Ранний район для прогулки при стоповере.",
-    "tag": "альтернатива",
-    "query": "Central Hong Kong Альтернативный транзит"
-  },
-  {
-    "id": "p145",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "category": "Транспорт",
-    "name": "Shanghai stopover",
-    "date": "—",
-    "why": "Ранний рассматривавшийся транзит, без подтверждённой отдельной точки.",
-    "tag": "альтернатива",
-    "query": "Shanghai stopover Альтернативный транзит"
   }
 ];
 export const catalogLinks=[
@@ -2660,24 +2594,6 @@ export const catalogLinks=[
     "tag": "история"
   },
   {
-    "sourceId": "p119",
-    "placeId": "catalog-p119",
-    "name": "Shunya-chan",
-    "region": "Япония",
-    "city": "Отменённые",
-    "date": "—",
-    "tag": "отменено"
-  },
-  {
-    "sourceId": "p120",
-    "placeId": "catalog-p120",
-    "name": "Kisaburō Nōjō",
-    "region": "Япония",
-    "city": "Отменённые",
-    "date": "—",
-    "tag": "отменено"
-  },
-  {
     "sourceId": "p121",
     "placeId": "can",
     "name": "Guangzhou Baiyun International Airport T2",
@@ -2865,42 +2781,6 @@ export const catalogLinks=[
     "city": "Пекин",
     "date": "11.12",
     "tag": "проверить"
-  },
-  {
-    "sourceId": "p142",
-    "placeId": "catalog-p142",
-    "name": "Victoria Harbour Hong Kong",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
-  },
-  {
-    "sourceId": "p143",
-    "placeId": "catalog-p143",
-    "name": "Kowloon Hong Kong",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
-  },
-  {
-    "sourceId": "p144",
-    "placeId": "catalog-p144",
-    "name": "Central Hong Kong",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
-  },
-  {
-    "sourceId": "p145",
-    "placeId": "catalog-p145",
-    "name": "Shanghai stopover",
-    "region": "Китай",
-    "city": "Альтернативный транзит",
-    "date": "—",
-    "tag": "альтернатива"
   }
 ];
 export const catalogExtraPlaces=[
@@ -4417,48 +4297,6 @@ export const catalogExtraPlaces=[
     "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
   },
   {
-    "id": "catalog-p119",
-    "date": "",
-    "name": "Shunya-chan",
-    "city": "Отменённые",
-    "region": "Япония",
-    "category": "Еда",
-    "priority": "reserve",
-    "note": "Ранее обсуждалось; затем явно исключено.",
-    "query": "Shunya-chan Отменённые",
-    "local": "",
-    "time": "",
-    "country": "JP",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "отменено",
-    "sourceIds": [
-      "p119"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p120",
-    "date": "",
-    "name": "Kisaburō Nōjō",
-    "city": "Отменённые",
-    "region": "Япония",
-    "category": "Еда",
-    "priority": "reserve",
-    "note": "Ранее обсуждалось; затем явно исключено.",
-    "query": "Kisaburō Nōjō Отменённые",
-    "local": "",
-    "time": "",
-    "country": "JP",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "отменено",
-    "sourceIds": [
-      "p120"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
     "id": "catalog-p125",
     "date": "",
     "name": "On store at Guangzhou MixC",
@@ -4665,90 +4503,6 @@ export const catalogExtraPlaces=[
     "sourceStatus": "проверить",
     "sourceIds": [
       "p140"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p142",
-    "date": "",
-    "name": "Victoria Harbour Hong Kong",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Город",
-    "priority": "reserve",
-    "note": "Ранний вариант стоповера в Гонконге, позже заменён. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Victoria Harbour Hong Kong Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p142"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p143",
-    "date": "",
-    "name": "Kowloon Hong Kong",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Город",
-    "priority": "reserve",
-    "note": "Ранний район для прогулки при стоповере. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Kowloon Hong Kong Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p143"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p144",
-    "date": "",
-    "name": "Central Hong Kong",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Город",
-    "priority": "reserve",
-    "note": "Ранний район для прогулки при стоповере. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Central Hong Kong Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p144"
-    ],
-    "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
-  },
-  {
-    "id": "catalog-p145",
-    "date": "",
-    "name": "Shanghai stopover",
-    "city": "Альтернативный транзит",
-    "region": "Китай",
-    "category": "Транспорт",
-    "priority": "reserve",
-    "note": "Ранний рассматривавшийся транзит, без подтверждённой отдельной точки. Альтернатива из каталога, не замена оплаченного отеля.",
-    "query": "Shanghai stopover Альтернативный транзит",
-    "local": "",
-    "time": "",
-    "country": "CN",
-    "archived": true,
-    "sourceDate": "—",
-    "sourceStatus": "альтернатива",
-    "sourceIds": [
-      "p145"
     ],
     "source": "Каталог локаций Японии · сохранённый каталог 09.11.2026"
   }
