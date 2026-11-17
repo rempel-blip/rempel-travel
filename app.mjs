@@ -1,5 +1,5 @@
-import {mountRoadRoutes} from './routing.mjs?v=39';
-import {cleanJourney,journeyDay,mountJourney} from './journey.mjs?v=39';
+import {mountRoadRoutes} from './routing.mjs?v=40';
+import {cleanJourney,journeyDay,mountJourney} from './journey.mjs?v=40';
 import {weatherCondition,createWeatherService,startWeatherRefresh,forecastWindow,WEATHER_HOUR} from './weather.mjs?v=26';
 import {resolveMobileView,shareableAppURL} from './mobile.mjs';
 import {googleEmbedURL,googleOpenURL} from './google-map.mjs';
