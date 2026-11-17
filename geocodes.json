@@ -841,5 +841,89 @@
     "source": "https://osaka-info.jp/en/spot/hashi_lab/",
     "retrieved": "2026-11-18",
     "precision": "Координата из ссылки карты официального туристического бюро Осаки. Osaka Norin Kaikan, 3-2-6 Minamisemba, комната 507; вход и этаж на месте не проверены."
+  },
+  "watami": {
+    "query": "焼肉の和民 なんば店",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501979,
+          34.665088
+        ]
+      },
+      "properties": {
+        "name": "焼肉の和民 なんば店",
+        "countrycode": "JP",
+        "sourceURL": "https://yakiniku-watami.com/shop/osaka/"
+      }
+    },
+    "source": "https://yakiniku-watami.com/shop/osaka/",
+    "retrieved": "2026-11-18",
+    "precision": "Координата из q-параметра карты на официальной странице сети. Положение объекта, не проверенный вход; бронирование не подтверждено."
+  },
+  "watamiNamba3": {
+    "query": "焼肉の和民 なんば店",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501979,
+          34.665088
+        ]
+      },
+      "properties": {
+        "name": "焼肉の和民 なんば店",
+        "countrycode": "JP",
+        "sourceURL": "https://yakiniku-watami.com/shop/osaka/"
+      }
+    },
+    "source": "https://yakiniku-watami.com/shop/osaka/",
+    "retrieved": "2026-11-18",
+    "precision": "Координата из q-параметра карты на официальной странице сети. Положение объекта, не проверенный вход; бронирование не подтверждено."
+  },
+  "watamiUmeda": {
+    "query": "焼肉の和民 梅田茶屋町店",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.49921698056792,
+          34.705802998621905
+        ]
+      },
+      "properties": {
+        "name": "焼肉の和民 梅田茶屋町店",
+        "countrycode": "JP",
+        "sourceURL": "https://yakiniku-watami.com/shop/osaka/"
+      }
+    },
+    "source": "https://yakiniku-watami.com/shop/osaka/",
+    "retrieved": "2026-11-18",
+    "precision": "Координата из q-параметра карты на официальной странице сети. Положение объекта, не проверенный вход; бронирование не подтверждено."
+  },
+  "watamiUmeda3": {
+    "query": "焼肉の和民 梅田茶屋町店",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.49921698056792,
+          34.705802998621905
+        ]
+      },
+      "properties": {
+        "name": "焼肉の和民 梅田茶屋町店",
+        "countrycode": "JP",
+        "sourceURL": "https://yakiniku-watami.com/shop/osaka/"
+      }
+    },
+    "source": "https://yakiniku-watami.com/shop/osaka/",
+    "retrieved": "2026-11-18",
+    "precision": "Координата из q-параметра карты на официальной странице сети. Положение объекта, не проверенный вход; бронирование не подтверждено."
   }
 }

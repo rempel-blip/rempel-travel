@@ -14,7 +14,7 @@ export function cleanJourney(value={},places=[],days=[]){
  return result;
 }
 export function journeyDay(places,date,j){const list=baseDayOrder(places,date),order=j.orders[date]||[];return arrangeDay([...list].sort((a,b)=>{const ia=order.indexOf(a.id),ib=order.indexOf(b.id);return (ia<0?order.length+list.indexOf(a):ia)-(ib<0?order.length+list.indexOf(b):ib);}),j);}
-export function journeyIncluded(p,j,priority){if(dayAnchor(p))return true;if(['otagi','gcans'].includes(p.id)&&priority==='main')return true;return j.included[p.id]??(priority!=='reserve');}
+export function journeyIncluded(p,j,priority){if(dayAnchor(p))return true;if(['otagi','gcans'].includes(p.id)&&priority==='main')return true;return j.included[p.id]??p.routeDefault??(priority!=='reserve');}
 export function journeyLocked(p,j){return !!dayAnchor(p)||!!j.pinned[p.id];}
 export function journeyPending(list,j,visited,priority){return list.filter(p=>journeyIncluded(p,j,priority(p))&&!visited[p.id]&&!j.skipped[p.date+'|'+p.id]);}
 export function journeyDistance(a,b){const rad=x=>x*Math.PI/180,dlat=rad(b[0]-a[0]),dlon=rad(b[1]-a[1]);const h=Math.sin(dlat/2)**2+Math.cos(rad(a[0]))*Math.cos(rad(b[0]))*Math.sin(dlon/2)**2;return 6371000*2*Math.atan2(Math.sqrt(h),Math.sqrt(Math.max(0,1-h)));}
