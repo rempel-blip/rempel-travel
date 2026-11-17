@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "status": "scheduled",
+  "startsOn": "2026-11-27",
+  "endsOn": "2026-12-11",
+  "source": "Open-Meteo model forecast",
+  "entries": []
+}
