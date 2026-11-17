@@ -1,0 +1,761 @@
+{
+  "otagi": {
+    "query": "Otagi Nenbutsuji",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 1230442951,
+        "osm_key": "amenity",
+        "osm_value": "place_of_worship",
+        "type": "house",
+        "name": "愛宕念仏寺",
+        "street": "清滝鳥居本線",
+        "locality": "嵯峨鳥居本仙翁町",
+        "district": "右京区",
+        "city": "京都市",
+        "state": "京都府",
+        "country": "日本",
+        "postcode": "616-0000",
+        "countrycode": "JP",
+        "extent": [
+          135.6607305,
+          35.0315112,
+          135.6617474,
+          35.0306634
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6612344,
+          35.0311595
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Otagi%20Nenbutsuji",
+    "retrieved": "2026-11-17"
+  },
+  "fushimi": {
+    "query": "Fushimi Inari Taisha",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 96291583,
+        "osm_key": "landuse",
+        "osm_value": "religious",
+        "type": "other",
+        "name": "伏見稲荷大社",
+        "district": "伏見区",
+        "city": "京都市",
+        "state": "京都府",
+        "country": "日本",
+        "postcode": "612-0882",
+        "countrycode": "JP",
+        "extent": [
+          135.7709778,
+          34.9713882,
+          135.7878962,
+          34.9636974
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7797101,
+          34.9675192
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Fushimi%20Inari%20Taisha",
+    "retrieved": "2026-11-17"
+  },
+  "bamboo": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://jmapcode.com/mapcode/arashiyama-bamboo-grove"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.670451,
+          35.016954
+        ]
+      }
+    },
+    "source": "https://jmapcode.com/mapcode/arashiyama-bamboo-grove",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "adashino": {
+    "query": "Adashino Nenbutsuji",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 2854304815,
+        "osm_key": "amenity",
+        "osm_value": "place_of_worship",
+        "type": "house",
+        "name": "化野念仏寺",
+        "street": "京都日吉美山線",
+        "locality": "嵯峨鳥居本仙翁町",
+        "district": "右京区",
+        "city": "京都市",
+        "state": "京都府",
+        "country": "日本",
+        "postcode": "616-0000",
+        "countrycode": "JP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.664627,
+          35.026916
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Adashino%20Nenbutsuji",
+    "retrieved": "2026-11-17"
+  },
+  "saga": {
+    "query": "Saga Toriimoto Kyoto",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 5665665228,
+        "osm_key": "tourism",
+        "osm_value": "attraction",
+        "type": "house",
+        "name": "嵯峨鳥居本",
+        "street": "京都日吉美山線",
+        "locality": "嵯峨鳥居本六反町",
+        "district": "右京区",
+        "city": "京都市",
+        "state": "京都府",
+        "country": "日本",
+        "postcode": "616-0000",
+        "countrycode": "JP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6668057,
+          35.0264196
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Saga%20Toriimoto%20Kyoto",
+    "retrieved": "2026-11-17"
+  },
+  "bridge": {
+    "query": "Togetsukyo",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 243776548,
+        "osm_key": "highway",
+        "osm_value": "traffic_signals",
+        "type": "house",
+        "name": "渡月橋",
+        "street": "宇多野嵐山山田線",
+        "locality": "嵯峨天龍寺立石町",
+        "district": "右京区",
+        "city": "京都市",
+        "state": "京都府",
+        "country": "日本",
+        "postcode": "616-0000",
+        "countrycode": "JP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6778518,
+          35.0136547
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Togetsukyo",
+    "retrieved": "2026-11-17",
+    "precision": "OSM: светофор у моста Togetsukyo. Приблизительная точка рядом с мостом."
+  },
+  "collina": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0913848,
+          35.1488952
+        ]
+      }
+    },
+    "source": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "nara": {
+    "query": "Nara Park",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 456314269,
+        "osm_key": "leisure",
+        "osm_value": "park",
+        "type": "other",
+        "name": "奈良公園",
+        "city": "奈良市",
+        "state": "奈良県",
+        "country": "日本",
+        "countrycode": "JP",
+        "extent": [
+          135.8291284,
+          34.6927871,
+          135.8818192,
+          34.673338
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8545975,
+          34.6829008
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Nara%20Park",
+    "retrieved": "2026-11-17"
+  },
+  "ryuguden": {
+    "query": "龍宮殿 箱根",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 835174708,
+        "osm_key": "building",
+        "osm_value": "hotel",
+        "type": "house",
+        "name": "芦ノ湖畔 蛸川温泉 龍宮殿",
+        "locality": "元箱根",
+        "city": "箱根町",
+        "county": "足柄下郡",
+        "state": "神奈川県",
+        "country": "日本",
+        "postcode": "250-0398",
+        "countrycode": "JP",
+        "extent": [
+          139.0106255,
+          35.2118686,
+          139.0112194,
+          35.2113805
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0108791,
+          35.2116243
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=%E9%BE%8D%E5%AE%AE%E6%AE%BF%20%E7%AE%B1%E6%A0%B9",
+    "retrieved": "2026-11-17"
+  },
+  "sky": {
+    "query": "Shibuya Scramble Square",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 14336269401,
+        "osm_key": "office",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "12",
+        "name": "Shibuya Scramble Square Japan Tax-Free Counter",
+        "street": "24",
+        "locality": "渋谷二丁目",
+        "district": "渋谷区",
+        "city": "渋谷区",
+        "state": "東京都",
+        "country": "日本",
+        "postcode": "150-0002",
+        "countrycode": "JP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7023835,
+          35.6586529
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Shibuya%20Scramble%20Square",
+    "retrieved": "2026-11-17",
+    "precision": "OSM: стойка tax-free в том же Shibuya Scramble Square. Приблизительный маркер здания, не вход SHIBUYA SKY."
+  },
+  "gcans": {
+    "query": "首都圏外郭放水路",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 4580690391,
+        "osm_key": "tourism",
+        "osm_value": "museum",
+        "type": "house",
+        "name": "首都圏外郭放水路",
+        "street": "三郷幸手自転車道線",
+        "locality": "小平",
+        "city": "春日部市",
+        "state": "埼玉県",
+        "country": "日本",
+        "postcode": "344-0117",
+        "countrycode": "JP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8117338,
+          35.9972801
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=%E9%A6%96%E9%83%BD%E5%9C%8F%E5%A4%96%E9%83%AD%E6%94%BE%E6%B0%B4%E8%B7%AF",
+    "retrieved": "2026-11-17"
+  },
+  "kamakura": {
+    "query": "Kamakura",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "R",
+        "osm_id": 2689445,
+        "osm_key": "place",
+        "osm_value": "city",
+        "type": "city",
+        "name": "鎌倉市",
+        "state": "神奈川県",
+        "country": "日本",
+        "countrycode": "JP",
+        "extra": {
+          "admin_level": "7"
+        },
+        "extent": [
+          139.4885482,
+          35.3683147,
+          139.593173,
+          35.2665593
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5469627,
+          35.3192808
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Kamakura",
+    "retrieved": "2026-11-17"
+  },
+  "beijing": {
+    "query": "Beijing",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "R",
+        "osm_id": 912940,
+        "osm_key": "place",
+        "osm_value": "city",
+        "type": "city",
+        "name": "北京市",
+        "country": "中国",
+        "countrycode": "CN",
+        "extra": {
+          "admin_level": "4"
+        },
+        "extent": [
+          115.416849,
+          41.059236,
+          117.7371243,
+          39.1707096
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3912972,
+          39.9057136
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Beijing",
+    "retrieved": "2026-11-17"
+  },
+  "guangzhou": {
+    "query": "Guangzhou",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "R",
+        "osm_id": 3287346,
+        "osm_key": "place",
+        "osm_value": "city",
+        "type": "city",
+        "name": "广州市",
+        "state": "广东省",
+        "country": "中国",
+        "countrycode": "CN",
+        "extra": {
+          "admin_level": "5"
+        },
+        "extent": [
+          112.9523727,
+          23.9356989,
+          114.055299,
+          22.5607978
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2589581,
+          23.1288429
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Guangzhou",
+    "retrieved": "2026-11-17"
+  },
+  "castle": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Osaka_Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.52583,
+          34.68722
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Osaka_Castle",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "gate": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Gate_Tower_Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.48944,
+          34.69806
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Gate_Tower_Building",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "umeda": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Umeda_Sky_Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.48972,
+          34.70528
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Umeda_Sky_Building",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "kiyomizu": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Kiyomizu-dera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.785,
+          34.995
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Kiyomizu-dera",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "jingshan": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Jingshan_Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.39056,
+          39.92361
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Jingshan_Park",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "hasedera": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Hase-dera_(Kamakura)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.53306,
+          35.3125
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Hase-dera_(Kamakura)",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "buddha": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.53572,
+          35.31686
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "kinkaku": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Kinkaku-ji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7285,
+          35.0395
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "todaiji": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.83972,
+          34.68917
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "can": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Guangzhou_Baiyun_International_Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.29889,
+          23.3925
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Guangzhou_Baiyun_International_Airport",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "pkx": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.41056,
+          39.50917
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "pkxReturn": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.41056,
+          39.50917
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "huacheng": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Huacheng_Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.31925,
+          23.126222
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Huacheng_Square",
+    "retrieved": "2026-11-17",
+    "precision": "Приблизительное положение объекта по опубликованным координатам; вход не проверен."
+  },
+  "osaka": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Umeda_Sky_Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.48972,
+          34.70528
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Umeda_Sky_Building",
+    "retrieved": "2026-11-17",
+    "precision": "Региональная точка для расчёта света и погоды; не отдельное место."
+  },
+  "kyoto": {
+    "query": "Fushimi Inari Taisha",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 96291583,
+        "osm_key": "landuse",
+        "osm_value": "religious",
+        "type": "other",
+        "name": "伏見稲荷大社",
+        "district": "伏見区",
+        "city": "京都市",
+        "state": "京都府",
+        "country": "日本",
+        "postcode": "612-0882",
+        "countrycode": "JP",
+        "extent": [
+          135.7709778,
+          34.9713882,
+          135.7878962,
+          34.9636974
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7797101,
+          34.9675192
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Fushimi%20Inari%20Taisha",
+    "retrieved": "2026-11-17",
+    "precision": "Региональная точка для расчёта света и погоды; не отдельное место."
+  },
+  "tokyo": {
+    "query": "Shibuya Scramble Square",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "N",
+        "osm_id": 14336269401,
+        "osm_key": "office",
+        "osm_value": "yes",
+        "type": "house",
+        "housenumber": "12",
+        "name": "Shibuya Scramble Square Japan Tax-Free Counter",
+        "street": "24",
+        "locality": "渋谷二丁目",
+        "district": "渋谷区",
+        "city": "渋谷区",
+        "state": "東京都",
+        "country": "日本",
+        "postcode": "150-0002",
+        "countrycode": "JP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7023835,
+          35.6586529
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=Shibuya%20Scramble%20Square",
+    "retrieved": "2026-11-17",
+    "precision": "Региональная точка для расчёта света и погоды; не отдельное место."
+  }
+}

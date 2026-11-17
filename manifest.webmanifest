@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "REMPEL TRAVEL",
+  "short_name": "REMPEL TRAVEL",
+  "lang": "ru",
+  "description": "За рассветами и закатами · BirthDay_Trip_43 · Япония + Китай",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ed",
+  "theme_color": "#142d2c",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
