@@ -28,3 +28,6 @@ body,button,input,select,textarea,h1,h2,h3,h4,.hero h1,.leaflet-container,.leafl
 .google-map-link{font-family:Calibri,sans-serif;font-size:12px;white-space:nowrap;padding:8px 4px}.map-source-controls{flex-wrap:wrap}
 
 .map-mode-controls{display:flex;flex-wrap:wrap;gap:8px;padding:10px 0 0}.map-mode-controls label{flex:1;min-width:155px;font-size:11px}.map-mode-controls select{font-size:13px}#googleFrame{display:block;width:100%;height:470px;border:1px solid var(--line);background:#e0e7df}#googleFrame[hidden],#map[hidden],[hidden]{display:none!important}.map-place-button{padding:5px 0;min-height:0;border:0;border-radius:0;font-size:11px;background:transparent;text-decoration:underline;text-underline-offset:3px}@media(max-width:800px){#googleFrame{height:310px}}
+
+/* Fixed illustration proportions: all shapes scale together. */
+.landscape{aspect-ratio:9/8;height:auto;min-height:0;align-self:center;border-radius:100% 100% 0 0 / 75% 75% 0 0}.landscape .sun{width:27.3%;height:auto;aspect-ratio:1;top:20%;left:30%}.landscape .mountain{height:65%;bottom:-3.6%}.landscape .mountain.back{height:60%;bottom:0}
