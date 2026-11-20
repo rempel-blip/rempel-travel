@@ -1,3 +1,463 @@
+// Imported from the user-provided Tokyo CSV; search queries are not verified coordinates.
+const tokyoAdditions=[
+  {
+    "id": "doradoWaseda",
+    "date": "2026-12-08",
+    "name": "Dorado Waseda",
+    "query": "Dorado Waseda Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Архитектура",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Эклектичная авторская архитектура, интересная дизайнеру. Период из файла: 08–09.12. Размещение на 08.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Dorado Waseda"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "tokyoSkytree",
+    "date": "2026-12-09",
+    "name": "Tokyo Skytree",
+    "query": "Tokyo Skytree Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Панорамы",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Вид на башню и городской силуэт; подъём необязателен. Период из файла: 08–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Tokyo Skytree"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "hijiribashi",
+    "date": "2026-12-08",
+    "name": "Hijiribashi Bridge — Four Trains (Ochanomizu)",
+    "query": "Hijiribashi Bridge Ochanomizu Tokyo Japan",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Панорамы",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Мост 聖橋 над рекой Канда у станции Ochanomizu: в кадре пересекаются JR Chūō, JR Chūō-Sōbu и Tokyo Metro Marunouchi. Четыре поезда одновременно — редкая удача, не четыре отдельные линии метро. Подтверждена альтернативная съёмка с Sotobori Street. Период из файла: 08–09.12. Размещение на 08.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Hijiribashi Bridge — Four Trains (Ochanomizu)"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "syndicate",
+    "date": "2026-12-07",
+    "name": "SYNdicate cafe",
+    "query": "SYNdicate cafe Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Необычное кафе, ранее связано с маршрутом Omotesando. Период из файла: 07.12. Размещение на 07.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "SYNdicate cafe"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07.12"
+  },
+  {
+    "id": "tokyoYoshinoya",
+    "date": "",
+    "name": "Yoshinoya",
+    "query": "Yoshinoya Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Недорогой быстрый гюдон, национальная сеть. Период из файла: 07–09.12. Филиал в Токио не выбран; точка пока не включена в дневную линию маршрута.",
+    "sourceNames": [
+      "Yoshinoya"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "tokyoOotoya",
+    "date": "",
+    "name": "Ootoya",
+    "query": "Ootoya Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Домашние японские комплексные обеды тэйсёку. Период из файла: 07–09.12. Филиал в Токио не выбран; точка пока не включена в дневную линию маршрута.",
+    "sourceNames": [
+      "Ootoya"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "tokyoHamaSushi",
+    "date": "",
+    "name": "Hama Sushi",
+    "query": "Hama Sushi Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Конвейерные суши для знакомства с форматом. Период из файла: 07–09.12. Филиал в Токио не выбран; точка пока не включена в дневную линию маршрута.",
+    "sourceNames": [
+      "Hama Sushi"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "tokyoSushiro",
+    "date": "",
+    "name": "Sushiro",
+    "query": "Sushiro Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Альтернативная сеть конвейерных суши. Период из файла: 07–09.12. Филиал в Токио не выбран; точка пока не включена в дневную линию маршрута.",
+    "sourceNames": [
+      "Sushiro"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "tokyoWatami",
+    "date": "",
+    "name": "Yakiniku no Watami",
+    "query": "Yakiniku no Watami Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Доступная сетевой формат якинику. Период из файла: 07–09.12. Филиал в Токио не выбран; точка пока не включена в дневную линию маршрута.",
+    "sourceNames": [
+      "Yakiniku no Watami"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "wagyuMoo",
+    "date": "2026-12-09",
+    "name": "Wagyu Yakiniku Moo",
+    "query": "Wagyu Yakiniku Moo Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Вариант ужина с японской говядиной. Период из файла: 07–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Wagyu Yakiniku Moo"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "issekiSancho",
+    "date": "2026-12-09",
+    "name": "Wagyu Ryori Isseki Sancho",
+    "query": "Wagyu Ryori Isseki Sancho Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Более специальная гастрономическая альтернатива. Период из файла: 07–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Wagyu Ryori Isseki Sancho"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "tsujihan",
+    "date": "2026-12-09",
+    "name": "Tsujihan",
+    "query": "Tsujihan Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Морепродукты и кайсэндон, ранее отмеченное место. Период из файла: 08–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Tsujihan"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "udonShimbori",
+    "date": "2026-12-09",
+    "name": "Udon Shimbori",
+    "query": "Udon Shimbori Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Специализированная удонная. Период из файла: 07–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Udon Shimbori"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "roastbeefOhno",
+    "date": "2026-12-09",
+    "name": "Roastbeef Ohno",
+    "query": "Roastbeef Ohno Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Рис с ростбифом, быстрый гастрономический вариант. Период из файла: 07–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Roastbeef Ohno"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "tonkatsuMarushichi",
+    "date": "2026-12-09",
+    "name": "Tonkatsu Marushichi",
+    "query": "Tonkatsu Marushichi Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Тонкацу с выразительной подачей. Период из файла: 07–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Tonkatsu Marushichi"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "07–09.12"
+  },
+  {
+    "id": "racersCafe",
+    "date": "2026-12-09",
+    "name": "Racers Café",
+    "query": "Racers Café Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Еда",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Тематическое кафе из дополнительных находок. Период из файла: 08–09.12. Размещение на 09.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Racers Café"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "goldenGai",
+    "date": "2026-12-08",
+    "name": "Golden Gai Shinjuku",
+    "query": "Golden Gai Shinjuku Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Архитектура",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Плотная сеть узких переулков и характер ночного Токио. Период из файла: 08–09.12. Размещение на 08.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Golden Gai Shinjuku"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "uenoPark",
+    "date": "2026-12-08",
+    "name": "Ueno Park",
+    "query": "Ueno Park Токио",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Природа",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Ранний запасной вариант прогулки по парку. Период из файла: 08–09.12. Размещение на 08.12 предварительное; можно включить в маршрут дня.",
+    "sourceNames": [
+      "Ueno Park"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08–09.12"
+  },
+  {
+    "id": "kandaHijiribashi",
+    "date": "",
+    "name": "Kanda River near Hijiribashi",
+    "query": "Kanda River Hijiribashi Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Природа",
+    "priority": "reserve",
+    "routeDefault": false,
+    "note": "Берег реки Канда у моста Хидзирибаси — вариант для встречи рассвета. Период из файла: без даты. Дата не назначена; вариант для выбора при финализации маршрута.",
+    "sourceNames": [
+      "Kanda River near Hijiribashi"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "без даты"
+  },
+  {
+    "id": "sumidaAzumabashi",
+    "date": "",
+    "name": "Sumida Park / Azumabashi Bridge",
+    "query": "Sumida Park Azumabashi Bridge Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Природа",
+    "priority": "reserve",
+    "routeDefault": false,
+    "note": "Парк Сумида и мост Адзумбаси — вариант рассветной прогулки у реки. Период из файла: без даты. Дата не назначена; вариант для выбора при финализации маршрута.",
+    "sourceNames": [
+      "Sumida Park / Azumabashi Bridge"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "без даты"
+  },
+  {
+    "id": "odaibaSeaside",
+    "date": "",
+    "name": "Odaiba Seaside Park",
+    "query": "Odaiba Seaside Park Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Природа",
+    "priority": "reserve",
+    "routeDefault": false,
+    "note": "Прибрежный парк с видом на Токийский залив, вариант для рассвета. Период из файла: без даты. Дата не назначена; вариант для выбора при финализации маршрута.",
+    "sourceNames": [
+      "Odaiba Seaside Park"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "без даты"
+  },
+  {
+    "id": "kasaiRinkai",
+    "date": "",
+    "name": "Kasai Rinkai Park",
+    "query": "Kasai Rinkai Park Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Природа",
+    "priority": "reserve",
+    "routeDefault": false,
+    "note": "Приморский парк у Токийского залива, вариант для рассвета. Период из файла: без даты. Дата не назначена; вариант для выбора при финализации маршрута.",
+    "sourceNames": [
+      "Kasai Rinkai Park"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "без даты"
+  },
+  {
+    "id": "shibauraLoop",
+    "date": "",
+    "name": "Shibaura Loop Bridge — Shibaura Sound Studio",
+    "query": "Shibaura Sound Studio 3 Chome-9-18 Kaigan Minato Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Панорамы",
+    "priority": "optional",
+    "routeDefault": false,
+    "note": "Основной вариант рассвета. Ориентир: 3 Chome-9-18 Kaigan, Minato City; общественная фототочка рядом, не внутри здания. Восход около 06:38; точную дату и утренние поезда уточнить. Период из файла: 08 или 09.12. Дата не назначена; вариант для выбора при финализации маршрута. Основной кандидат на рассвет 8 или 9 декабря; точный день ещё не выбран.",
+    "sourceNames": [
+      "Shibaura Loop Bridge — Shibaura Sound Studio"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "08 или 09.12"
+  },
+  {
+    "id": "hanedaTorii",
+    "date": "",
+    "name": "Haneda Peace Great Torii",
+    "query": "Haneda Peace Great Torii Tokyo",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Панорамы",
+    "priority": "reserve",
+    "routeDefault": false,
+    "note": "Запасной вариант рассвета вместо Shibaura Loop Bridge; время и транспорт уточнить после выбора даты. Период из файла: альтернатива. Дата не назначена; вариант для выбора при финализации маршрута.",
+    "sourceNames": [
+      "Haneda Peace Great Torii"
+    ],
+    "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
+    "suggestedDates": "альтернатива"
+  }
+];
+
 import {catalogExtraPlaces,catalogLinks} from './catalog.mjs';
 export const days=[
 ['2026-11-29','Гуанчжоу','Пересадка и вечер у реки','CN','guangzhou','Ночёвка в SPA не подтверждена. Ocean Palace — только после проверки работы.'],
@@ -100,7 +560,7 @@ const raw=[
 ];
 export const basePlaces=raw.map(([id,day,name,category,priority,note,local='',time=''])=>({id,date:days[day].date,name,category,priority,note,query:local||name,local,time,country:days[day].country,city:days[day].city}));
 const watamiBranches=[{id:'watamiUmeda',date:'2026-12-02',name:'Yakiniku no Watami · Умеда Chayamachi',local:'焼肉の和民 梅田茶屋町店 大阪府大阪市北区茶屋町2-16',mapLabel:'У',note:'Вариант ужина: Умеда Chayamachi, 2-16 Chayamachi, E-Square Chayamachi, 4F. Бронирование не подтверждено.'},{id:'watamiNamba3',date:'2026-12-03',name:'Yakiniku no Watami · Намба',local:'焼肉の和民 なんば店 大阪府大阪市中央区難波千日前12-30',mapLabel:'Н',note:'Вариант ужина в Осаке. Основной день проходит в Киото: посещение потребует отдельной поездки в Осаку и возвращения. Бронирование не подтверждено.'},{id:'watamiUmeda3',date:'2026-12-03',name:'Yakiniku no Watami · Умеда Chayamachi',local:'焼肉の和民 梅田茶屋町店 大阪府大阪市北区茶屋町2-16',mapLabel:'У',note:'Вариант ужина в Осаке. Основной день проходит в Киото: посещение потребует отдельной поездки в Осаку и возвращения. Бронирование не подтверждено.'}].map(p=>({...p,category:'Еда',priority:'optional',query:p.local,time:'',country:'JP',city:'Осака',routeDefault:false,candidateGroup:'watami'}));
-export const places=[...basePlaces.map(p=>({...p,...(p.id==='watami'?{routeDefault:false,candidateGroup:'watami',mapLabel:'Н'}:{}),city:catalogLinks.find(x=>x.placeId===p.id)?.city||(p.date==='2026-12-01'?(p.id==='collina'?'Омихатиман':'Нара'):p.date==='2026-12-06'?(p.id==='ryuguden'?'Хаконе':'Камакура'):p.date==='2026-12-10'||p.date==='2026-12-11'?'Пекин':p.id==='gcans'?'Касукабе':p.city),sourceIds:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.sourceId),sourceNames:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.name)})),...catalogExtraPlaces,...watamiBranches];
+export const places=[...basePlaces.map(p=>({...p,...(p.id==='watami'?{routeDefault:false,candidateGroup:'watami',mapLabel:'Н'}:{}),city:catalogLinks.find(x=>x.placeId===p.id)?.city||(p.date==='2026-12-01'?(p.id==='collina'?'Омихатиман':'Нара'):p.date==='2026-12-06'?(p.id==='ryuguden'?'Хаконе':'Камакура'):p.date==='2026-12-10'||p.date==='2026-12-11'?'Пекин':p.id==='gcans'?'Касукабе':p.city),sourceIds:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.sourceId),sourceNames:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.name)})),...catalogExtraPlaces,...watamiBranches,...tokyoAdditions];
 export function priorityFor(p,variant){return variant==='B'&&['otagi','gcans'].includes(p.id)?'main':p.priority;}
 export function placesForView(all,view){return all.filter(p=>view==='archive'?p.archived:!p.archived&&(view==='catalog'||(view==='reserve'?!p.date:p.date===view)));}
 export function filterPlaces(all,{date='',category='',priority='',status='',query='',variant='A',visited={},city=''}={}){return all.filter(p=>(!date||p.date===date)&&(!city||p.city===city)&&(!category||p.category===category)&&(!priority||priorityFor(p,variant)===priority)&&(!status||(status==='visited'?visited[p.id]:!visited[p.id]))&&(!query||`${p.name} ${p.note} ${p.local} ${p.city||''} ${(p.sourceNames||[]).join(' ')}`.toLowerCase().includes(query.toLowerCase())));}
