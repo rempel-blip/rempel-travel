@@ -38,3 +38,8 @@ body,button,input,select,textarea,h1,h2,h3,h4,.hero h1,.leaflet-container,.leafl
 
 /* Unchosen branches never become route coordinates without confirmation. */
 .location-question{background:#fff!important;color:#173b38!important;border:2px dashed #a87822!important}.map-location-coverage{padding:14px 0;line-height:1.5}.map-location-coverage small{display:block;color:#637475}.location-options{margin:18px 0;padding:16px;border:1px solid #aab9ad;border-radius:12px}.location-option{padding:14px 0;border-top:1px solid #ccd4ca}.location-option strong{display:block;overflow-wrap:anywhere}.location-option button,.map-location-coverage button{white-space:normal;min-height:44px;max-width:100%;text-align:left}
+
+/* A single vector lockup cannot wrap or split at responsive widths. */
+.landscape .landscape-caption{display:block;left:9%;right:26%;bottom:4%;padding:0;background:transparent;line-height:0;letter-spacing:normal}.landscape .landscape-lockup{display:block;width:100%;height:auto;max-width:none;overflow:visible;color:#f2f1e7}
+
+.map-country-focus{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.map-country-focus button{min-height:44px}

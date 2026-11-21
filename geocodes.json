@@ -5087,5 +5087,374 @@
     "precision": "Координаты перенесены непосредственно из карточки ранее созданной Google My Maps, с показанной точностью 5 знаков. Это сохранённая позиция, а не новый выбор филиала. Вход не проверен. На Google Maps в этой позиции показан CafeRacers Stand; название из исходного списка сохранено.",
     "mapBasis": "savedGoogleMap",
     "locationName": "Racers Café · сохранённая метка CafeRacers Stand"
+  },
+  "kyotoStation5": {
+    "query": "京都駅",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%AC%E9%83%BD%E9%A7%85&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "京都",
+        "osm_type": "node",
+        "osm_id": 3340028686,
+        "countrycode": "JP",
+        "display_name": "京都, 901, 東塩小路町, 下京区, 京都市, 京都府, 600-8216, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%AC%E9%83%BD%E9%A7%85&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7576627,
+          34.9847375
+        ]
+      }
+    },
+    "transportAlias": "kyotoStation"
+  },
+  "odawara5": {
+    "source": "https://www.google.com/maps/place/Odawara+Station/data=!4m7!3m6!1s0x6019a456371660b9:0xec7648d666eafdcd!8m2!3d35.2564449!4d139.1553932!16zL20vMDM2eGZx!19sChIJuWAWN1akGWARzf3qZtZIduw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Odawara Station",
+        "sourceURL": "https://www.google.com/maps/place/Odawara+Station/data=!4m7!3m6!1s0x6019a456371660b9:0xec7648d666eafdcd!8m2!3d35.2564449!4d139.1553932!16zL20vMDM2eGZx!19sChIJuWAWN1akGWARzf3qZtZIduw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1553932,
+          35.2564449
+        ]
+      }
+    },
+    "transportAlias": "odawaraStation"
+  },
+  "odawara6": {
+    "source": "https://www.google.com/maps/place/Odawara+Station/data=!4m7!3m6!1s0x6019a456371660b9:0xec7648d666eafdcd!8m2!3d35.2564449!4d139.1553932!16zL20vMDM2eGZx!19sChIJuWAWN1akGWARzf3qZtZIduw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Odawara Station",
+        "sourceURL": "https://www.google.com/maps/place/Odawara+Station/data=!4m7!3m6!1s0x6019a456371660b9:0xec7648d666eafdcd!8m2!3d35.2564449!4d139.1553932!16zL20vMDM2eGZx!19sChIJuWAWN1akGWARzf3qZtZIduw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1553932,
+          35.2564449
+        ]
+      }
+    },
+    "transportAlias": "odawaraStation"
+  },
+  "kamakuraArrival6": {
+    "source": "https://www.google.com/maps/place/Kamakura+Station/@35.3190125,139.5506805,17z/data=!3m1!4b1!4m6!3m5!1s0x601845c22a4f73df:0xc7e93a3e84fb0e0e!8m2!3d35.3190125!4d139.5506805!16s%2Fg%2F1tfzb46k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamakura Station",
+        "sourceURL": "https://www.google.com/maps/place/Kamakura+Station/@35.3190125,139.5506805,17z/data=!3m1!4b1!4m6!3m5!1s0x601845c22a4f73df:0xc7e93a3e84fb0e0e!8m2!3d35.3190125!4d139.5506805!16s%2Fg%2F1tfzb46k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5506805,
+          35.3190125
+        ]
+      }
+    },
+    "transportAlias": "kamakuraStation"
+  },
+  "haseBoard6": {
+    "source": "https://www.google.com/maps/place/Hase+Station/@35.3113157,139.5358751,17z/data=!3m1!4b1!4m6!3m5!1s0x601845f1aec387b5:0x808fc2bbe9294ff8!8m2!3d35.3113157!4d139.5358751!16s%2Fm%2F02vnkqc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир линии Enoden — станция Hase из согласованной прогулки по Камакуре; это не вся железнодорожная линия. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hase Station",
+        "sourceURL": "https://www.google.com/maps/place/Hase+Station/@35.3113157,139.5358751,17z/data=!3m1!4b1!4m6!3m5!1s0x601845f1aec387b5:0x808fc2bbe9294ff8!8m2!3d35.3113157!4d139.5358751!16s%2Fm%2F02vnkqc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5358751,
+          35.3113157
+        ]
+      }
+    },
+    "transportAlias": "haseStation"
+  },
+  "inamuragasakiArrival6": {
+    "source": "https://www.google.com/maps/place/Inamuragasaki+Station/@35.3043597,139.5219085,17z/data=!3m1!4b1!4m6!3m5!1s0x60184f5a22ad2077:0x71a24af89ab2cdc9!8m2!3d35.3043597!4d139.5219085!16s%2Fm%2F02vnkmm?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Inamuragasaki Station",
+        "sourceURL": "https://www.google.com/maps/place/Inamuragasaki+Station/@35.3043597,139.5219085,17z/data=!3m1!4b1!4m6!3m5!1s0x60184f5a22ad2077:0x71a24af89ab2cdc9!8m2!3d35.3043597!4d139.5219085!16s%2Fm%2F02vnkmm?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5219085,
+          35.3043597
+        ]
+      }
+    },
+    "transportAlias": "inamuragasakiStation"
+  },
+  "inamuragasakiDeparture6": {
+    "source": "https://www.google.com/maps/place/Inamuragasaki+Station/@35.3043597,139.5219085,17z/data=!3m1!4b1!4m6!3m5!1s0x60184f5a22ad2077:0x71a24af89ab2cdc9!8m2!3d35.3043597!4d139.5219085!16s%2Fm%2F02vnkmm?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Inamuragasaki Station",
+        "sourceURL": "https://www.google.com/maps/place/Inamuragasaki+Station/@35.3043597,139.5219085,17z/data=!3m1!4b1!4m6!3m5!1s0x60184f5a22ad2077:0x71a24af89ab2cdc9!8m2!3d35.3043597!4d139.5219085!16s%2Fm%2F02vnkmm?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5219085,
+          35.3043597
+        ]
+      }
+    },
+    "transportAlias": "inamuragasakiStation"
+  },
+  "kamakuraReturn6": {
+    "source": "https://www.google.com/maps/place/Kamakura+Station/@35.3190125,139.5506805,17z/data=!3m1!4b1!4m6!3m5!1s0x601845c22a4f73df:0xc7e93a3e84fb0e0e!8m2!3d35.3190125!4d139.5506805!16s%2Fg%2F1tfzb46k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamakura Station",
+        "sourceURL": "https://www.google.com/maps/place/Kamakura+Station/@35.3190125,139.5506805,17z/data=!3m1!4b1!4m6!3m5!1s0x601845c22a4f73df:0xc7e93a3e84fb0e0e!8m2!3d35.3190125!4d139.5506805!16s%2Fg%2F1tfzb46k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5506805,
+          35.3190125
+        ]
+      }
+    },
+    "transportAlias": "kamakuraStation"
+  },
+  "tokyoArrival6": {
+    "source": "https://www.google.com/maps/place/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE/data=!4m7!3m6!1s0x60188bfbd89f700b:0x277c49ba34ed38!8m2!3d35.6812996!4d139.7670658!16zL20vMDFfdnY3!19sChIJC3Cf2PuLGGAROO00ukl8JwA?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Токио",
+        "sourceURL": "https://www.google.com/maps/place/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE/data=!4m7!3m6!1s0x60188bfbd89f700b:0x277c49ba34ed38!8m2!3d35.6812996!4d139.7670658!16zL20vMDFfdnY3!19sChIJC3Cf2PuLGGAROO00ukl8JwA?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7670658,
+          35.6812996
+        ]
+      }
+    },
+    "transportAlias": "tokyoStation"
+  },
+  "tokyoStation7": {
+    "source": "https://www.google.com/maps/place/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE/data=!4m7!3m6!1s0x60188bfbd89f700b:0x277c49ba34ed38!8m2!3d35.6812996!4d139.7670658!16zL20vMDFfdnY3!19sChIJC3Cf2PuLGGAROO00ukl8JwA?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Токио",
+        "sourceURL": "https://www.google.com/maps/place/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE/data=!4m7!3m6!1s0x60188bfbd89f700b:0x277c49ba34ed38!8m2!3d35.6812996!4d139.7670658!16zL20vMDFfdnY3!19sChIJC3Cf2PuLGGAROO00ukl8JwA?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7670658,
+          35.6812996
+        ]
+      }
+    },
+    "transportAlias": "tokyoStation"
+  },
+  "akihabaraStation7": {
+    "source": "https://www.google.com/maps/place/Akihabara+Station/data=!4m7!3m6!1s0x60188ea7e2f93329:0x158f36257ff597b1!8m2!3d35.698383!4d139.7730717!16zL20vMDIybmQ0!19sChIJKTP54qeOGGARsZf1fyU2jxU?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Akihabara Station",
+        "sourceURL": "https://www.google.com/maps/place/Akihabara+Station/data=!4m7!3m6!1s0x60188ea7e2f93329:0x158f36257ff597b1!8m2!3d35.698383!4d139.7730717!16zL20vMDIybmQ0!19sChIJKTP54qeOGGARsZf1fyU2jxU?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7730717,
+          35.698383
+        ]
+      }
+    },
+    "transportAlias": "akihabaraStation"
+  },
+  "harajukuStation7": {
+    "source": "https://www.google.com/maps/place/Harajuku+Station/@35.6700901,139.7024662,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cbac9b52cff:0x560d87a8e2d1d3d2!8m2!3d35.6700901!4d139.7024662!16zL20vMDIxdnh5?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Harajuku Station",
+        "sourceURL": "https://www.google.com/maps/place/Harajuku+Station/@35.6700901,139.7024662,17z/data=!3m1!4b1!4m6!3m5!1s0x60188cbac9b52cff:0x560d87a8e2d1d3d2!8m2!3d35.6700901!4d139.7024662!16zL20vMDIxdnh5?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7024662,
+          35.6700901
+        ]
+      }
+    },
+    "transportAlias": "harajukuStation"
+  },
+  "shibuyaStation7": {
+    "source": "https://www.google.com/maps/place/%D0%A1%D0%B8%D0%B1%D1%83%D1%8F/data=!4m7!3m6!1s0x60188b563b00109f:0x337328def1e2ab26!8m2!3d35.6580339!4d139.7016358!16zL20vMDIya3dq!19sChIJnxAAO1aLGGARJqvi8d4oczM?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Сибуя",
+        "sourceURL": "https://www.google.com/maps/place/%D0%A1%D0%B8%D0%B1%D1%83%D1%8F/data=!4m7!3m6!1s0x60188b563b00109f:0x337328def1e2ab26!8m2!3d35.6580339!4d139.7016358!16zL20vMDIya3dq!19sChIJnxAAO1aLGGARJqvi8d4oczM?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7016358,
+          35.6580339
+        ]
+      }
+    },
+    "transportAlias": "shibuyaStation"
+  },
+  "akihabaraDeparture10": {
+    "source": "https://www.google.com/maps/place/Akihabara+Station/data=!4m7!3m6!1s0x60188ea7e2f93329:0x158f36257ff597b1!8m2!3d35.698383!4d139.7730717!16zL20vMDIybmQ0!19sChIJKTP54qeOGGARsZf1fyU2jxU?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Akihabara Station",
+        "sourceURL": "https://www.google.com/maps/place/Akihabara+Station/data=!4m7!3m6!1s0x60188ea7e2f93329:0x158f36257ff597b1!8m2!3d35.698383!4d139.7730717!16zL20vMDIybmQ0!19sChIJKTP54qeOGGARsZf1fyU2jxU?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7730717,
+          35.698383
+        ]
+      }
+    },
+    "transportAlias": "akihabaraStation"
+  },
+  "hamamatsucho10": {
+    "source": "https://www.google.com/maps/place/Hamamatsuch%C5%8D+Station/data=!4m7!3m6!1s0x60188bc60592772b:0xe8f68e642f2dcbb1!8m2!3d35.6553809!4d139.7571289!16zL20vMDIxdnAy!19sChIJK3eSBcaLGGARscstL2SO9ug?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты станции по карточке Google Maps. Это общий ориентир узла, не проверенный выход или платформа. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamamatsuchō Station",
+        "sourceURL": "https://www.google.com/maps/place/Hamamatsuch%C5%8D+Station/data=!4m7!3m6!1s0x60188bc60592772b:0xe8f68e642f2dcbb1!8m2!3d35.6553809!4d139.7571289!16zL20vMDIxdnAy!19sChIJK3eSBcaLGGARscstL2SO9ug?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7571289,
+          35.6553809
+        ]
+      }
+    },
+    "transportAlias": "hamamatsuchoStation"
+  },
+  "shinagawa10": {
+    "query": "Shinagawa Station Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shinagawa+Station+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "品川",
+        "osm_type": "node",
+        "osm_id": 2546879674,
+        "countrycode": "JP",
+        "display_name": "品川, 第一京浜, 港南二丁目, 港南, 港区, 東京都, 108-0075, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shinagawa+Station+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7380112,
+          35.6280635
+        ]
+      }
+    },
+    "transportAlias": "shinagawaStation"
+  },
+  "hanedaDeparture10": {
+    "source": "https://www.google.com/maps/place/Terminal+3,+2-ch%C5%8Dme-6-5+Hanedak%C5%ABk%C5%8D,+Ota+City,+Tokyo+144-0041,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5454613,139.7687222,17z/data=!3m1!4b1!4m6!3m5!1s0x601861543aa93813:0x72022ae3c2d4eddf!8m2!3d35.5454613!4d139.7687222!16s%2Fg%2F11zjpgmwqf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход. Время поезда и конкретный выход не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal 3",
+        "sourceURL": "https://www.google.com/maps/place/Terminal+3,+2-ch%C5%8Dme-6-5+Hanedak%C5%ABk%C5%8D,+Ota+City,+Tokyo+144-0041,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5454613,139.7687222,17z/data=!3m1!4b1!4m6!3m5!1s0x601861543aa93813:0x72022ae3c2d4eddf!8m2!3d35.5454613!4d139.7687222!16s%2Fg%2F11zjpgmwqf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7687222,
+          35.5454613
+        ]
+      }
+    },
+    "transportAlias": "hanedaTerminal3"
+  },
+  "ofuna6": {
+    "source": "https://www.google.com/maps/place/%C5%8Cfuna+Station/data=!4m7!3m6!1s0x6018455e464e2373:0xdab8b723990b2f92!8m2!3d35.3540475!4d139.5312989!16zL20vMDM2eGp2!19sChIJcyNORl5FGGARki8LmSO3uNo?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Общий ориентир станции Ofuna по Google Maps. Конкретная платформа и время пересадки не проверены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ōfuna Station",
+        "sourceURL": "https://www.google.com/maps/place/%C5%8Cfuna+Station/data=!4m7!3m6!1s0x6018455e464e2373:0xdab8b723990b2f92!8m2!3d35.3540475!4d139.5312989!16zL20vMDM2eGp2!19sChIJcyNORl5FGGARki8LmSO3uNo?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5312989,
+          35.3540475
+        ]
+      }
+    }
   }
 }
