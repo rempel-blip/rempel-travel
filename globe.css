@@ -2,3 +2,5 @@
 .globe-stage{align-self:start}
 
 .flight-times{margin:10px 0;display:grid!important;gap:7px;font-size:16px}.flight-times small{display:block;font-size:12px;opacity:.8}.flight-list button>small{display:block;font-size:12px;line-height:1.4;opacity:.8}.flight-list button[aria-pressed=true] small{color:inherit}
+
+.flight-list .flight-detail[hidden]{display:none!important}.flight-detail>small{display:block;font-size:12px;opacity:.8}.flight-list button>strong::after{content:"＋";float:right;margin-left:8px;font-weight:400}.flight-list button[aria-expanded=true]>strong::after{content:"−"}
