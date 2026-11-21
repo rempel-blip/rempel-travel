@@ -4200,9 +4200,43 @@
     "aliasOf": "pkx"
   },
   "tokyoYoshinoya": {
-    "feature": null,
-    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Yoshinoya · Akihabara",
+        "sourceURL": "https://www.google.com/maps/place/Yoshinoya+Akihabara/data=!4m7!3m6!1s0x60188ea7c6572a17:0x821ca20685948f78!8m2!3d35.69955!4d139.7747!16s%2Fg%2F1v2yyw7f!19sChIJFypXxqeOGGAReI-UhQaiHII?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7747,
+          35.69955
+        ]
+      }
+    },
+    "reason": "На карте показан Yoshinoya · Akihabara. Координаты взяты из Google Maps. Выбор для конкретного дня не зафиксирован; при необходимости можно заменить филиал ниже.",
     "candidates": [
+      {
+        "key": "google-map-49",
+        "name": "Yoshinoya · Akihabara",
+        "source": "https://www.google.com/maps/place/Yoshinoya+Akihabara/data=!4m7!3m6!1s0x60188ea7c6572a17:0x821ca20685948f78!8m2!3d35.69955!4d139.7747!16s%2Fg%2F1v2yyw7f!19sChIJFypXxqeOGGAReI-UhQaiHII?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Google Maps: координаты конкретного объекта Yoshinoya · Akihabara. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Yoshinoya · Akihabara",
+            "sourceURL": "https://www.google.com/maps/place/Yoshinoya+Akihabara/data=!4m7!3m6!1s0x60188ea7c6572a17:0x821ca20685948f78!8m2!3d35.69955!4d139.7747!16s%2Fg%2F1v2yyw7f!19sChIJFypXxqeOGGAReI-UhQaiHII?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7747,
+              35.69955
+            ]
+          }
+        }
+      },
       {
         "key": "node/5601064003",
         "name": "吉野家 · 練馬",
@@ -4275,12 +4309,51 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/place/Yoshinoya+Akihabara/data=!4m7!3m6!1s0x60188ea7c6572a17:0x821ca20685948f78!8m2!3d35.69955!4d139.7747!16s%2Fg%2F1v2yyw7f!19sChIJFypXxqeOGGAReI-UhQaiHII?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: координаты конкретного объекта Yoshinoya · Akihabara. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+    "mapBasis": "workingBranch",
+    "locationName": "Yoshinoya · Akihabara"
   },
   "tokyoOotoya": {
-    "feature": null,
-    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ootoya · Akihabara Ekimae",
+        "sourceURL": "https://www.google.com/maps/place/Ootoya/@35.6987711,139.7719214,17z/data=!3m1!4b1!4m6!3m5!1s0x60188dbf6eb8b223:0x24ba7c577c406ef9!8m2!3d35.6987711!4d139.7719214!16s%2Fg%2F11h8039cd9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7719214,
+          35.6987711
+        ]
+      }
+    },
+    "reason": "На карте показан Ootoya · Akihabara Ekimae. Координаты взяты из Google Maps. Выбор для конкретного дня не зафиксирован; при необходимости можно заменить филиал ниже.",
     "candidates": [
+      {
+        "key": "google-map-49",
+        "name": "Ootoya · Akihabara Ekimae",
+        "source": "https://www.google.com/maps/place/Ootoya/@35.6987711,139.7719214,17z/data=!3m1!4b1!4m6!3m5!1s0x60188dbf6eb8b223:0x24ba7c577c406ef9!8m2!3d35.6987711!4d139.7719214!16s%2Fg%2F11h8039cd9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "retrieved": "2026-11-21",
+        "precision": "Google Maps: координаты конкретного объекта Ootoya · Akihabara Ekimae. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Ootoya · Akihabara Ekimae",
+            "sourceURL": "https://www.google.com/maps/place/Ootoya/@35.6987711,139.7719214,17z/data=!3m1!4b1!4m6!3m5!1s0x60188dbf6eb8b223:0x24ba7c577c406ef9!8m2!3d35.6987711!4d139.7719214!16s%2Fg%2F11h8039cd9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7719214,
+              35.6987711
+            ]
+          }
+        }
+      },
       {
         "key": "node/6596492286",
         "name": "大戸屋 · 道玄坂",
@@ -4353,12 +4426,51 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/place/Ootoya/@35.6987711,139.7719214,17z/data=!3m1!4b1!4m6!3m5!1s0x60188dbf6eb8b223:0x24ba7c577c406ef9!8m2!3d35.6987711!4d139.7719214!16s%2Fg%2F11h8039cd9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: координаты конкретного объекта Ootoya · Akihabara Ekimae. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+    "mapBasis": "workingBranch",
+    "locationName": "Ootoya · Akihabara Ekimae"
   },
   "tokyoHamaSushi": {
-    "feature": null,
-    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hama Sushi · Akihabara Denkigai-guchi",
+        "sourceURL": "https://www.google.com/maps/place/Hamasushi+Akihabara/@35.6987777,139.7723062,17z/data=!3m1!4b1!4m6!3m5!1s0x60188de11dae3121:0xbdb54cc355f8a0b!8m2!3d35.6987777!4d139.7723062!16s%2Fg%2F11p65m6jgw?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7723062,
+          35.6987777
+        ]
+      }
+    },
+    "reason": "На карте показан Hama Sushi · Akihabara Denkigai-guchi. Координаты взяты из Google Maps. Выбор для конкретного дня не зафиксирован; при необходимости можно заменить филиал ниже.",
     "candidates": [
+      {
+        "key": "google-map-49",
+        "name": "Hama Sushi · Akihabara Denkigai-guchi",
+        "source": "https://www.google.com/maps/place/Hamasushi+Akihabara/@35.6987777,139.7723062,17z/data=!3m1!4b1!4m6!3m5!1s0x60188de11dae3121:0xbdb54cc355f8a0b!8m2!3d35.6987777!4d139.7723062!16s%2Fg%2F11p65m6jgw?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "retrieved": "2026-11-21",
+        "precision": "Google Maps: координаты конкретного объекта Hama Sushi · Akihabara Denkigai-guchi. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Hama Sushi · Akihabara Denkigai-guchi",
+            "sourceURL": "https://www.google.com/maps/place/Hamasushi+Akihabara/@35.6987777,139.7723062,17z/data=!3m1!4b1!4m6!3m5!1s0x60188de11dae3121:0xbdb54cc355f8a0b!8m2!3d35.6987777!4d139.7723062!16s%2Fg%2F11p65m6jgw?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7723062,
+              35.6987777
+            ]
+          }
+        }
+      },
       {
         "key": "node/13690177898",
         "name": "Hama-Sushi · 南池袋",
@@ -4407,12 +4519,51 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/place/Hamasushi+Akihabara/@35.6987777,139.7723062,17z/data=!3m1!4b1!4m6!3m5!1s0x60188de11dae3121:0xbdb54cc355f8a0b!8m2!3d35.6987777!4d139.7723062!16s%2Fg%2F11p65m6jgw?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: координаты конкретного объекта Hama Sushi · Akihabara Denkigai-guchi. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+    "mapBasis": "workingBranch",
+    "locationName": "Hama Sushi · Akihabara Denkigai-guchi"
   },
   "tokyoSushiro": {
-    "feature": null,
-    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Sushiro · Akihabara Ekimae",
+        "sourceURL": "https://www.google.com/maps/place/Sushiro/data=!4m7!3m6!1s0x60188d3cc791f331:0x51b1e7d4b46944b2!8m2!3d35.698736!4d139.77189!16s%2Fg%2F11j111mdrd!19sChIJMfORxzyNGGARskRptNTnsVE?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77189,
+          35.698736
+        ]
+      }
+    },
+    "reason": "На карте показан Sushiro · Akihabara Ekimae. Координаты взяты из Google Maps. Выбор для конкретного дня не зафиксирован; при необходимости можно заменить филиал ниже.",
     "candidates": [
+      {
+        "key": "google-map-49",
+        "name": "Sushiro · Akihabara Ekimae",
+        "source": "https://www.google.com/maps/place/Sushiro/data=!4m7!3m6!1s0x60188d3cc791f331:0x51b1e7d4b46944b2!8m2!3d35.698736!4d139.77189!16s%2Fg%2F11j111mdrd!19sChIJMfORxzyNGGARskRptNTnsVE?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Google Maps: координаты конкретного объекта Sushiro · Akihabara Ekimae. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Sushiro · Akihabara Ekimae",
+            "sourceURL": "https://www.google.com/maps/place/Sushiro/data=!4m7!3m6!1s0x60188d3cc791f331:0x51b1e7d4b46944b2!8m2!3d35.698736!4d139.77189!16s%2Fg%2F11j111mdrd!19sChIJMfORxzyNGGARskRptNTnsVE?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.77189,
+              35.698736
+            ]
+          }
+        }
+      },
       {
         "key": "way/268858181",
         "name": "スシロー · 野崎",
@@ -4485,11 +4636,29 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/place/Sushiro/data=!4m7!3m6!1s0x60188d3cc791f331:0x51b1e7d4b46944b2!8m2!3d35.698736!4d139.77189!16s%2Fg%2F11j111mdrd!19sChIJMfORxzyNGGARskRptNTnsVE?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: координаты конкретного объекта Sushiro · Akihabara Ekimae. Рабочий филиал для отображения на карте, рядом с базой в Akihabara; он не был указан в исходном списке и не добавлен в дневной маршрут автоматически. Вход не проверен.",
+    "mapBasis": "workingBranch",
+    "locationName": "Sushiro · Akihabara Ekimae"
   },
   "tsujihan": {
-    "feature": null,
-    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tsujihan · Nihonbashi",
+        "sourceURL": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77157,
+          35.68071
+        ]
+      }
+    },
+    "reason": "Основная метка восстановлена из предыдущей Google-карты. При необходимости ниже можно явно выбрать другой филиал.",
     "candidates": [
       {
         "key": "node/3351513393",
@@ -4515,12 +4684,51 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты перенесены непосредственно из карточки ранее созданной Google My Maps, с показанной точностью 5 знаков. Это сохранённая позиция, а не новый выбор филиала. Вход не проверен.",
+    "mapBasis": "savedGoogleMap",
+    "locationName": "Tsujihan · Nihonbashi"
   },
   "catalog-p14": {
-    "feature": null,
-    "reason": "Конкретный филиал не выбран. Варианты показаны знаком ?; ни один не добавлен в маршрут автоматически.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Onigiri ga sukisugite · Nihonbashi",
+        "sourceURL": "https://www.google.com/maps/place/Onigiri+ga+sukisugite+Nihonbashi-ten/@34.6613313,135.5052894,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7d307179351:0xff2bf285f8714209!8m2!3d34.6613313!4d135.5052894!16s%2Fg%2F11yg8cq2ms?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5052894,
+          34.6613313
+        ]
+      }
+    },
+    "reason": "На карте показан Onigiri ga sukisugite · Nihonbashi. Координаты взяты из Google Maps. Выбор для конкретного дня не зафиксирован; при необходимости можно заменить филиал ниже.",
     "candidates": [
+      {
+        "key": "google-map-49",
+        "name": "Onigiri ga sukisugite · Nihonbashi",
+        "source": "https://www.google.com/maps/place/Onigiri+ga+sukisugite+Nihonbashi-ten/@34.6613313,135.5052894,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7d307179351:0xff2bf285f8714209!8m2!3d34.6613313!4d135.5052894!16s%2Fg%2F11yg8cq2ms?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "retrieved": "2026-11-21",
+        "precision": "Google Maps: координаты конкретного объекта Onigiri ga sukisugite · Nihonbashi. Объект найден по названию. Вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Onigiri ga sukisugite · Nihonbashi",
+            "sourceURL": "https://www.google.com/maps/place/Onigiri+ga+sukisugite+Nihonbashi-ten/@34.6613313,135.5052894,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7d307179351:0xff2bf285f8714209!8m2!3d34.6613313!4d135.5052894!16s%2Fg%2F11yg8cq2ms?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              135.5052894,
+              34.6613313
+            ]
+          }
+        }
+      },
       {
         "key": "google-0",
         "name": "Onigiri ga sukisugite Nihonbashi-ten",
@@ -4542,11 +4750,29 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/place/Onigiri+ga+sukisugite+Nihonbashi-ten/@34.6613313,135.5052894,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7d307179351:0xff2bf285f8714209!8m2!3d34.6613313!4d135.5052894!16s%2Fg%2F11yg8cq2ms?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: координаты конкретного объекта Onigiri ga sukisugite · Nihonbashi. Объект найден по названию. Вход не проверен.",
+    "mapBasis": "googlePlace",
+    "locationName": "Onigiri ga sukisugite · Nihonbashi"
   },
   "wagyuMoo": {
-    "feature": null,
-    "reason": "Исходное Wagyu Yakiniku Moo неоднозначно: точное название встречается в Осаке. В Токио найден Moo в Икебукуро; это возможное совпадение, требует вашего выбора.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Сохранённая метка Moo · Shibuya",
+        "sourceURL": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70653,
+          35.65559
+        ]
+      }
+    },
+    "reason": "Основная метка восстановлена из предыдущей Google-карты. При необходимости ниже можно явно выбрать другой филиал.",
     "candidates": [
       {
         "key": "google-0",
@@ -4569,11 +4795,30 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты перенесены непосредственно из карточки ранее созданной Google My Maps, с показанной точностью 5 знаков. Это сохранённая позиция, а не новый выбор филиала. Вход не проверен. В предыдущей Google-карте метка «Wagyu Yakiniku Moo» стоит у Halal Wagyu Yakiniku Gyumon Shibuya. Позиция перенесена без изменения по вашему запросу; соответствие названию Moo не подтверждено. Это не подтверждённый филиал Moo.",
+    "mapBasis": "savedGoogleMap",
+    "locationName": "Сохранённая метка Moo · Shibuya",
+    "identityWarning": "В предыдущей Google-карте метка «Wagyu Yakiniku Moo» стоит у Halal Wagyu Yakiniku Gyumon Shibuya. Позиция перенесена без изменения по вашему запросу; соответствие названию Moo не подтверждено. Это не подтверждённый филиал Moo."
   },
   "roastbeefOhno": {
-    "feature": null,
-    "reason": "Конкретный филиал не выбран. Варианты показаны знаком ?; ни один не добавлен в маршрут автоматически.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Roast Beef Ohno · Harajuku",
+        "sourceURL": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70625,
+          35.66904
+        ]
+      }
+    },
+    "reason": "Основная метка восстановлена из предыдущей Google-карты. При необходимости ниже можно явно выбрать другой филиал.",
     "candidates": [
       {
         "key": "google-0",
@@ -4638,11 +4883,29 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты перенесены непосредственно из карточки ранее созданной Google My Maps, с показанной точностью 5 знаков. Это сохранённая позиция, а не новый выбор филиала. Вход не проверен.",
+    "mapBasis": "savedGoogleMap",
+    "locationName": "Roast Beef Ohno · Harajuku"
   },
   "tonkatsuMarushichi": {
-    "feature": null,
-    "reason": "Конкретный филиал не выбран. Варианты показаны знаком ?; ни один не добавлен в маршрут автоматически.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tonkatsu Marushichi · Monzen-nakacho",
+        "sourceURL": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79484,
+          35.6735
+        ]
+      }
+    },
+    "reason": "Основная метка восстановлена из предыдущей Google-карты. При необходимости ниже можно явно выбрать другой филиал.",
     "candidates": [
       {
         "key": "google-0",
@@ -4728,11 +4991,29 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты перенесены непосредственно из карточки ранее созданной Google My Maps, с показанной точностью 5 знаков. Это сохранённая позиция, а не новый выбор филиала. Вход не проверен.",
+    "mapBasis": "savedGoogleMap",
+    "locationName": "Tonkatsu Marushichi · Monzen-nakacho"
   },
   "tokyoWatami": {
-    "feature": null,
-    "reason": "Найден филиал Kinshicho South Exit; он не выбран автоматически. Подтвердите, если подходит.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Yakiniku no Watami · Kinshicho South Exit",
+        "sourceURL": "https://www.google.com/maps/place/Yakiniku+Watami/@35.6957226,139.8133675,17z/data=!3m1!4b1!4m6!3m5!1s0x60188972205e0e9d:0xf2c747977b693e07!8m2!3d35.6957226!4d139.8133675!16s%2Fg%2F11lg38t5qn?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8133675,
+          35.6957226
+        ]
+      }
+    },
+    "reason": "На карте показан рабочий филиал Kinshicho South Exit. Можно подтвердить или заменить его; дата и посещение не назначаются автоматически.",
     "candidates": [
       {
         "key": "google-kinshicho",
@@ -4755,11 +5036,29 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/place/Yakiniku+Watami/@35.6957226,139.8133675,17z/data=!3m1!4b1!4m6!3m5!1s0x60188972205e0e9d:0xf2c747977b693e07!8m2!3d35.6957226!4d139.8133675!16s%2Fg%2F11lg38t5qn?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: координаты филиала Kinshicho South Exit. Рабочий вариант для карты рядом с районом Asakusa / Skytree; в исходном списке филиал не выбран. Не добавляется в дневную линию автоматически; вход не проверен.",
+    "mapBasis": "workingBranch",
+    "locationName": "Yakiniku no Watami · Kinshicho South Exit"
   },
   "racersCafe": {
-    "feature": null,
-    "reason": "Исходное название Racers Café неоднозначно. Найден CafeRacers Stand; это возможное совпадение, а не подтверждённая идентификация исходного места. Выберите только если имели в виду его.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Racers Café · сохранённая метка CafeRacers Stand",
+        "sourceURL": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71918,
+          35.64776
+        ]
+      }
+    },
+    "reason": "Основная метка восстановлена из предыдущей Google-карты. При необходимости ниже можно явно выбрать другой филиал.",
     "candidates": [
       {
         "key": "google-stand",
@@ -4782,6 +5081,11 @@
           }
         }
       }
-    ]
+    ],
+    "source": "https://www.google.com/maps/d/edit?mid=1jNGoYTp-dooUj88aiP--y90NFhz6Qtg",
+    "retrieved": "2026-11-21",
+    "precision": "Координаты перенесены непосредственно из карточки ранее созданной Google My Maps, с показанной точностью 5 знаков. Это сохранённая позиция, а не новый выбор филиала. Вход не проверен. На Google Maps в этой позиции показан CafeRacers Stand; название из исходного списка сохранено.",
+    "mapBasis": "savedGoogleMap",
+    "locationName": "Racers Café · сохранённая метка CafeRacers Stand"
   }
 }
