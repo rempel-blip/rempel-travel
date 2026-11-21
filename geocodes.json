@@ -34,7 +34,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Otagi%20Nenbutsuji",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "fushimi": {
     "query": "Fushimi Inari Taisha",
@@ -69,7 +70,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Fushimi%20Inari%20Taisha",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "bamboo": {
     "feature": {
@@ -118,7 +120,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Adashino%20Nenbutsuji",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "saga": {
     "query": "Saga Toriimoto Kyoto",
@@ -149,7 +152,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Saga%20Toriimoto%20Kyoto",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "bridge": {
     "query": "Togetsukyo",
@@ -232,7 +236,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Nara%20Park",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "ryuguden": {
     "query": "龍宮殿 箱根",
@@ -268,7 +273,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=%E9%BE%8D%E5%AE%AE%E6%AE%BF%20%E7%AE%B1%E6%A0%B9",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "sky": {
     "query": "Shibuya Scramble Square",
@@ -331,7 +337,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=%E9%A6%96%E9%83%BD%E5%9C%8F%E5%A4%96%E9%83%AD%E6%94%BE%E6%B0%B4%E8%B7%AF",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "kamakura": {
     "query": "Kamakura",
@@ -366,7 +373,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Kamakura",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "beijing": {
     "query": "Beijing",
@@ -400,7 +408,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Beijing",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "guangzhou": {
     "query": "Guangzhou",
@@ -435,7 +444,8 @@
       }
     },
     "source": "https://photon.komoot.io/api/?limit=1&q=Guangzhou",
-    "retrieved": "2026-11-17"
+    "retrieved": "2026-11-17",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
   },
   "castle": {
     "feature": {
@@ -925,5 +935,3853 @@
     "source": "https://yakiniku-watami.com/shop/osaka/",
     "retrieved": "2026-11-18",
     "precision": "Координата из q-параметра карты на официальной странице сети. Положение объекта, не проверенный вход; бронирование не подтверждено."
+  },
+  "kix": {
+    "query": "Kansai International Airport Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kansai+International+Airport+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "関西国際空港",
+        "osm_type": "relation",
+        "osm_id": 9436735,
+        "countrycode": "JP",
+        "display_name": "関西国際空港, バス専用, 田尻町, 泉南郡, 大阪府, 549-0011, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kansai+International+Airport+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.222523,
+          34.4342045
+        ]
+      }
+    }
+  },
+  "hozenji": {
+    "query": "Hozenji Yokocho Osaka Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hozenji+Yokocho+Osaka+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hozenji yokocho (alley w trad restaurants, shops, bars)",
+        "osm_type": "node",
+        "osm_id": 4190280889,
+        "countrycode": "JP",
+        "display_name": "Hozenji yokocho (alley w trad restaurants, shops, bars), 坂町通, 千日前一丁目, 中央区, 大阪市, 大阪府, 542-0071, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hozenji+Yokocho+Osaka+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5033179,
+          34.6679653
+        ]
+      }
+    }
+  },
+  "exchange": {
+    "query": "Namba Currency Exchange Osaka Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Namba+Currency+Exchange+Osaka+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "NAMBA 外貨両替所",
+        "osm_type": "node",
+        "osm_id": 4312136393,
+        "countrycode": "JP",
+        "display_name": "NAMBA 外貨両替所, 大阪市浪速区難波中2-8-97, 阪神高速1号環状線, 難波中二丁目, 浪速区, 大阪市, 大阪府, 556-0011, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Namba+Currency+Exchange+Osaka+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5008525,
+          34.6625421
+        ]
+      }
+    }
+  },
+  "kasuga": {
+    "query": "Kasuga Taisha Nara Nara",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kasuga+Taisha+Nara+Nara&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "春日大社",
+        "osm_type": "way",
+        "osm_id": 1134481286,
+        "countrycode": "JP",
+        "display_name": "春日大社, 春日野町, 奈良市, 奈良県, 630-8212, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kasuga+Taisha+Nara+Nara&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8460746,
+          34.6805063
+        ]
+      }
+    }
+  },
+  "shinsekai": {
+    "query": "Tsutenkaku Osaka Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tsutenkaku+Osaka+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "通天閣",
+        "osm_type": "way",
+        "osm_id": 254319878,
+        "countrycode": "JP",
+        "display_name": "通天閣, 6, 新世界市場, 恵美須東一丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tsutenkaku+Osaka+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5063098,
+          34.6525393
+        ]
+      }
+    }
+  },
+  "yasakaPagoda": {
+    "query": "Hokanji Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hokanji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hokanji Temple and the Yasaka-no-to Pagoda",
+        "osm_type": "node",
+        "osm_id": 5395846924,
+        "countrycode": "JP",
+        "display_name": "Hokanji Temple and the Yasaka-no-to Pagoda, 八坂通, 上田町, 辰巳町, 東山区, 京都市, 京都府, 605-0854, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hokanji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7787643,
+          34.9985665
+        ]
+      }
+    }
+  },
+  "yasaka": {
+    "query": "Yasaka Shrine Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yasaka+Shrine+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "八坂神社",
+        "osm_type": "way",
+        "osm_id": 328903218,
+        "countrycode": "JP",
+        "display_name": "八坂神社, 東大路通, 祇園町北側, 辰巳町, 東山区, 京都市, 京都府, 605-0062, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yasaka+Shrine+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7782611,
+          35.0036027
+        ]
+      }
+    }
+  },
+  "maruyama": {
+    "query": "Maruyama Park Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Maruyama+Park+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "円山公園",
+        "osm_type": "way",
+        "osm_id": 54170783,
+        "countrycode": "JP",
+        "display_name": "円山公園, 東山区, 京都市, 京都府, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Maruyama+Park+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7814763,
+          35.0037618
+        ]
+      }
+    }
+  },
+  "gion": {
+    "query": "Gion Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Gion+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "祇園",
+        "osm_type": "relation",
+        "osm_id": 9541222,
+        "countrycode": "JP",
+        "display_name": "祇園, 東山区, 京都市, 京都府, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Gion+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.778403,
+          35.0046897
+        ]
+      }
+    }
+  },
+  "pontocho": {
+    "query": "Pontocho Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Pontocho+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "先斗町",
+        "osm_type": "node",
+        "osm_id": 4233370290,
+        "countrycode": "JP",
+        "display_name": "先斗町, 先斗町通, 鍋屋町, 中京区, 京都市, 京都府, 604-8023, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Pontocho+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7712126,
+          35.0042456
+        ]
+      }
+    }
+  },
+  "tofuku": {
+    "query": "Tofukuji Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tofukuji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "東福寺",
+        "osm_type": "node",
+        "osm_id": 3644796526,
+        "countrycode": "JP",
+        "display_name": "東福寺, 東山橋, 本町十四丁目, 東九条東松ノ木町, 東山区, 京都市, 京都府, 605-0981, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tofukuji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7699358,
+          34.9809945
+        ]
+      }
+    }
+  },
+  "tenryuji": {
+    "query": "Tenryuji Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tenryuji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "天龍寺",
+        "osm_type": "node",
+        "osm_id": 4264119277,
+        "countrycode": "JP",
+        "display_name": "天龍寺, 宇多野嵐山山田線, 嵯峨天龍寺立石町, 右京区, 京都市, 京都府, 616-0000, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tenryuji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6769952,
+          35.0159298
+        ]
+      }
+    }
+  },
+  "ryoan": {
+    "query": "Ryoanji Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ryoanji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "龍安寺",
+        "osm_type": "node",
+        "osm_id": 7126885962,
+        "countrycode": "JP",
+        "display_name": "龍安寺, 今出川通, 等持院東町, 馬喰町, 右京区, 京都市, 京都府, 603-8341, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ryoanji+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7213031,
+          35.027868
+        ]
+      }
+    }
+  },
+  "conference": {
+    "query": "Kyoto International Conference Center Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kyoto+International+Conference+Center+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "国立京都国際会館",
+        "osm_type": "relation",
+        "osm_id": 1633593,
+        "countrycode": "JP",
+        "display_name": "国立京都国際会館, 宝ヶ池通, 岩倉西五田町, 左京区, 京都市, 京都府, 606-8505, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kyoto+International+Conference+Center+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7831473,
+          35.0610839
+        ]
+      }
+    }
+  },
+  "komagatake": {
+    "query": "Hakone Komagatake Ropeway Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Komagatake+Ropeway+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根駒ヶ岳ロープウェー",
+        "osm_type": "way",
+        "osm_id": 24573023,
+        "countrycode": "JP",
+        "display_name": "箱根駒ヶ岳ロープウェー, 湯河原箱根仙石原線, 元箱根, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Komagatake+Ropeway+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0170859,
+          35.2184365
+        ]
+      }
+    }
+  },
+  "hakoneShrine": {
+    "query": "Hakone Shrine Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Shrine+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根神社",
+        "osm_type": "way",
+        "osm_id": 553740875,
+        "countrycode": "JP",
+        "display_name": "箱根神社, 神社通り, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Shrine+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0255832,
+          35.2039731
+        ]
+      }
+    }
+  },
+  "renbai": {
+    "query": "Kamakura Central Food Market Kamakura",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kamakura+Central+Food+Market+Kamakura&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "鎌倉中央食品市場",
+        "osm_type": "node",
+        "osm_id": 266737439,
+        "countrycode": "JP",
+        "display_name": "鎌倉中央食品市場, 若宮大路, 小町一丁目, 鎌倉市, 神奈川県, 248-0006, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kamakura+Central+Food+Market+Kamakura&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5510651,
+          35.3171031
+        ]
+      }
+    }
+  },
+  "starbucksKam": {
+    "query": "Starbucks Kamakura Onarimachi Kamakura",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Starbucks+Kamakura+Onarimachi+Kamakura&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "スターバックス",
+        "osm_type": "node",
+        "osm_id": 1866788982,
+        "countrycode": "JP",
+        "display_name": "スターバックス, 市役所通り, 佐助一丁目, 長谷, 鎌倉市, 神奈川県, 248-0012, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Starbucks+Kamakura+Onarimachi+Kamakura&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.547641,
+          35.3197244
+        ]
+      }
+    }
+  },
+  "enoden": {
+    "query": "Kamakurakokomae Station Kamakura",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kamakurakokomae+Station+Kamakura&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "鎌倉高校前",
+        "osm_type": "node",
+        "osm_id": 8063964899,
+        "countrycode": "JP",
+        "display_name": "鎌倉高校前, 国道134号, 腰越一丁目, 鎌倉市, 神奈川県, 248-0026, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kamakurakokomae+Station+Kamakura&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5007098,
+          35.3067209
+        ]
+      }
+    }
+  },
+  "inamura": {
+    "query": "Inamuragasaki Park Kamakura",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Inamuragasaki+Park+Kamakura&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "稲村ガ崎公園",
+        "osm_type": "way",
+        "osm_id": 390566753,
+        "countrycode": "JP",
+        "display_name": "稲村ガ崎公園, 鎌倉市, 神奈川県, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Inamuragasaki+Park+Kamakura&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5249973,
+          35.3023736
+        ]
+      }
+    }
+  },
+  "latte": {
+    "query": "LATTE ART MANIA Tokyo Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=LATTE+ART+MANIA+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Latte Art Mania Tokyo",
+        "osm_type": "node",
+        "osm_id": 13434269301,
+        "countrycode": "JP",
+        "display_name": "Latte Art Mania Tokyo, 熊野通り, 北青山二丁目, 北青山, 港区, 東京都, 107-0061, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=LATTE+ART+MANIA+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7164729,
+          35.6712362
+        ]
+      }
+    }
+  },
+  "bongo": {
+    "query": "Onigiri Bongo Tokyo Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Onigiri+Bongo+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "おにぎりぼんご",
+        "osm_type": "node",
+        "osm_id": 11422117042,
+        "countrycode": "JP",
+        "display_name": "おにぎりぼんご, 5, 北大塚二丁目, 北大塚, 豊島区, 東京都, 170-0004, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Onigiri+Bongo+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.729706,
+          35.7327126
+        ]
+      }
+    }
+  },
+  "sensoji": {
+    "query": "Sensoji Tokyo Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sensoji+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "金龍山 浅草寺",
+        "osm_type": "way",
+        "osm_id": 173154847,
+        "countrycode": "JP",
+        "display_name": "金龍山 浅草寺, 1, 浅草二丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sensoji+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7955265,
+          35.7134032
+        ]
+      }
+    }
+  },
+  "catalog-p1": {
+    "query": "THE LIVELY Osaka Honmachi",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5075433,
+          34.68274861
+        ]
+      },
+      "properties": {
+        "name": "THE LIVELY Osaka Honmachi",
+        "countrycode": "JP",
+        "sourceURL": "https://www.city.osaka.lg.jp/kenko/cmsfiles/contents/0000382/382418/202512ketsugo.pdf"
+      }
+    },
+    "source": "https://www.city.osaka.lg.jp/kenko/cmsfiles/contents/0000382/382418/202512ketsugo.pdf",
+    "retrieved": "2026-11-18",
+    "precision": "Город Осака, реестр средств размещения на 31.12.2025, стр. 39. Координата объекта; вход не проверен.",
+    "aliasOf": "lively"
+  },
+  "catalog-p10": {
+    "query": "Shinsekai Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shinsekai+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "新世界",
+        "osm_type": "node",
+        "osm_id": 4190308689,
+        "countrycode": "JP",
+        "display_name": "新世界, 新世界本通線, 恵美須東二丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shinsekai+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5061908,
+          34.6520901
+        ]
+      }
+    }
+  },
+  "catalog-p13": {
+    "query": "Onigiri Gorichan Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Onigiri+Gorichan+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "おにぎりごりちゃん",
+        "osm_type": "node",
+        "osm_id": 14292042967,
+        "countrycode": "JP",
+        "display_name": "おにぎりごりちゃん, 都島通, 中崎西一丁目, 北区, 大阪市, 大阪府, 530-0015, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Onigiri+Gorichan+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5058324,
+          34.707134
+        ]
+      }
+    }
+  },
+  "catalog-p27": {
+    "query": "Omihachiman Station Omihachiman",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Omihachiman+Station+Omihachiman&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "近江八幡",
+        "osm_type": "node",
+        "osm_id": 1351659261,
+        "countrycode": "JP",
+        "display_name": "近江八幡, サークルデッキ, 鷹飼町南三丁目, 鷹飼町, 近江八幡, 近江八幡市, 滋賀県, 523-8501, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Omihachiman+Station+Omihachiman&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.1027652,
+          35.1223816
+        ]
+      }
+    }
+  },
+  "catalog-p36": {
+    "query": "ASAI Kyoto Shijo Hotel Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=ASAI+Kyoto+Shijo+Hotel+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "ASAI Kyoto Shijo",
+        "osm_type": "node",
+        "osm_id": 13350802501,
+        "countrycode": "JP",
+        "display_name": "ASAI Kyoto Shijo, 600, 松原通, 石不動之町, 下京区, 京都市, 京都府, 600-8078, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=ASAI+Kyoto+Shijo+Hotel+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7604236,
+          34.9987814
+        ]
+      }
+    }
+  },
+  "catalog-p37": {
+    "query": "The Millennials Kyoto Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=The+Millennials+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "The Millennials",
+        "osm_type": "node",
+        "osm_id": 10651448949,
+        "countrycode": "JP",
+        "display_name": "The Millennials, 235, 河原町通, 山崎町, 中京区, 京都市, 京都府, 604-8031, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=The+Millennials+Kyoto+Kyoto&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7689125,
+          35.0074688
+        ]
+      }
+    }
+  },
+  "catalog-p58": {
+    "query": "Lake Ashi / Ashinoko Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Lake+Ashi+%2F+Ashinoko+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "芦ノ湖",
+        "osm_type": "relation",
+        "osm_id": 10349338,
+        "countrycode": "JP",
+        "display_name": "芦ノ湖, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Lake+Ashi+%2F+Ashinoko+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0019966,
+          35.214483
+        ]
+      }
+    }
+  },
+  "catalog-p61": {
+    "query": "Ōwakudani Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%C5%8Cwakudani+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "大涌谷",
+        "osm_type": "way",
+        "osm_id": 727045804,
+        "countrycode": "JP",
+        "display_name": "大涌谷, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%C5%8Cwakudani+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0242051,
+          35.2474057
+        ]
+      }
+    }
+  },
+  "catalog-p63": {
+    "query": "Hakone Open-Air Museum Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Open-Air+Museum+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "彫刻の森美術館",
+        "osm_type": "node",
+        "osm_id": 5182750902,
+        "countrycode": "JP",
+        "display_name": "彫刻の森美術館, 関本小涌谷線, 木賀, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Open-Air+Museum+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0520834,
+          35.2442838
+        ]
+      }
+    }
+  },
+  "catalog-p64": {
+    "query": "POLA Museum of Art Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=POLA+Museum+of+Art+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "ポーラ美術館",
+        "osm_type": "way",
+        "osm_id": 388180518,
+        "countrycode": "JP",
+        "display_name": "ポーラ美術館, 仙石原強羅停車場線, 仙石原, 箱根, 足柄下郡, 神奈川県, 250-0631, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=POLA+Museum+of+Art+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0212049,
+          35.2566563
+        ]
+      }
+    }
+  },
+  "catalog-p65": {
+    "query": "Hakone Gora Park Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Gora+Park+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "強羅公園",
+        "osm_type": "way",
+        "osm_id": 281489340,
+        "countrycode": "JP",
+        "display_name": "強羅公園, 強羅, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone+Gora+Park+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.045249,
+          35.2486387
+        ]
+      }
+    }
+  },
+  "catalog-p66": {
+    "query": "Hakone-Gora Byakudan Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone-Gora+Byakudan+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根強羅白檀",
+        "osm_type": "node",
+        "osm_id": 6758626885,
+        "countrycode": "JP",
+        "display_name": "箱根強羅白檀, 大湧谷小湧谷線, 二ノ平, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hakone-Gora+Byakudan+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0422657,
+          35.2427203
+        ]
+      }
+    }
+  },
+  "catalog-p70": {
+    "query": "Gōra Kadan Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=G%C5%8Dra+Kadan+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "強羅花壇",
+        "osm_type": "node",
+        "osm_id": 11219302402,
+        "countrycode": "JP",
+        "display_name": "強羅花壇, 関本小涌谷線, 木賀, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=G%C5%8Dra+Kadan+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0485404,
+          35.2474072
+        ]
+      }
+    }
+  },
+  "catalog-p72": {
+    "query": "Hotel Green Plaza Hakone Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hotel+Green+Plaza+Hakone+Hakone&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Green Plaza Hakone",
+        "osm_type": "node",
+        "osm_id": 14247403801,
+        "countrycode": "JP",
+        "display_name": "Hotel Green Plaza Hakone, 1244-2, 湯河原箱根仙石原線, 仙石原, 箱根, 足柄下郡, 神奈川県, 250-0631, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hotel+Green+Plaza+Hakone+Hakone&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.006764,
+          35.2455325
+        ]
+      }
+    }
+  },
+  "catalog-p82": {
+    "query": "Shichirigahama Beach Kamakura",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shichirigahama+Beach+Kamakura&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "七里ヶ浜",
+        "osm_type": "way",
+        "osm_id": 53750907,
+        "countrycode": "JP",
+        "display_name": "七里ヶ浜, 鎌倉市, 神奈川県, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shichirigahama+Beach+Kamakura&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5140657,
+          35.3039934
+        ]
+      }
+    }
+  },
+  "catalog-p92": {
+    "query": "Mitsubishi Ichigokan Museum Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Mitsubishi+Ichigokan+Museum+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "三菱一号館",
+        "osm_type": "way",
+        "osm_id": 306116935,
+        "countrycode": "JP",
+        "display_name": "三菱一号館, 大名小路, 丸の内二丁目, 丸の内, 千代田区, 東京都, 100-0005, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Mitsubishi+Ichigokan+Museum+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7633877,
+          35.6785728
+        ]
+      }
+    }
+  },
+  "catalog-p93": {
+    "query": "Marunouchi BRICK SQUARE Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Marunouchi+BRICK+SQUARE+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "丸の内ブリックスクエア",
+        "osm_type": "way",
+        "osm_id": 907090754,
+        "countrycode": "JP",
+        "display_name": "丸の内ブリックスクエア, 丸の内, 千代田区, 東京都, 100-0005, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Marunouchi+BRICK+SQUARE+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7631213,
+          35.6789773
+        ]
+      }
+    }
+  },
+  "catalog-p95": {
+    "query": "Tokyo Station Marunouchi Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tokyo+Station+Marunouchi+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "東京駅丸の内駅舎",
+        "osm_type": "relation",
+        "osm_id": 4856156,
+        "countrycode": "JP",
+        "display_name": "東京駅丸の内駅舎, 1, 丸の内一丁目, 丸の内, 千代田区, 東京都, 100-0005, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tokyo+Station+Marunouchi+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7659765,
+          35.6811505
+        ]
+      }
+    }
+  },
+  "catalog-p97": {
+    "query": "Imperial Palace East Gardens Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Imperial+Palace+East+Gardens+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "皇居東御苑",
+        "osm_type": "relation",
+        "osm_id": 5415394,
+        "countrycode": "JP",
+        "display_name": "皇居東御苑, 千代田区, 東京都, 102-0000, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Imperial+Palace+East+Gardens+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7573959,
+          35.6867006
+        ]
+      }
+    }
+  },
+  "catalog-p100": {
+    "query": "Kaminarimon Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kaminarimon+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "雷門",
+        "osm_type": "way",
+        "osm_id": 173154849,
+        "countrycode": "JP",
+        "display_name": "雷門, 仲見世通り, 浅草一丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kaminarimon+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7963683,
+          35.7111333
+        ]
+      }
+    }
+  },
+  "catalog-p57": {
+    "query": "龍宮殿 箱根",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "osm_type": "W",
+        "osm_id": 835174708,
+        "osm_key": "building",
+        "osm_value": "hotel",
+        "type": "house",
+        "name": "芦ノ湖畔 蛸川温泉 龍宮殿",
+        "locality": "元箱根",
+        "city": "箱根町",
+        "county": "足柄下郡",
+        "state": "神奈川県",
+        "country": "日本",
+        "postcode": "250-0398",
+        "countrycode": "JP",
+        "extent": [
+          139.0106255,
+          35.2118686,
+          139.0112194,
+          35.2113805
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0108791,
+          35.2116243
+        ]
+      }
+    },
+    "source": "https://photon.komoot.io/api/?limit=1&q=%E9%BE%8D%E5%AE%AE%E6%AE%BF%20%E7%AE%B1%E6%A0%B9",
+    "retrieved": "2026-11-17",
+    "aliasOf": "ryuguden",
+    "precision": "OSM/Photon: приблизительное положение объекта по географическому справочнику; вход не проверен."
+  },
+  "akasaka": {
+    "query": "Akasaka Station Tokyo Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Akasaka+Station+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "赤坂",
+        "osm_type": "node",
+        "osm_id": 6210190874,
+        "countrycode": "JP",
+        "display_name": "赤坂, 赤坂通り, 赤坂六丁目, 赤坂, 港区, 東京都, 107-0052, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Akasaka+Station+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7363044,
+          35.672174
+        ]
+      }
+    }
+  },
+  "catalog-p101": {
+    "query": "Nakamise-dori Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nakamise-dori+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "仲見世通り",
+        "osm_type": "way",
+        "osm_id": 573269291,
+        "countrycode": "JP",
+        "display_name": "仲見世通り, 浅草一丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nakamise-dori+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7965171,
+          35.7125206
+        ]
+      }
+    }
+  },
+  "catalog-p102": {
+    "query": "Onigiri Asakusa Yadoroku Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Onigiri+Asakusa+Yadoroku+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "おにぎり浅草宿六",
+        "osm_type": "node",
+        "osm_id": 6266948612,
+        "countrycode": "JP",
+        "display_name": "おにぎり浅草宿六, 10, 浅草三丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Onigiri+Asakusa+Yadoroku+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7947511,
+          35.7168964
+        ]
+      }
+    }
+  },
+  "catalog-p107": {
+    "query": "Tsukiji Outer Market Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tsukiji+Outer+Market+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "築地場外市場",
+        "osm_type": "way",
+        "osm_id": 606978548,
+        "countrycode": "JP",
+        "display_name": "築地場外市場, 築地中通, 築地四丁目, 築地, 中央区, 東京都, 104-0045, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tsukiji+Outer+Market+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7704732,
+          35.6653884
+        ]
+      }
+    }
+  },
+  "catalog-p109": {
+    "query": "Zōjō-ji Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Z%C5%8Dj%C5%8D-ji+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "増上寺",
+        "osm_type": "way",
+        "osm_id": 744348814,
+        "countrycode": "JP",
+        "display_name": "増上寺, 日比谷通り, 芝公園二丁目, 芝公園, 港区, 東京都, 105-8511, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Z%C5%8Dj%C5%8D-ji+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7483432,
+          35.6572781
+        ]
+      }
+    }
+  },
+  "catalog-p110": {
+    "query": "Tokyo Tower Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tokyo+Tower+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "東京タワー",
+        "osm_type": "relation",
+        "osm_id": 4247312,
+        "countrycode": "JP",
+        "display_name": "東京タワー, 東京タワー通り, 芝公園四丁目, 芝公園, 港区, 東京都, 106-0041, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tokyo+Tower+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.745536,
+          35.6584491
+        ]
+      }
+    }
+  },
+  "catalog-p117": {
+    "query": "Shinagawa Station Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shinagawa+Station+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "品川",
+        "osm_type": "node",
+        "osm_id": 2546879674,
+        "countrycode": "JP",
+        "display_name": "品川, 第一京浜, 港南二丁目, 港南, 港区, 東京都, 108-0075, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Shinagawa+Station+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7380112,
+          35.6280635
+        ]
+      }
+    }
+  },
+  "catalog-p130": {
+    "query": "Canton Tower Guangzhou",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Canton+Tower+Guangzhou&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "广州塔",
+        "osm_type": "way",
+        "osm_id": 584204634,
+        "countrycode": "CN",
+        "display_name": "广州塔, 阅江西路, 赤岗街道, 海珠区, 广州市, 广东省, 510310, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Canton+Tower+Guangzhou&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3191477,
+          23.1090145
+        ]
+      }
+    }
+  },
+  "catalog-p131": {
+    "query": "Zhujiang New Town Station Guangzhou",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Zhujiang+New+Town+Station+Guangzhou&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "珠江新城",
+        "osm_type": "node",
+        "osm_id": 5444631263,
+        "countrycode": "CN",
+        "display_name": "珠江新城, 华夏路, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Zhujiang+New+Town+Station+Guangzhou&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3158018,
+          23.1219814
+        ]
+      }
+    }
+  },
+  "catalog-p134": {
+    "query": "Caoqiao Station Beijing",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Caoqiao+Station+Beijing&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "草桥",
+        "osm_type": "node",
+        "osm_id": 9122347219,
+        "countrycode": "CN",
+        "display_name": "草桥, 镇国寺北路, 玉泉营街道, 丰台区, 北京市, 100069, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Caoqiao+Station+Beijing&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3454124,
+          39.8445995
+        ]
+      }
+    }
+  },
+  "doradoWaseda": {
+    "query": "Dorado Waseda Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Dorado+Waseda+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Waseda El Dorado",
+        "osm_type": "node",
+        "osm_id": 5455164161,
+        "countrycode": "JP",
+        "display_name": "Waseda El Dorado, 早大通り, 早稲田鶴巻町, 新宿区, 東京都, 162-0041, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Dorado+Waseda+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7220093,
+          35.7081576
+        ]
+      }
+    }
+  },
+  "tokyoSkytree": {
+    "query": "Tokyo Skytree Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tokyo+Skytree+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "東京スカイツリー",
+        "osm_type": "way",
+        "osm_id": 288269147,
+        "countrycode": "JP",
+        "display_name": "東京スカイツリー, 2, 押上一丁目, 押上, 墨田区, 東京都, 131-0045, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tokyo+Skytree+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8107141,
+          35.7100543
+        ]
+      }
+    }
+  },
+  "goldenGai": {
+    "query": "Golden Gai Shinjuku Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Golden+Gai+Shinjuku+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "新宿ゴールデン街",
+        "osm_type": "relation",
+        "osm_id": 16562139,
+        "countrycode": "JP",
+        "display_name": "新宿ゴールデン街, 歌舞伎町, 新宿区, 東京都, 160-0021, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Golden+Gai+Shinjuku+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7047001,
+          35.6939905
+        ]
+      }
+    }
+  },
+  "odaibaSeaside": {
+    "query": "お台場海浜公園",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E3%81%8A%E5%8F%B0%E5%A0%B4%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "お台場海浜公園",
+        "osm_type": "relation",
+        "osm_id": 13893938,
+        "countrycode": "JP",
+        "display_name": "お台場海浜公園, 港区, 東京都, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E3%81%8A%E5%8F%B0%E5%A0%B4%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7773535,
+          35.631084
+        ]
+      }
+    }
+  },
+  "kasaiRinkai": {
+    "query": "葛西臨海公園",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%91%9B%E8%A5%BF%E8%87%A8%E6%B5%B7%E5%85%AC%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "葛西臨海公園",
+        "osm_type": "way",
+        "osm_id": 689336469,
+        "countrycode": "JP",
+        "display_name": "葛西臨海公園, 江戸川区, 東京都, 134-8587, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%91%9B%E8%A5%BF%E8%87%A8%E6%B5%B7%E5%85%AC%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8594834,
+          35.6422106
+        ]
+      }
+    }
+  },
+  "dotonbori": {
+    "query": "戎橋 大阪",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%88%8E%E6%A9%8B+%E5%A4%A7%E9%98%AA&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "戎橋",
+        "osm_type": "way",
+        "osm_id": 267341529,
+        "countrycode": "JP",
+        "display_name": "戎橋, 宗右衛門町, 中央区, 大阪市, 大阪府, 542-0071, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%88%8E%E6%A9%8B+%E5%A4%A7%E9%98%AA&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5013046,
+          34.6690672
+        ]
+      }
+    }
+  },
+  "nigatsudo": {
+    "query": "二月堂 奈良",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%8C%E6%9C%88%E5%A0%82+%E5%A5%88%E8%89%AF&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "二月堂",
+        "osm_type": "way",
+        "osm_id": 354993353,
+        "countrycode": "JP",
+        "display_name": "二月堂, 登廊, 雑司町, 奈良市, 奈良県, 630-8211, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%8C%E6%9C%88%E5%A0%82+%E5%A5%88%E8%89%AF&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8442675,
+          34.6892745
+        ]
+      }
+    }
+  },
+  "kofuku": {
+    "query": "興福寺 奈良",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%88%88%E7%A6%8F%E5%AF%BA+%E5%A5%88%E8%89%AF&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "興福寺",
+        "osm_type": "way",
+        "osm_id": 1134439456,
+        "countrycode": "JP",
+        "display_name": "興福寺, 奈良市, 奈良県, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%88%88%E7%A6%8F%E5%AF%BA+%E5%A5%88%E8%89%AF&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8318653,
+          34.6829744
+        ]
+      }
+    }
+  },
+  "chacha": {
+    "query": "鎌倉茶々",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E9%8E%8C%E5%80%89%E8%8C%B6%E3%80%85&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "鎌倉茶々",
+        "osm_type": "node",
+        "osm_id": 6698252760,
+        "countrycode": "JP",
+        "display_name": "鎌倉茶々, 小町通り, 雪ノ下一丁目, 鎌倉市, 神奈川県, 248-8588, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E9%8E%8C%E5%80%89%E8%8C%B6%E3%80%85&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5530568,
+          35.3228236
+        ]
+      }
+    }
+  },
+  "omotesando": {
+    "query": "表参道 東京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%A1%A8%E5%8F%82%E9%81%93+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "表参道",
+        "osm_type": "way",
+        "osm_id": 1368012336,
+        "countrycode": "JP",
+        "display_name": "表参道, 神宮前五丁目, 神宮前, 渋谷区, 東京都, 150-0001, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%A1%A8%E5%8F%82%E9%81%93+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7079259,
+          35.6672683
+        ]
+      }
+    }
+  },
+  "hamarikyu": {
+    "query": "浜離宮恩賜庭園",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%9C%E9%9B%A2%E5%AE%AE%E6%81%A9%E8%B3%9C%E5%BA%AD%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "浜離宮恩賜庭園",
+        "osm_type": "way",
+        "osm_id": 7836744,
+        "countrycode": "JP",
+        "display_name": "浜離宮恩賜庭園, 中央区, 東京都, 104-0046, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%9C%E9%9B%A2%E5%AE%AE%E6%81%A9%E8%B3%9C%E5%BA%AD%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7638239,
+          35.660176
+        ]
+      }
+    }
+  },
+  "catalog-p34": {
+    "query": "近鉄奈良",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "近鉄奈良",
+        "osm_type": "node",
+        "osm_id": 7836257263,
+        "countrycode": "JP",
+        "display_name": "近鉄奈良, 行基広場, 東向中町, 奈良市, 奈良県, 630-8215, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%BF%91%E9%89%84%E5%A5%88%E8%89%AF&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8284062,
+          34.6840888
+        ]
+      }
+    }
+  },
+  "catalog-p55": {
+    "query": "京都駅",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%AC%E9%83%BD%E9%A7%85&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "京都",
+        "osm_type": "node",
+        "osm_id": 3340028686,
+        "countrycode": "JP",
+        "display_name": "京都, 901, 東塩小路町, 下京区, 京都市, 京都府, 600-8216, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%AC%E9%83%BD%E9%A7%85&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7576627,
+          34.9847375
+        ]
+      }
+    }
+  },
+  "catalog-p69": {
+    "query": "箱根吟遊",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%AE%B1%E6%A0%B9%E5%90%9F%E9%81%8A&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根吟遊",
+        "osm_type": "way",
+        "osm_id": 971490100,
+        "countrycode": "JP",
+        "display_name": "箱根吟遊, 宮ノ下, 箱根, 足柄下郡, 神奈川県, 250-0404, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%AE%B1%E6%A0%B9%E5%90%9F%E9%81%8A&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0627868,
+          35.2431728
+        ]
+      }
+    }
+  },
+  "catalog-p71": {
+    "query": "山のホテル 箱根",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%B1%B1%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB+%E7%AE%B1%E6%A0%B9&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根小田急山のホテル",
+        "osm_type": "node",
+        "osm_id": 2890062948,
+        "countrycode": "JP",
+        "display_name": "箱根小田急山のホテル, 神社通り, 元箱根, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%B1%B1%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB+%E7%AE%B1%E6%A0%B9&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0213291,
+          35.2048348
+        ]
+      }
+    }
+  },
+  "catalog-p89": {
+    "query": "GYRE 東京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=GYRE+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "gyre",
+        "osm_type": "way",
+        "osm_id": 139043792,
+        "countrycode": "JP",
+        "display_name": "gyre, 1, 神宮前五丁目, 神宮前, 渋谷区, 東京都, 150-0001, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=GYRE+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.706914,
+          35.6674051
+        ]
+      }
+    }
+  },
+  "catalog-p96": {
+    "query": "皇居",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%9A%87%E5%B1%85&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "皇居",
+        "osm_type": "way",
+        "osm_id": 534754971,
+        "countrycode": "JP",
+        "display_name": "皇居, 1, 千代田, 千代田区, 東京都, 100-0001, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%9A%87%E5%B1%85&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7506859,
+          35.6838467
+        ]
+      }
+    }
+  },
+  "catalog-p98": {
+    "query": "浅草文化観光センター",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%85%E8%8D%89%E6%96%87%E5%8C%96%E8%A6%B3%E5%85%89%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "浅草文化観光センター",
+        "osm_type": "way",
+        "osm_id": 166180253,
+        "countrycode": "JP",
+        "display_name": "浅草文化観光センター, 9, 雷門二丁目, 雷門, 台東区, 東京都, 111-0034, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%B5%85%E8%8D%89%E6%96%87%E5%8C%96%E8%A6%B3%E5%85%89%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7965189,
+          35.7106419
+        ]
+      }
+    }
+  },
+  "catalog-p111": {
+    "query": "東京都庁",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%BA%81&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "東京都庁",
+        "osm_type": "relation",
+        "osm_id": 11045959,
+        "countrycode": "JP",
+        "display_name": "東京都庁, 1, 西新宿二丁目, 西新宿, 新宿区, 東京都, 163-8001, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%BA%81&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6929973,
+          35.6897391
+        ]
+      }
+    }
+  },
+  "catalog-p112": {
+    "query": "キャロットタワー",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%83%E3%83%88%E3%82%BF%E3%83%AF%E3%83%BC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "キャロットタワー",
+        "osm_type": "way",
+        "osm_id": 170536026,
+        "countrycode": "JP",
+        "display_name": "キャロットタワー, 1, 太子堂四丁目, 太子堂, 世田谷区, 東京都, 154-0004, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%83%E3%83%88%E3%82%BF%E3%83%AF%E3%83%BC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6692197,
+          35.6437508
+        ]
+      }
+    }
+  },
+  "catalog-p114": {
+    "query": "角川武蔵野ミュージアム",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%A7%92%E5%B7%9D%E6%AD%A6%E8%94%B5%E9%87%8E%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "角川武蔵野ミュージアム",
+        "osm_type": "node",
+        "osm_id": 8728523663,
+        "countrycode": "JP",
+        "display_name": "角川武蔵野ミュージアム, 3, ところざわサクラタウン, 新郷, 志木市, 所沢市, 埼玉県, 359-0023, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%A7%92%E5%B7%9D%E6%AD%A6%E8%94%B5%E9%87%8E%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5078666,
+          35.797689
+        ]
+      }
+    }
+  },
+  "catalog-p136": {
+    "query": "大栅栏 北京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%A7%E6%A0%85%E6%A0%8F+%E5%8C%97%E4%BA%AC&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "大栅栏",
+        "osm_type": "node",
+        "osm_id": 4454758090,
+        "countrycode": "CN",
+        "display_name": "大栅栏, 大栅栏街, 大栅栏街道, 首都功能核心区, 西城区, 北京市, 100032, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%A7%E6%A0%85%E6%A0%8F+%E5%8C%97%E4%BA%AC&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.390172,
+          39.8944985
+        ]
+      }
+    }
+  },
+  "hijiribashi": {
+    "query": "聖橋 東京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%81%96%E6%A9%8B+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "聖橋",
+        "osm_type": "way",
+        "osm_id": 544730187,
+        "countrycode": "JP",
+        "display_name": "聖橋, 本郷通り, 湯島一丁目, 湯島, 文京区, 東京都, 113-0034, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%81%96%E6%A9%8B+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.765524,
+          35.699747
+        ]
+      }
+    }
+  },
+  "uenoPark": {
+    "query": "上野恩賜公園",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%B8%8A%E9%87%8E%E6%81%A9%E8%B3%9C%E5%85%AC%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "上野公園",
+        "osm_type": "relation",
+        "osm_id": 5413419,
+        "countrycode": "JP",
+        "display_name": "上野公園, 83, 台東区, 東京都, 110-0007, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%B8%8A%E9%87%8E%E6%81%A9%E8%B3%9C%E5%85%AC%E5%9C%92&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7739291,
+          35.7140191
+        ]
+      }
+    }
+  },
+  "sumidaAzumabashi": {
+    "query": "吾妻橋 東京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%90%BE%E5%A6%BB%E6%A9%8B+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "吾妻橋",
+        "osm_type": "way",
+        "osm_id": 554057521,
+        "countrycode": "JP",
+        "display_name": "吾妻橋, 雷門二丁目, 雷門, 吾妻橋, 台東区, 東京都, 111-0034, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%90%BE%E5%A6%BB%E6%A9%8B+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7989311,
+          35.7101071
+        ]
+      }
+    }
+  },
+  "ninenzaka": {
+    "query": "二年坂 京都",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%8C%E5%B9%B4%E5%9D%82+%E4%BA%AC%E9%83%BD&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "二寧坂",
+        "osm_type": "way",
+        "osm_id": 30913263,
+        "countrycode": "JP",
+        "display_name": "二寧坂, 桝屋町, 辰巳町, 東山区, 京都市, 京都府, 605-0826, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%BA%8C%E5%B9%B4%E5%9D%82+%E4%BA%AC%E9%83%BD&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7808398,
+          34.9984479
+        ]
+      }
+    }
+  },
+  "catalog-p39": {
+    "query": "産寧坂 京都",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%94%A3%E5%AF%A7%E5%9D%82+%E4%BA%AC%E9%83%BD&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "産寧坂",
+        "osm_type": "way",
+        "osm_id": 526198271,
+        "countrycode": "JP",
+        "display_name": "産寧坂, 清水三丁目, 辰巳町, 東山区, 京都市, 京都府, 605-0824, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E7%94%A3%E5%AF%A7%E5%9D%82+%E4%BA%AC%E9%83%BD&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7810621,
+          34.9975294
+        ]
+      }
+    }
+  },
+  "qianmen": {
+    "query": "前门大街 北京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%89%8D%E9%97%A8%E5%A4%A7%E8%A1%97+%E5%8C%97%E4%BA%AC&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "前门大街",
+        "osm_type": "way",
+        "osm_id": 9779112,
+        "countrycode": "CN",
+        "display_name": "前门大街, 大江社区, 前门街道, 首都功能核心区, 东城区, 北京市, 100010, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%89%8D%E9%97%A8%E5%A4%A7%E8%A1%97+%E5%8C%97%E4%BA%AC&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3919465,
+          39.8937104
+        ]
+      }
+    }
+  },
+  "catalog-p126": {
+    "query": "太古汇 广州",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%AA%E5%8F%A4%E6%B1%87+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "太古汇",
+        "osm_type": "way",
+        "osm_id": 240498647,
+        "countrycode": "CN",
+        "display_name": "太古汇, 383, 天河路, 林和街道, 天河区, 广州市, 广东省, 510620, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%AA%E5%8F%A4%E6%B1%87+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3271218,
+          23.1369196
+        ]
+      }
+    }
+  },
+  "on": {
+    "query": "天环广场 广州",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%A9%E7%8E%AF%E5%B9%BF%E5%9C%BA+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "Приблизительный центр комплекса Parc Central (天环广场), где указан магазин On; расположение магазина внутри комплекса и вход не проверены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "天环广场",
+        "osm_type": "way",
+        "osm_id": 295929689,
+        "countrycode": "CN",
+        "display_name": "天环广场, 218, 天河南街道, 天河区, 广州市, 广东省, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%A9%E7%8E%AF%E5%B9%BF%E5%9C%BA+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3192605,
+          23.1348182
+        ]
+      }
+    }
+  },
+  "spa9gz": {
+    "query": "中泰国际广场 广州",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%B8%AD%E6%B3%B0%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "Здание Zhongtai International Plaza, 161 Linhe West Road, по адресу No.9 Spa. Маркер здания; этаж, вход и посещение не подтверждены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "中泰国际广场",
+        "osm_type": "way",
+        "osm_id": 194405301,
+        "countrycode": "CN",
+        "display_name": "中泰国际广场, 林和西路, 林和街道, 天河区, 广州市, 广东省, 510500, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E4%B8%AD%E6%B3%B0%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3172118,
+          23.1522299
+        ]
+      }
+    }
+  },
+  "catalog-p94": {
+    "query": "KITTE 丸の内",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=KITTE+%E4%B8%B8%E3%81%AE%E5%86%85&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "Здание KITTE, не отдельная координата террасы на крыше. Вход и доступность не проверены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "KITTE",
+        "osm_type": "node",
+        "osm_id": 2214684270,
+        "countrycode": "JP",
+        "display_name": "KITTE, 2, 丸の内二丁目, 丸の内, 千代田区, 東京都, 100-0005, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=KITTE+%E4%B8%B8%E3%81%AE%E5%86%85&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7647819,
+          35.6798593
+        ]
+      }
+    }
+  },
+  "catalog-p125": {
+    "query": "广州万象城",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%B9%BF%E5%B7%9E%E4%B8%87%E8%B1%A1%E5%9F%8E&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "Приблизительная точка комплекса MixC Baietan; положение магазина On внутри здания не проверено.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "广州白鹅潭万象城",
+        "osm_type": "way",
+        "osm_id": 929573701,
+        "countrycode": "CN",
+        "display_name": "广州白鹅潭万象城, 花地街道, 荔湾区, 广州市, 广东省, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%B9%BF%E5%B7%9E%E4%B8%87%E8%B1%A1%E5%9F%8E&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2304031,
+          23.1053983
+        ]
+      }
+    }
+  },
+  "catalog-p127": {
+    "query": "天汇广场 广州",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%A9%E6%B1%87%E5%B9%BF%E5%9C%BA+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn",
+    "retrieved": "2026-11-21",
+    "precision": "Комплекс IGC; положение магазина On внутри здания не проверено.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "IGC 天汇广场",
+        "osm_type": "way",
+        "osm_id": 585942449,
+        "countrycode": "CN",
+        "display_name": "IGC 天汇广场, 猎德西浦大街, 猎德, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E5%A4%A9%E6%B1%87%E5%B9%BF%E5%9C%BA+%E5%B9%BF%E5%B7%9E&limit=3&addressdetails=1&countrycodes=cn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3264983,
+          23.1185
+        ]
+      }
+    }
+  },
+  "maido": {
+    "source": "https://maidowagyuyakiniku.owst.jp/map",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "まいど！和牛焼肉",
+        "sourceURL": "https://maidowagyuyakiniku.owst.jp/map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.500714,
+          34.6688454
+        ]
+      }
+    }
+  },
+  "fourpoints": {
+    "source": "https://www.marriott.com/en-us/hotels/osayu-four-points-flex-kyoto-oike/overview/",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Four Points Flex Kyoto Oike",
+        "sourceURL": "https://www.marriott.com/en-us/hotels/osayu-four-points-flex-kyoto-oike/overview/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.76313,
+          35.0114
+        ]
+      }
+    }
+  },
+  "tourist": {
+    "source": "https://www.tourist-hotel.com/akihabara/en/",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "THE TOURIST HOTEL & Cafe AKIHABARA",
+        "sourceURL": "https://www.tourist-hotel.com/akihabara/en/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7772657,
+          35.7008418
+        ]
+      }
+    }
+  },
+  "ninehours": {
+    "source": "https://www.navitime.co.jp/poi?spot=01140-RK177966",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "ナインアワーズ水道橋",
+        "sourceURL": "https://www.navitime.co.jp/poi?spot=01140-RK177966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.750949,
+          35.701709
+        ]
+      }
+    }
+  },
+  "syndicate": {
+    "source": "https://map.yahoo.co.jp/v3/place/i2gVsjKk14g",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "SYNdicate cafe",
+        "sourceURL": "https://map.yahoo.co.jp/v3/place/i2gVsjKk14g"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7042671456751,
+          35.67001528529044
+        ]
+      }
+    }
+  },
+  "catalog-p35": {
+    "source": "https://www.marriott.com/en-us/hotels/osayu-four-points-flex-kyoto-oike/overview/",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Four Points Flex Kyoto Oike",
+        "sourceURL": "https://www.marriott.com/en-us/hotels/osayu-four-points-flex-kyoto-oike/overview/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.76313,
+          35.0114
+        ]
+      }
+    },
+    "aliasOf": "fourpoints"
+  },
+  "catalog-p84": {
+    "source": "https://www.navitime.co.jp/poi?spot=01140-RK177966",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "ナインアワーズ水道橋",
+        "sourceURL": "https://www.navitime.co.jp/poi?spot=01140-RK177966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.750949,
+          35.701709
+        ]
+      }
+    },
+    "aliasOf": "ninehours"
+  },
+  "catalog-p85": {
+    "source": "https://www.tourist-hotel.com/akihabara/en/",
+    "retrieved": "2026-11-21",
+    "precision": "Координата объекта из опубликованной карты; вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "THE TOURIST HOTEL & Cafe AKIHABARA",
+        "sourceURL": "https://www.tourist-hotel.com/akihabara/en/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7772657,
+          35.7008418
+        ]
+      }
+    },
+    "aliasOf": "tourist"
+  },
+  "kandaHijiribashi": {
+    "query": "聖橋 東京",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%81%96%E6%A9%8B+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир — мост Hijiribashi; конкретная точка съёмки на берегу ещё не проверена.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "聖橋",
+        "osm_type": "way",
+        "osm_id": 544730187,
+        "countrycode": "JP",
+        "display_name": "聖橋, 本郷通り, 湯島一丁目, 湯島, 文京区, 東京都, 113-0034, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=%E8%81%96%E6%A9%8B+%E6%9D%B1%E4%BA%AC&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.765524,
+          35.699747
+        ]
+      }
+    },
+    "aliasOf": "hijiribashi"
+  },
+  "starbucksKyoto": {
+    "source": "https://www.google.com/maps/place/Starbucks+Coffee+-+Kyoto+Nineizaka+Yasaka+Chaya/@34.9983013,135.7808012,17z/data=!3m1!4b1!4m6!3m5!1s0x600108c576734771:0xe4825fbf3b1b9a79!8m2!3d34.9983013!4d135.7808012!16s%2Fg%2F11dftw3cwy?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Starbucks Coffee - Kyoto Nineizaka Yasaka Chaya",
+        "sourceURL": "https://www.google.com/maps/place/Starbucks+Coffee+-+Kyoto+Nineizaka+Yasaka+Chaya/@34.9983013,135.7808012,17z/data=!3m1!4b1!4m6!3m5!1s0x600108c576734771:0xe4825fbf3b1b9a79!8m2!3d34.9983013!4d135.7808012!16s%2Fg%2F11dftw3cwy?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7808012,
+          34.9983013
+        ]
+      }
+    }
+  },
+  "hama": {
+    "source": "https://www.google.com/maps/place/Hama+Sushi+-+Kinkaku-ji+Temple/@35.0353172,135.7318443,17z/data=!3m1!4b1!4m6!3m5!1s0x6001078b69f00001:0x266813d552543ea7!8m2!3d35.0353172!4d135.7318443!16s%2Fg%2F11c6vbllym?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hama Sushi - Kinkaku-ji Temple",
+        "sourceURL": "https://www.google.com/maps/place/Hama+Sushi+-+Kinkaku-ji+Temple/@35.0353172,135.7318443,17z/data=!3m1!4b1!4m6!3m5!1s0x6001078b69f00001:0x266813d552543ea7!8m2!3d35.0353172!4d135.7318443!16s%2Fg%2F11c6vbllym?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7318443,
+          35.0353172
+        ]
+      }
+    }
+  },
+  "robin": {
+    "source": "https://www.google.com/maps/place/Pontocho+Robin/@35.0076087,135.7711778,17z/data=!3m1!4b1!4m6!3m5!1s0x600108935490aae9:0x8bae98d86942480a!8m2!3d35.0076087!4d135.7711778!16s%2Fg%2F1tg4l8q1?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Pontocho Robin",
+        "sourceURL": "https://www.google.com/maps/place/Pontocho+Robin/@35.0076087,135.7711778,17z/data=!3m1!4b1!4m6!3m5!1s0x600108935490aae9:0x8bae98d86942480a!8m2!3d35.0076087!4d135.7711778!16s%2Fg%2F1tg4l8q1?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7711778,
+          35.0076087
+        ]
+      }
+    }
+  },
+  "ptj": {
+    "source": "https://www.google.com/maps/place/KAMAKURA+PTJ/@35.3217614,139.5524106,17z/data=!3m1!4b1!4m6!3m5!1s0x6018454257892f79:0xb2c5f946a21aa4d4!8m2!3d35.3217614!4d139.5524106!16s%2Fg%2F11r84fzth2?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "KAMAKURA PTJ",
+        "sourceURL": "https://www.google.com/maps/place/KAMAKURA+PTJ/@35.3217614,139.5524106,17z/data=!3m1!4b1!4m6!3m5!1s0x6018454257892f79:0xb2c5f946a21aa4d4!8m2!3d35.3217614!4d139.5524106!16s%2Fg%2F11r84fzth2?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5524106,
+          35.3217614
+        ]
+      }
+    }
+  },
+  "ruru": {
+    "source": "https://www.google.com/maps/place/RURU+SHIBUYA/@35.6559267,139.7026915,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b08307a126d:0xeea0c4ad0734899b!8m2!3d35.6559267!4d139.7026915!16s%2Fg%2F11y9d1fylx?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "RURU SHIBUYA",
+        "sourceURL": "https://www.google.com/maps/place/RURU+SHIBUYA/@35.6559267,139.7026915,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b08307a126d:0xeea0c4ad0734899b!8m2!3d35.6559267!4d139.7026915!16s%2Fg%2F11y9d1fylx?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7026915,
+          35.6559267
+        ]
+      }
+    }
+  },
+  "haixinsha": {
+    "source": "https://www.google.com/maps/place/Haixinsha+Asian+Games+Park,+Tianhe+District,+%D0%93%D1%83%D0%B0%D0%BD%D1%87%D0%B6%D0%BE%D1%83,+%D0%9A%D0%B8%D1%82%D0%B0%D0%B9,+510623/@23.1114399,113.3251899,17z/data=!3m1!4b1!4m6!3m5!1s0x3402ff72db71f277:0x6ee0996e58ca8238!8m2!3d23.1114573!4d113.3246734!16s%2Fg%2F11r8dgx4f9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход. Китай: расчётное преобразование координат Google GCJ-02 → WGS-84 для этой подложки; для навигации используйте китайское название в AMap.",
+    "originalCoordinates": [
+      113.3246734,
+      23.1114573
+    ],
+    "originalCoordinateSystem": "GCJ-02",
+    "coordinateSystem": "WGS-84",
+    "conversion": "approximate inverse GCJ-02",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Haixinsha Asian Games Park",
+        "sourceURL": "https://www.google.com/maps/place/Haixinsha+Asian+Games+Park,+Tianhe+District,+%D0%93%D1%83%D0%B0%D0%BD%D1%87%D0%B6%D0%BE%D1%83,+%D0%9A%D0%B8%D1%82%D0%B0%D0%B9,+510623/@23.1114399,113.3251899,17z/data=!3m1!4b1!4m6!3m5!1s0x3402ff72db71f277:0x6ee0996e58ca8238!8m2!3d23.1114573!4d113.3246734!16s%2Fg%2F11r8dgx4f9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.31925149699092,
+          23.11405676610635
+        ]
+      }
+    }
+  },
+  "catalog-p17": {
+    "source": "https://www.google.com/maps/place/%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF%E5%B0%82%E9%96%80%E5%BA%97+NOW+CURRENCY+EXCHANGE+OSAKA+SENNICHIMAE/@34.6677769,135.5030403,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7f6b0c5c95d:0x83bd1e454a86d6c1!8m2!3d34.6677769!4d135.5030403!16s%2Fg%2F11xg059v5_?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "外貨両替専門店 NOW CURRENCY EXCHANGE OSAKA SENNICHIMAE",
+        "sourceURL": "https://www.google.com/maps/place/%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF%E5%B0%82%E9%96%80%E5%BA%97+NOW+CURRENCY+EXCHANGE+OSAKA+SENNICHIMAE/@34.6677769,135.5030403,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7f6b0c5c95d:0x83bd1e454a86d6c1!8m2!3d34.6677769!4d135.5030403!16s%2Fg%2F11xg059v5_?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5030403,
+          34.6677769
+        ]
+      }
+    }
+  },
+  "catalog-p22": {
+    "source": "https://www.google.com/maps/place/Namba+Station/@34.6629331,135.5022953,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e76b8b59d3a5:0x7c1d92d9caaac227!8m2!3d34.6629331!4d135.5022953!16zL20vMDJsYnBf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Namba Station",
+        "sourceURL": "https://www.google.com/maps/place/Namba+Station/@34.6629331,135.5022953,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e76b8b59d3a5:0x7c1d92d9caaac227!8m2!3d34.6629331!4d135.5022953!16zL20vMDJsYnBf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5022953,
+          34.6629331
+        ]
+      }
+    }
+  },
+  "catalog-p33": {
+    "source": "https://www.google.com/maps/place/Naramachi,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6753307,135.8339237,15z/data=!3m1!4b1!4m6!3m5!1s0x6001398b67286423:0x88706ba287ff3ec9!8m2!3d34.676001!4d135.8348337!16s%2Fg%2F11j5s4hz_k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Naramachi",
+        "sourceURL": "https://www.google.com/maps/place/Naramachi,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6753307,135.8339237,15z/data=!3m1!4b1!4m6!3m5!1s0x6001398b67286423:0x88706ba287ff3ec9!8m2!3d34.676001!4d135.8348337!16s%2Fg%2F11j5s4hz_k?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8348337,
+          34.676001
+        ]
+      }
+    }
+  },
+  "catalog-p52": {
+    "source": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Gion+Store/@35.0025885,135.7727139,17z/data=!3m1!4b1!4m6!3m5!1s0x60010993daa685cb:0xd1b30c29c2b470f0!8m2!3d35.0025885!4d135.7727139!16s%2Fg%2F11nj9ffk8l?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "HASHI LAB Kyoto Gion Store",
+        "sourceURL": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Gion+Store/@35.0025885,135.7727139,17z/data=!3m1!4b1!4m6!3m5!1s0x60010993daa685cb:0xd1b30c29c2b470f0!8m2!3d35.0025885!4d135.7727139!16s%2Fg%2F11nj9ffk8l?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7727139,
+          35.0025885
+        ]
+      }
+    }
+  },
+  "catalog-p54": {
+    "source": "https://www.google.com/maps/place/Ticket+Shop+Tokai+Shijo+Kawaramachi/@35.0036238,135.7674101,17z/data=!3m1!4b1!4m6!3m5!1s0x6001097c7072654b:0xed711074292a0d3a!8m2!3d35.0036238!4d135.7674101!16s%2Fg%2F1tglmt28?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ticket Shop Tokai Shijo Kawaramachi",
+        "sourceURL": "https://www.google.com/maps/place/Ticket+Shop+Tokai+Shijo+Kawaramachi/@35.0036238,135.7674101,17z/data=!3m1!4b1!4m6!3m5!1s0x6001097c7072654b:0xed711074292a0d3a!8m2!3d35.0036238!4d135.7674101!16s%2Fg%2F1tglmt28?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7674101,
+          35.0036238
+        ]
+      }
+    }
+  },
+  "catalog-p67": {
+    "source": "https://www.google.com/maps/place/Gora+Hanaougi/@35.2460468,139.0367835,17z/data=!3m1!5s0x60199f5487f46ad7:0xb0d43b4ec74059f1!4m9!3m8!1s0x60199f5487964841:0x9d0706551313eb22!5m2!4m1!1i2!8m2!3d35.2460468!4d139.0367835!16s%2Fg%2F1w0h_nxc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Gora Hanaougi",
+        "sourceURL": "https://www.google.com/maps/place/Gora+Hanaougi/@35.2460468,139.0367835,17z/data=!3m1!5s0x60199f5487f46ad7:0xb0d43b4ec74059f1!4m9!3m8!1s0x60199f5487964841:0x9d0706551313eb22!5m2!4m1!1i2!8m2!3d35.2460468!4d139.0367835!16s%2Fg%2F1w0h_nxc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0367835,
+          35.2460468
+        ]
+      }
+    }
+  },
+  "catalog-p68": {
+    "source": "https://www.google.com/maps/place/Hakone+Kowakien+Ten-yu/@35.238667,139.04422,17z/data=!3m1!5s0x6019a2063763e7ab:0xcd5470f6865558b2!4m9!3m8!1s0x6019a20630b0f085:0x958d4d0a9819625b!5m2!4m1!1i2!8m2!3d35.238667!4d139.04422!16s%2Fg%2F11cmylhj3h?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hakone Kowakien Ten-yu",
+        "sourceURL": "https://www.google.com/maps/place/Hakone+Kowakien+Ten-yu/@35.238667,139.04422,17z/data=!3m1!5s0x6019a2063763e7ab:0xcd5470f6865558b2!4m9!3m8!1s0x6019a20630b0f085:0x958d4d0a9819625b!5m2!4m1!1i2!8m2!3d35.238667!4d139.04422!16s%2Fg%2F11cmylhj3h?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04422,
+          35.238667
+        ]
+      }
+    }
+  },
+  "catalog-p73": {
+    "source": "https://www.google.com/maps/place/Hakone+Gora+Karaku/@35.2500553,139.0496319,17z/data=!4m9!3m8!1s0x6019a1fb407b6123:0x201cfbfe3b904c7!5m2!4m1!1i2!8m2!3d35.2500553!4d139.0496319!16s%2Fg%2F11fqk7ymcj?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hakone Gora Karaku",
+        "sourceURL": "https://www.google.com/maps/place/Hakone+Gora+Karaku/@35.2500553,139.0496319,17z/data=!4m9!3m8!1s0x6019a1fb407b6123:0x201cfbfe3b904c7!5m2!4m1!1i2!8m2!3d35.2500553!4d139.0496319!16s%2Fg%2F11fqk7ymcj?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0496319,
+          35.2500553
+        ]
+      }
+    }
+  },
+  "catalog-p90": {
+    "source": "https://www.google.com/maps/place/Maison+Herm%C3%A8s+Le+Forum/@35.6719693,139.7633669,17z/data=!3m1!4b1!4m6!3m5!1s0x60188be5ee78a87f:0xddb7bfc606c53aaa!8m2!3d35.6719693!4d139.7633669!16s%2Fm%2F0hn9w98?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Maison Hermès Le Forum",
+        "sourceURL": "https://www.google.com/maps/place/Maison+Herm%C3%A8s+Le+Forum/@35.6719693,139.7633669,17z/data=!3m1!4b1!4m6!3m5!1s0x60188be5ee78a87f:0xddb7bfc606c53aaa!8m2!3d35.6719693!4d139.7633669!16s%2Fm%2F0hn9w98?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7633669,
+          35.6719693
+        ]
+      }
+    }
+  },
+  "catalog-p103": {
+    "source": "https://www.google.com/maps/place/Hekkelun/@35.6678648,139.752172,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b9335f1bfa9:0xfc09ad2bd1f472c7!8m2!3d35.6678648!4d139.752172!16s%2Fg%2F1tgh2zmg?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hekkelun",
+        "sourceURL": "https://www.google.com/maps/place/Hekkelun/@35.6678648,139.752172,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b9335f1bfa9:0xfc09ad2bd1f472c7!8m2!3d35.6678648!4d139.752172!16s%2Fg%2F1tgh2zmg?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.752172,
+          35.6678648
+        ]
+      }
+    }
+  },
+  "catalog-p105": {
+    "source": "https://www.google.com/maps/place/AMAM+DACOTAN/@35.6645406,139.7110558,17z/data=!3m1!4b1!4m6!3m5!1s0x60188d3adfee4ea5:0x65cf5b0328cba22!8m2!3d35.6645406!4d139.7110558!16s%2Fg%2F11rxwcp7pn?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "AMAM DACOTAN",
+        "sourceURL": "https://www.google.com/maps/place/AMAM+DACOTAN/@35.6645406,139.7110558,17z/data=!3m1!4b1!4m6!3m5!1s0x60188d3adfee4ea5:0x65cf5b0328cba22!8m2!3d35.6645406!4d139.7110558!16s%2Fg%2F11rxwcp7pn?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7110558,
+          35.6645406
+        ]
+      }
+    }
+  },
+  "catalog-p106": {
+    "source": "https://www.google.com/maps/place/WAGYU+BURGER+HIROKIYA/@35.6617079,139.7354079,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b007edb842f:0x31e1671cbb646c03!8m2!3d35.6617079!4d139.7354079!16s%2Fg%2F11ydc8yrqh?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "WAGYU BURGER HIROKIYA",
+        "sourceURL": "https://www.google.com/maps/place/WAGYU+BURGER+HIROKIYA/@35.6617079,139.7354079,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b007edb842f:0x31e1671cbb646c03!8m2!3d35.6617079!4d139.7354079!16s%2Fg%2F11ydc8yrqh?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7354079,
+          35.6617079
+        ]
+      }
+    }
+  },
+  "udonShimbori": {
+    "source": "https://www.google.com/maps/place/Udonya+Shimbori/@35.6840397,139.7035625,17z/data=!3m1!4b1!4m6!3m5!1s0x60188da16339cd91:0x7edccb3922583ac9!8m2!3d35.6840397!4d139.7035625!16s%2Fg%2F11jn4zzcwz?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Udonya Shimbori",
+        "sourceURL": "https://www.google.com/maps/place/Udonya+Shimbori/@35.6840397,139.7035625,17z/data=!3m1!4b1!4m6!3m5!1s0x60188da16339cd91:0x7edccb3922583ac9!8m2!3d35.6840397!4d139.7035625!16s%2Fg%2F11jn4zzcwz?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7035625,
+          35.6840397
+        ]
+      }
+    }
+  },
+  "hanedaTorii": {
+    "source": "https://www.google.com/maps/place/Haneda+Peace+Torii/@35.5465939,139.7523997,17z/data=!3m1!4b1!4m6!3m5!1s0x60186138a78e5c07:0x7eabfcafe0162875!8m2!3d35.5465939!4d139.7523997!16s%2Fg%2F11cn8t2wq9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Haneda Peace Torii",
+        "sourceURL": "https://www.google.com/maps/place/Haneda+Peace+Torii/@35.5465939,139.7523997,17z/data=!3m1!4b1!4m6!3m5!1s0x60186138a78e5c07:0x7eabfcafe0162875!8m2!3d35.5465939!4d139.7523997!16s%2Fg%2F11cn8t2wq9?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7523997,
+          35.5465939
+        ]
+      }
+    }
+  },
+  "issekiSancho": {
+    "source": "https://www.google.com/maps/place/Wagyu+Ryori+Isseki-Sanchou+(Sohonten)/@35.663511,139.7573552,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bd0e0d5adb1:0x58319a8350b33946!8m2!3d35.663511!4d139.7573552!16s%2Fg%2F11ygrzv1n3?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Wagyu Ryori Isseki-Sanchou (Sohonten)",
+        "sourceURL": "https://www.google.com/maps/place/Wagyu+Ryori+Isseki-Sanchou+(Sohonten)/@35.663511,139.7573552,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bd0e0d5adb1:0x58319a8350b33946!8m2!3d35.663511!4d139.7573552!16s%2Fg%2F11ygrzv1n3?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7573552,
+          35.663511
+        ]
+      }
+    }
+  },
+  "catalog-p91": {
+    "source": "https://www.google.com/maps/place/Ichig%C5%8Dkan+Square/@35.6785731,139.7630256,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b2422899a2b:0x2d518faae6273a86!8m2!3d35.6785731!4d139.7630256!16s%2Fg%2F11mtjstjpx?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ichigōkan Square",
+        "sourceURL": "https://www.google.com/maps/place/Ichig%C5%8Dkan+Square/@35.6785731,139.7630256,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b2422899a2b:0x2d518faae6273a86!8m2!3d35.6785731!4d139.7630256!16s%2Fg%2F11mtjstjpx?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7630256,
+          35.6785731
+        ]
+      }
+    }
+  },
+  "catalog-p118": {
+    "source": "https://www.google.com/maps/place/Terminal+3,+2-ch%C5%8Dme-6-5+Hanedak%C5%ABk%C5%8D,+Ota+City,+Tokyo+144-0041,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5454613,139.7687222,17z/data=!3m1!4b1!4m6!3m5!1s0x601861543aa93813:0x72022ae3c2d4eddf!8m2!3d35.5454613!4d139.7687222!16s%2Fg%2F11zjpgmwqf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal 3",
+        "sourceURL": "https://www.google.com/maps/place/Terminal+3,+2-ch%C5%8Dme-6-5+Hanedak%C5%ABk%C5%8D,+Ota+City,+Tokyo+144-0041,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5454613,139.7687222,17z/data=!3m1!4b1!4m6!3m5!1s0x601861543aa93813:0x72022ae3c2d4eddf!8m2!3d35.5454613!4d139.7687222!16s%2Fg%2F11zjpgmwqf?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7687222,
+          35.5454613
+        ]
+      }
+    }
+  },
+  "catalog-p5": {
+    "source": "https://www.google.com/maps/place/Namba,+Chuo+Ward,+%D0%9E%D1%81%D0%B0%D0%BA%D0%B0,+542-0076,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6656121,135.5000923,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e76cc9c97339:0x538e516129f4166a!8m2!3d34.6657531!4d135.5010362!16zL20vMDIzcmts?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Namba",
+        "sourceURL": "https://www.google.com/maps/place/Namba,+Chuo+Ward,+%D0%9E%D1%81%D0%B0%D0%BA%D0%B0,+542-0076,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6656121,135.5000923,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e76cc9c97339:0x538e516129f4166a!8m2!3d34.6657531!4d135.5010362!16zL20vMDIzcmts?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5010362,
+          34.6657531
+        ]
+      }
+    }
+  },
+  "catalog-p140": {
+    "source": "https://www.google.com/maps/place/Temple+Of+Heaven+Hot+Spring+Kanglecheng/@39.8737387,116.409097,17z/data=!3m1!4b1!4m6!3m5!1s0x35f04d4f36054e05:0x6cfda55ca21f25f2!8m2!3d39.8737387!4d116.409097!16s%2Fg%2F1tfwn383?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход. Китай: расчётное преобразование координат Google GCJ-02 → WGS-84 для этой подложки; для навигации используйте китайское название в AMap.",
+    "originalCoordinates": [
+      116.409097,
+      39.8737387
+    ],
+    "originalCoordinateSystem": "GCJ-02",
+    "coordinateSystem": "WGS-84",
+    "conversion": "approximate inverse GCJ-02",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Temple Of Heaven Hot Spring Kanglecheng",
+        "sourceURL": "https://www.google.com/maps/place/Temple+Of+Heaven+Hot+Spring+Kanglecheng/@39.8737387,116.409097,17z/data=!3m1!4b1!4m6!3m5!1s0x35f04d4f36054e05:0x6cfda55ca21f25f2!8m2!3d39.8737387!4d116.409097!16s%2Fg%2F1tfwn383?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.40285930285383,
+          39.87233722945295
+        ]
+      }
+    }
+  },
+  "kamaman": {
+    "source": "https://www.google.com/maps/place/%E9%8E%8C%E4%B8%87%E6%B0%B4%E7%94%A3/data=!4m7!3m6!1s0x601845c2f8282317:0x50f8fa857cf9835f!8m2!3d35.316573!4d139.550278!16s%2Fg%2F1vg4jr_1!19sChIJFyMo-MJFGGARX4P5fIX6-FA?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "鎌万水産",
+        "sourceURL": "https://www.google.com/maps/place/%E9%8E%8C%E4%B8%87%E6%B0%B4%E7%94%A3/data=!4m7!3m6!1s0x601845c2f8282317:0x50f8fa857cf9835f!8m2!3d35.316573!4d139.550278!16s%2Fg%2F1vg4jr_1!19sChIJFyMo-MJFGGARX4P5fIX6-FA?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.550278,
+          35.316573
+        ]
+      }
+    }
+  },
+  "catalog-p18": {
+    "source": "https://www.google.com/maps/place/%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF%E5%B0%82%E9%96%80%E5%BA%97+NOW+CURRENCY+EXCHANGE+OSAKA+NAMBA/data=!4m7!3m6!1s0x6000e71c62b8e441:0x5acc7cf9a301e5a7!8m2!3d34.6653928!4d135.504211!16s%2Fg%2F11yzb6p7nd!19sChIJQeS4YhznAGARp-UBo_l8zFo?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "外貨両替専門店 NOW CURRENCY EXCHANGE OSAKA NAMBA",
+        "sourceURL": "https://www.google.com/maps/place/%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF%E5%B0%82%E9%96%80%E5%BA%97+NOW+CURRENCY+EXCHANGE+OSAKA+NAMBA/data=!4m7!3m6!1s0x6000e71c62b8e441:0x5acc7cf9a301e5a7!8m2!3d34.6653928!4d135.504211!16s%2Fg%2F11yzb6p7nd!19sChIJQeS4YhznAGARp-UBo_l8zFo?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504211,
+          34.6653928
+        ]
+      }
+    }
+  },
+  "catalog-p74": {
+    "source": "https://www.google.com/maps/place/Odawara+Station/data=!4m7!3m6!1s0x6019a456371660b9:0xec7648d666eafdcd!8m2!3d35.2564449!4d139.1553932!16zL20vMDM2eGZx!19sChIJuWAWN1akGWARzf3qZtZIduw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Odawara Station",
+        "sourceURL": "https://www.google.com/maps/place/Odawara+Station/data=!4m7!3m6!1s0x6019a456371660b9:0xec7648d666eafdcd!8m2!3d35.2564449!4d139.1553932!16zL20vMDM2eGZx!19sChIJuWAWN1akGWARzf3qZtZIduw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1553932,
+          35.2564449
+        ]
+      }
+    }
+  },
+  "catalog-p115": {
+    "source": "https://www.google.com/maps/place/Akihabara+Money+Exchange%28Currency+Exchange%29+%E7%A7%8B%E8%91%89%E5%8E%9F%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF+%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8/data=!4m7!3m6!1s0x60188d049ca8cb01:0x2cd5b4bbe00eecd3!8m2!3d35.7007396!4d139.7718819!16s%2Fg%2F11z381qqsk!19sChIJAcuonASNGGAR0-wO4Lu01Sw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Akihabara Money Exchange(Currency Exchange) 秋葉原外貨両替 マネーエクスチェンジ",
+        "sourceURL": "https://www.google.com/maps/place/Akihabara+Money+Exchange%28Currency+Exchange%29+%E7%A7%8B%E8%91%89%E5%8E%9F%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF+%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8/data=!4m7!3m6!1s0x60188d049ca8cb01:0x2cd5b4bbe00eecd3!8m2!3d35.7007396!4d139.7718819!16s%2Fg%2F11z381qqsk!19sChIJAcuonASNGGAR0-wO4Lu01Sw?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7718819,
+          35.7007396
+        ]
+      }
+    }
+  },
+  "daikichi": {
+    "source": "https://www.google.com/maps/place/Gion+Daikichi+Farm/data=!4m7!3m6!1s0x60010929b9e7865b:0x8786982b8d648e39!8m2!3d35.0029163!4d135.7772512!16s%2Fg%2F11ypkxk3cr!19sChIJW4bnuSkJAWAROY5kjSuYhoc?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Gion Daikichi Farm",
+        "sourceURL": "https://www.google.com/maps/place/Gion+Daikichi+Farm/data=!4m7!3m6!1s0x60010929b9e7865b:0x8786982b8d648e39!8m2!3d35.0029163!4d135.7772512!16s%2Fg%2F11ypkxk3cr!19sChIJW4bnuSkJAWAROY5kjSuYhoc?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7772512,
+          35.0029163
+        ]
+      }
+    }
+  },
+  "seeen": {
+    "source": "https://www.google.com/maps/place/seeen+Harajuku/data=!4m7!3m6!1s0x60188d005278ac1d:0x5b077a2e538f96df!8m2!3d35.6676044!4d139.7063407!16s%2Fg%2F11zfrxr0r8!19sChIJHax4UgCNGGAR35aPUy56B1s?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "seeen Harajuku",
+        "sourceURL": "https://www.google.com/maps/place/seeen+Harajuku/data=!4m7!3m6!1s0x60188d005278ac1d:0x5b077a2e538f96df!8m2!3d35.6676044!4d139.7063407!16s%2Fg%2F11zfrxr0r8!19sChIJHax4UgCNGGAR35aPUy56B1s?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7063407,
+          35.6676044
+        ]
+      }
+    }
+  },
+  "meggendorfer": {
+    "source": "https://www.google.com/maps/place/Meggendorfer/data=!3d35.3146081!4d139.5489504",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: объект сопоставлен по названию и городу; маркер объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Meggendorfer",
+        "sourceURL": "https://www.google.com/maps/place/Meggendorfer/data=!3d35.3146081!4d139.5489504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5489504,
+          35.3146081
+        ]
+      }
+    }
+  },
+  "ocean": {
+    "source": "https://www.google.com/maps/place/%E6%98%9F%E6%B1%87%E5%9B%BD%E9%99%85/data=!4m7!3m6!1s0x3402ff0ff815f143:0x592d8aea07b04f62!8m2!3d23.1238165!4d113.3234831!16s%2Fg%2F11b6vf3bgv!19sChIJQ_EV-A__AjQRYk-wB-qKLVk?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Google Maps: здание 星汇国际 по исходному адресу. Конкретное заведение и вход внутри здания не проверены. Китай: расчётное преобразование координат Google GCJ-02 → WGS-84 для этой подложки; для навигации используйте китайское название в AMap.",
+    "originalCoordinates": [
+      113.3234831,
+      23.1238165
+    ],
+    "originalCoordinateSystem": "GCJ-02",
+    "coordinateSystem": "WGS-84",
+    "conversion": "approximate inverse GCJ-02",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "星汇国际",
+        "sourceURL": "https://www.google.com/maps/place/%E6%98%9F%E6%B1%87%E5%9B%BD%E9%99%85/data=!4m7!3m6!1s0x3402ff0ff815f143:0x592d8aea07b04f62!8m2!3d23.1238165!4d113.3234831!16s%2Fg%2F11b6vf3bgv!19sChIJQ_EV-A__AjQRYk-wB-qKLVk?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.31806280706624,
+          23.126413193793766
+        ]
+      }
+    }
+  },
+  "shuiku": {
+    "source": "https://www.google.com/maps/place/9+Guang+Qu+Men+Wai+Da+Jie,+Chao+Yang+Qu,+Bei+Jing+Shi,+%D0%9A%D0%B8%D1%82%D0%B0%D0%B9,+100021/@39.89413,116.45609,17z/data=!3m1!4b1!4m6!3m5!1s0x35f1ad72969ce347:0xc5548e1770685586!8m2!3d39.89413!4d116.45609!16s%2Fg%2F11f9_jkj5m?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Адресный ориентир: дом 9 Guangqumen Outer Street, по адресу SPA на Ctrip https://you.ctrip.com/sight/beijing1/139042174.html. Координата дома, не проверенный вход SPA. Китай: расчётное преобразование координат Google GCJ-02 → WGS-84 для этой подложки; для навигации используйте китайское название в AMap.",
+    "originalCoordinates": [
+      116.45609,
+      39.89413
+    ],
+    "originalCoordinateSystem": "GCJ-02",
+    "coordinateSystem": "WGS-84",
+    "conversion": "approximate inverse GCJ-02",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "9 Guang Qu Men Wai Da Jie",
+        "sourceURL": "https://www.google.com/maps/place/9+Guang+Qu+Men+Wai+Da+Jie,+Chao+Yang+Qu,+Bei+Jing+Shi,+%D0%9A%D0%B8%D1%82%D0%B0%D0%B9,+100021/@39.89413,116.45609,17z/data=!3m1!4b1!4m6!3m5!1s0x35f1ad72969ce347:0xc5548e1770685586!8m2!3d39.89413!4d116.45609!16s%2Fg%2F11f9_jkj5m?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.44993109679932,
+          39.89278911680967
+        ]
+      }
+    }
+  },
+  "catalog-p138": {
+    "source": "https://www.google.com/maps/place/17+Ri+Tan+Bei+Lu,+Chao+Yang+Qu,+Bei+Jing+Shi,+%D0%9A%D0%B8%D1%82%D0%B0%D0%B9,+100010/@39.91792,116.44277,17z/data=!3m1!4b1!4m6!3m5!1s0x35f1ad20010662cf:0x425be801e2826465!8m2!3d39.91792!4d116.44277!16s%2Fg%2F11r8fkcrn1?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Адресный ориентир: 17 Ritan North Road, по адресу SPA на Ctrip https://you.ctrip.com/sight/beijing1/136246299.html. Точка дома; фактический вход и текущее название SPA не проверены. Китай: расчётное преобразование координат Google GCJ-02 → WGS-84 для этой подложки; для навигации используйте китайское название в AMap.",
+    "originalCoordinates": [
+      116.44277,
+      39.91792
+    ],
+    "originalCoordinateSystem": "GCJ-02",
+    "coordinateSystem": "WGS-84",
+    "conversion": "approximate inverse GCJ-02",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "17 Ri Tan Bei Lu",
+        "sourceURL": "https://www.google.com/maps/place/17+Ri+Tan+Bei+Lu,+Chao+Yang+Qu,+Bei+Jing+Shi,+%D0%9A%D0%B8%D1%82%D0%B0%D0%B9,+100010/@39.91792,116.44277,17z/data=!3m1!4b1!4m6!3m5!1s0x35f1ad20010662cf:0x425be801e2826465!8m2!3d39.91792!4d116.44277!16s%2Fg%2F11r8fkcrn1?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.43657343781581,
+          39.9165514169794
+        ]
+      }
+    }
+  },
+  "catalog-p53": {
+    "source": "https://www.google.com/maps/place/%E3%80%92604-8142+Kyoto,+Nakagyo+Ward,+Nishiuoyach%C5%8D,+593/data=!4m7!3m6!1s0x60010890beac5a99:0x45fd86cd2bf5141f!8m2!3d35.0049063!4d135.7625129!16s%2Fg%2F11ggzl9jbg!19sChIJmVqsvpAIAWARHxT1K82G_UU?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Адрес из справочника Kyoto City International Foundation: https://www.kcif.or.jp/web/assets/pdf/en_guide.pdf. Точка адреса 593 Nishiuoyacho; наличие обменника Reforte на дату поездки не подтверждено.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "593 Nishiuoyacho",
+        "sourceURL": "https://www.google.com/maps/place/%E3%80%92604-8142+Kyoto,+Nakagyo+Ward,+Nishiuoyach%C5%8D,+593/data=!4m7!3m6!1s0x60010890beac5a99:0x45fd86cd2bf5141f!8m2!3d35.0049063!4d135.7625129!16s%2Fg%2F11ggzl9jbg!19sChIJmVqsvpAIAWARHxT1K82G_UU?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7625129,
+          35.0049063
+        ]
+      }
+    }
+  },
+  "catalog-p46": {
+    "source": "https://www.google.com/maps/place/Sanj%C5%8D+%C5%8Chashi+Bridge/@35.0090538,135.7718123,17z/data=!3m1!4b1!4m6!3m5!1s0x6001096cfbc3dd9f:0x488f4b0281738fa1!8m2!3d35.0090538!4d135.7718123!16s%2Fm%2F02vz5rb?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир для прогулки вдоль Kamo River — мост Sanjo, как в исходной пользовательской Google-карте. Река протяжённая, это не вся прогулочная зона.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanjō Ōhashi Bridge",
+        "sourceURL": "https://www.google.com/maps/place/Sanj%C5%8D+%C5%8Chashi+Bridge/@35.0090538,135.7718123,17z/data=!3m1!4b1!4m6!3m5!1s0x6001096cfbc3dd9f:0x488f4b0281738fa1!8m2!3d35.0090538!4d135.7718123!16s%2Fm%2F02vz5rb?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7718123,
+          35.0090538
+        ]
+      }
+    }
+  },
+  "shibauraLoop": {
+    "source": "https://www.google.com/maps/place/Shibaura+Sound+Studio/@35.6382713,139.753828,17z/data=!3m1!4b1!4m6!3m5!1s0x60188a364728bdd7:0x959448a63f84b957!8m2!3d35.6382713!4d139.753828!16s%2Fg%2F1td_h71r?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир из пользовательского списка — Shibaura Sound Studio, Kaigan 3-9-18. Конкретное безопасное место съёмки петли моста не проверено.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Shibaura Sound Studio",
+        "sourceURL": "https://www.google.com/maps/place/Shibaura+Sound+Studio/@35.6382713,139.753828,17z/data=!3m1!4b1!4m6!3m5!1s0x60188a364728bdd7:0x959448a63f84b957!8m2!3d35.6382713!4d139.753828!16s%2Fg%2F1td_h71r?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.753828,
+          35.6382713
+        ]
+      }
+    }
+  },
+  "catalog-p62": {
+    "source": "https://www.google.com/maps/place/Togendai+Station/data=!4m7!3m6!1s0x60199eda4a62bdd5:0x2747c3a241494898!8m2!3d35.2378798!4d138.9945712!16s%2Fg%2F1tgkhbl1!19sChIJ1b1iStqeGWARmEhJQaLDRyc?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир канатной дороги Hakone Ropeway — её станция Togendai. Место посадки и направление поездки не зафиксированы.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Togendai Station",
+        "sourceURL": "https://www.google.com/maps/place/Togendai+Station/data=!4m7!3m6!1s0x60199eda4a62bdd5:0x2747c3a241494898!8m2!3d35.2378798!4d138.9945712!16s%2Fg%2F1tgkhbl1!19sChIJ1b1iStqeGWARmEhJQaLDRyc?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9945712,
+          35.2378798
+        ]
+      }
+    }
+  },
+  "catalog-p80": {
+    "source": "https://www.google.com/maps/place/Hase+Station/@35.3113157,139.5358751,17z/data=!3m1!4b1!4m6!3m5!1s0x601845f1aec387b5:0x808fc2bbe9294ff8!8m2!3d35.3113157!4d139.5358751!16s%2Fm%2F02vnkqc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир линии Enoden — станция Hase из согласованной прогулки по Камакуре; это не вся железнодорожная линия.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hase Station",
+        "sourceURL": "https://www.google.com/maps/place/Hase+Station/@35.3113157,139.5358751,17z/data=!3m1!4b1!4m6!3m5!1s0x601845f1aec387b5:0x808fc2bbe9294ff8!8m2!3d35.3113157!4d139.5358751!16s%2Fm%2F02vnkqc?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5358751,
+          35.3113157
+        ]
+      }
+    }
+  },
+  "catalog-p56": {
+    "source": "https://www.google.com/maps/place/Kyoto-Kawaramachi+Station/@35.0037565,135.7687486,17z/data=!3m1!4b1!4m6!3m5!1s0x600108950a8a52b7:0x89290d24dec5be13!8m2!3d35.0037565!4d135.7687486!16zL20vMDFsdG1i?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир для Kyo-Train Garaku — станция Kyoto-Kawaramachi. Работа поезда в нужный день и платформа не подтверждены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Kyoto-Kawaramachi Station",
+        "sourceURL": "https://www.google.com/maps/place/Kyoto-Kawaramachi+Station/@35.0037565,135.7687486,17z/data=!3m1!4b1!4m6!3m5!1s0x600108950a8a52b7:0x89290d24dec5be13!8m2!3d35.0037565!4d135.7687486!16zL20vMDFsdG1i?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7687486,
+          35.0037565
+        ]
+      }
+    }
+  },
+  "catalog-p116": {
+    "source": "https://www.google.com/maps/place/%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%90%E3%83%B3%E3%82%AF/@35.6932721,139.6993358,17z/data=!3m1!4b1!4m6!3m5!1s0x60188c1d949387bb:0x1539fb4060e1d3c1!8m2!3d35.6932721!4d139.6993358!16s%2Fg%2F11cm_nr378?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+    "retrieved": "2026-11-21",
+    "precision": "Официальный сайт https://www.interbank.co.jp/ninja/ подтверждает, что Ninja — магазин InterBank по адресу Nishi-shinjuku 1-2-12. Маркер Google Maps, вход не проверен.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ninja Money Exchange / InterBank",
+        "sourceURL": "https://www.google.com/maps/place/%E5%A4%96%E8%B2%A8%E4%B8%A1%E6%9B%BF%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%90%E3%83%B3%E3%82%AF/@35.6932721,139.6993358,17z/data=!3m1!4b1!4m6!3m5!1s0x60188c1d949387bb:0x1539fb4060e1d3c1!8m2!3d35.6932721!4d139.6993358!16s%2Fg%2F11cm_nr378?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6993358,
+          35.6932721
+        ]
+      }
+    }
+  },
+  "catalog-p24": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0913848,
+          35.1488952
+        ]
+      }
+    },
+    "source": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga",
+    "retrieved": "2026-11-17",
+    "precision": "Ориентир — комплекс La Collina. Отдельное здание/прилавок La Collina Castella Shop внутри комплекса не проверено.",
+    "aliasOf": "collina"
+  },
+  "catalog-p25": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0913848,
+          35.1488952
+        ]
+      }
+    },
+    "source": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga",
+    "retrieved": "2026-11-17",
+    "precision": "Ориентир — комплекс La Collina. Отдельное здание/прилавок Taneya La Collina внутри комплекса не проверено.",
+    "aliasOf": "collina"
+  },
+  "catalog-p26": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0913848,
+          35.1488952
+        ]
+      }
+    },
+    "source": "https://wowith.com/areas/japan/shiga/omihachiman/articles/la_collina_omihachiman_shiga",
+    "retrieved": "2026-11-17",
+    "precision": "Ориентир — комплекс La Collina. Отдельное здание/прилавок Club Harie La Collina внутри комплекса не проверено.",
+    "aliasOf": "collina"
+  },
+  "catalog-p20": {
+    "query": "Kansai International Airport Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kansai+International+Airport+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир — аэропорт Kansai, откуда начинается поездка Nankai в Осаку. Это запись о транспорте, не отдельный объект; платформа и точное место посадки не проверены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "関西国際空港",
+        "osm_type": "relation",
+        "osm_id": 9436735,
+        "countrycode": "JP",
+        "display_name": "関西国際空港, バス専用, 田尻町, 泉南郡, 大阪府, 549-0011, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kansai+International+Airport+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.222523,
+          34.4342045
+        ]
+      }
+    },
+    "aliasOf": "kix"
+  },
+  "catalog-p21": {
+    "query": "Kansai International Airport Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kansai+International+Airport+Osaka&limit=3&addressdetails=1&countrycodes=jp",
+    "retrieved": "2026-11-21",
+    "precision": "Ориентир — аэропорт Kansai, откуда начинается поездка Nankai в Осаку. Это запись о транспорте, не отдельный объект; платформа и точное место посадки не проверены.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "関西国際空港",
+        "osm_type": "relation",
+        "osm_id": 9436735,
+        "countrycode": "JP",
+        "display_name": "関西国際空港, バス専用, 田尻町, 泉南郡, 大阪府, 549-0011, 日本",
+        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kansai+International+Airport+Osaka&limit=3&addressdetails=1&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.222523,
+          34.4342045
+        ]
+      }
+    },
+    "aliasOf": "kix"
+  },
+  "catalog-p133": {
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.41056,
+          39.50917
+        ]
+      }
+    },
+    "source": "https://en.wikipedia.org/wiki/Beijing_Daxing_International_Airport",
+    "retrieved": "2026-11-17",
+    "precision": "Ориентир Airport Express — аэропорт Daxing. Это транспортная линия; конкретный вход на станцию и платформа не проверены.",
+    "aliasOf": "pkx"
+  },
+  "tokyoYoshinoya": {
+    "feature": null,
+    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "candidates": [
+      {
+        "key": "node/5601064003",
+        "name": "吉野家 · 練馬",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yoshinoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "吉野家",
+            "display_name": "吉野家, 千川通り, 練馬, 練馬区, 東京都, 176-0001, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yoshinoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 5601064003
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.653288,
+              35.737312
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/6180220643",
+        "name": "吉野家 · 中野",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yoshinoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "吉野家",
+            "display_name": "吉野家, 3, 中野五丁目, 中野, 中野区, 東京都, 164-0001, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yoshinoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 6180220643
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.6653429,
+              35.7076232
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/1885163340",
+        "name": "吉野家 · 太子堂",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yoshinoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "吉野家",
+            "display_name": "吉野家, 茶沢通り, 太子堂二丁目, 太子堂, 世田谷区, 東京都, 154-0004, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Yoshinoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 1885163340
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.670815,
+              35.644527
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tokyoOotoya": {
+    "feature": null,
+    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "candidates": [
+      {
+        "key": "node/6596492286",
+        "name": "大戸屋 · 道玄坂",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ootoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "大戸屋",
+            "display_name": "大戸屋, 文化村通り, 宇田川町, 道玄坂, 渋谷区, 東京都, 150-0043, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ootoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 6596492286
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.6981711,
+              35.6602244
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/4459314699",
+        "name": "大戸屋 · 西荻北",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ootoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "大戸屋",
+            "display_name": "大戸屋, 伏見通り, 西荻北三丁目, 西荻北, 杉並区, 東京都, 167-0042, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ootoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 4459314699
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.6002693,
+              35.7042484
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/10980397072",
+        "name": "大戸屋 · 大戸屋, 多摩ニュータウン通り, 南大沢一丁目, 八王子市, 東京都, 192-0364, 日本",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ootoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "大戸屋",
+            "display_name": "大戸屋, 多摩ニュータウン通り, 南大沢一丁目, 八王子市, 東京都, 192-0364, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ootoya+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 10980397072
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.3800385,
+              35.6141121
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tokyoHamaSushi": {
+    "feature": null,
+    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "candidates": [
+      {
+        "key": "node/13690177898",
+        "name": "Hama-Sushi · 南池袋",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hama+Sushi+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Hama-Sushi",
+            "display_name": "Hama-Sushi, 26-9, グリーン大通り, 南池袋一丁目, 南池袋, 豊島区, 東京都, 171-0022, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hama+Sushi+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 13690177898
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7135403,
+              35.7290478
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/11846972889",
+        "name": "Hama Sushi · 豊洲",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hama+Sushi+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Hama Sushi",
+            "display_name": "Hama Sushi, 環状三号線, 豊洲三丁目, 豊洲, 江東区, 東京都, 135-0061, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Hama+Sushi+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 11846972889
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7980079,
+              35.657288
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tokyoSushiro": {
+    "feature": null,
+    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "candidates": [
+      {
+        "key": "way/268858181",
+        "name": "スシロー · 野崎",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sushiro+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "スシロー",
+            "display_name": "スシロー, 東八道路, 野崎一丁目, 野崎, 調布市, 東京都, 181-8555, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sushiro+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "way",
+            "osm_id": 268858181
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.5539429,
+              35.6811719
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/9389817588",
+        "name": "スシロー · 山王",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sushiro+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "スシロー",
+            "display_name": "スシロー, 池上通り, 山王二丁目, 山王, 大田区, 東京都, 143-0023, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sushiro+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 9389817588
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7274377,
+              35.5891334
+            ]
+          }
+        }
+      },
+      {
+        "key": "node/6344689386",
+        "name": "スシロー · 上野",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sushiro+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "スシロー",
+            "display_name": "スシロー, 御徒町駅前通り, 上野六丁目, 上野, 台東区, 東京都, 110-0005, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sushiro+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 6344689386
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7751494,
+              35.7099278
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tsujihan": {
+    "feature": null,
+    "reason": "Сеть/название без выбранного филиала. Показаны найденные варианты; выберите нужный в карточке.",
+    "candidates": [
+      {
+        "key": "node/3351513393",
+        "name": "つじ半 · 日本橋",
+        "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tsujihan+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+        "retrieved": "2026-11-21",
+        "precision": "OSM/Nominatim: найденный филиал, не выбран автоматически; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "つじ半",
+            "display_name": "つじ半, 15, 日本橋三丁目, 日本橋, 中央区, 東京都, 103-0027, 日本",
+            "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Tsujihan+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
+            "osm_type": "node",
+            "osm_id": 3351513393
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7715988,
+              35.680759
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "catalog-p14": {
+    "feature": null,
+    "reason": "Конкретный филиал не выбран. Варианты показаны знаком ?; ни один не добавлен в маршрут автоматически.",
+    "candidates": [
+      {
+        "key": "google-0",
+        "name": "Onigiri ga sukisugite Nihonbashi-ten",
+        "source": "https://www.google.com/maps/place/Onigiri+ga+sukisugite+Nihonbashi-ten/data=!4m7!3m6!1s0x6000e7d307179351:0xff2bf285f8714209!8m2!3d34.6613313!4d135.5052894!16s%2Fg%2F11yg8cq2ms!19sChIJUZMXB9PnAGARCUJx-IXyK_8?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Onigiri ga sukisugite Nihonbashi-ten",
+            "sourceURL": "https://www.google.com/maps/place/Onigiri+ga+sukisugite+Nihonbashi-ten/data=!4m7!3m6!1s0x6000e7d307179351:0xff2bf285f8714209!8m2!3d34.6613313!4d135.5052894!16s%2Fg%2F11yg8cq2ms!19sChIJUZMXB9PnAGARCUJx-IXyK_8?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              135.5052894,
+              34.6613313
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wagyuMoo": {
+    "feature": null,
+    "reason": "Исходное Wagyu Yakiniku Moo неоднозначно: точное название встречается в Осаке. В Токио найден Moo в Икебукуро; это возможное совпадение, требует вашего выбора.",
+    "candidates": [
+      {
+        "key": "google-0",
+        "name": "焼肉 Moo 池袋店",
+        "source": "https://www.google.com/maps/place/%E7%84%BC%E8%82%89+Moo+%E6%B1%A0%E8%A2%8B%E5%BA%97/data=!4m7!3m6!1s0x60188d21fe04dd23:0x33cf4d71d697b69f!8m2!3d35.7289623!4d139.7125398!16s%2Fg%2F11mrw2f5vr!19sChIJI90E_iGNGGARn7aX1nFNzzM?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "焼肉 Moo 池袋店",
+            "sourceURL": "https://www.google.com/maps/place/%E7%84%BC%E8%82%89+Moo+%E6%B1%A0%E8%A2%8B%E5%BA%97/data=!4m7!3m6!1s0x60188d21fe04dd23:0x33cf4d71d697b69f!8m2!3d35.7289623!4d139.7125398!16s%2Fg%2F11mrw2f5vr!19sChIJI90E_iGNGGARn7aX1nFNzzM?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7125398,
+              35.7289623
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "roastbeefOhno": {
+    "feature": null,
+    "reason": "Конкретный филиал не выбран. Варианты показаны знаком ?; ни один не добавлен в маршрут автоматически.",
+    "candidates": [
+      {
+        "key": "google-0",
+        "name": "Roast Beef Ōno Akihabara",
+        "source": "https://www.google.com/maps/place/Roast+Beef+%C5%8Cno+Akihabara/data=!4m7!3m6!1s0x60188c1d19140001:0x6bbfd1a1cafa29df!8m2!3d35.6984409!4d139.7706076!16s%2Fg%2F11bwyyn7j3!19sChIJAQAUGR2MGGAR3yn6yqHRv2s?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Roast Beef Ōno Akihabara",
+            "sourceURL": "https://www.google.com/maps/place/Roast+Beef+%C5%8Cno+Akihabara/data=!4m7!3m6!1s0x60188c1d19140001:0x6bbfd1a1cafa29df!8m2!3d35.6984409!4d139.7706076!16s%2Fg%2F11bwyyn7j3!19sChIJAQAUGR2MGGAR3yn6yqHRv2s?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7706076,
+              35.6984409
+            ]
+          }
+        }
+      },
+      {
+        "key": "google-1",
+        "name": "Roast Beef Ohno Harajuku Branch",
+        "source": "https://www.google.com/maps/place/Roast+Beef+Ohno+Harajuku+Branch/data=!4m7!3m6!1s0x60188ca481100001:0xd712084ac5c95cdf!8m2!3d35.6690422!4d139.7062561!16s%2Fg%2F11c48mv886!19sChIJAQAQgaSMGGAR31zJxUoIEtc?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Roast Beef Ohno Harajuku Branch·Посещенная ссылка",
+            "sourceURL": "https://www.google.com/maps/place/Roast+Beef+Ohno+Harajuku+Branch/data=!4m7!3m6!1s0x60188ca481100001:0xd712084ac5c95cdf!8m2!3d35.6690422!4d139.7062561!16s%2Fg%2F11c48mv886!19sChIJAQAQgaSMGGAR31zJxUoIEtc?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7062561,
+              35.6690422
+            ]
+          }
+        }
+      },
+      {
+        "key": "google-2",
+        "name": "Roast Beef Ohno Minami Ikebukuro",
+        "source": "https://www.google.com/maps/place/Roast+Beef+Ohno+Minami+Ikebukuro/data=!4m7!3m6!1s0x60188d6898e45555:0x7130d5c82dca26cf!8m2!3d35.7273973!4d139.7117645!16s%2Fg%2F11dxh_btnx!19sChIJVVXkmGiNGGARzybKLcjVMHE?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Roast Beef Ohno Minami Ikebukuro",
+            "sourceURL": "https://www.google.com/maps/place/Roast+Beef+Ohno+Minami+Ikebukuro/data=!4m7!3m6!1s0x60188d6898e45555:0x7130d5c82dca26cf!8m2!3d35.7273973!4d139.7117645!16s%2Fg%2F11dxh_btnx!19sChIJVVXkmGiNGGARzybKLcjVMHE?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7117645,
+              35.7273973
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tonkatsuMarushichi": {
+    "feature": null,
+    "reason": "Конкретный филиал не выбран. Варианты показаны знаком ?; ни один не добавлен в маршрут автоматически.",
+    "candidates": [
+      {
+        "key": "google-0",
+        "name": "Tonkatsu Marushichi Ginza",
+        "source": "https://www.google.com/maps/place/Tonkatsu+Marushichi+Ginza/data=!4m7!3m6!1s0x60188b1c9ff98f01:0x5dba62c05f706af2!8m2!3d35.6696389!4d139.7690948!16s%2Fg%2F11y56mnrck!19sChIJAY_5nxyLGGAR8mpwX8Biul0?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Tonkatsu Marushichi Ginza",
+            "sourceURL": "https://www.google.com/maps/place/Tonkatsu+Marushichi+Ginza/data=!4m7!3m6!1s0x60188b1c9ff98f01:0x5dba62c05f706af2!8m2!3d35.6696389!4d139.7690948!16s%2Fg%2F11y56mnrck!19sChIJAY_5nxyLGGAR8mpwX8Biul0?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7690948,
+              35.6696389
+            ]
+          }
+        }
+      },
+      {
+        "key": "google-1",
+        "name": "Tonkatsu Marushichi | Monzen-nakacho",
+        "source": "https://www.google.com/maps/place/Tonkatsu+Marushichi+%7C+Monzen-nakacho/data=!4m7!3m6!1s0x6018894430277991:0xa4687055351b8b16!8m2!3d35.6735036!4d139.794844!16s%2Fg%2F11qg5939r9!19sChIJkXknMESJGGARFosbNVVwaKQ?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Tonkatsu Marushichi | Monzen-nakacho",
+            "sourceURL": "https://www.google.com/maps/place/Tonkatsu+Marushichi+%7C+Monzen-nakacho/data=!4m7!3m6!1s0x6018894430277991:0xa4687055351b8b16!8m2!3d35.6735036!4d139.794844!16s%2Fg%2F11qg5939r9!19sChIJkXknMESJGGARFosbNVVwaKQ?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.794844,
+              35.6735036
+            ]
+          }
+        }
+      },
+      {
+        "key": "google-2",
+        "name": "Tonkatsu Marushichi Ikebukuro",
+        "source": "https://www.google.com/maps/place/Tonkatsu+Marushichi+Ikebukuro/data=!4m7!3m6!1s0x60188df83f44d135:0x2b7fbf1dbe49491f!8m2!3d35.7297768!4d139.7096863!16s%2Fg%2F11kryncr34!19sChIJNdFEP_iNGGARH0lJvh2_fys?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Tonkatsu Marushichi Ikebukuro",
+            "sourceURL": "https://www.google.com/maps/place/Tonkatsu+Marushichi+Ikebukuro/data=!4m7!3m6!1s0x60188df83f44d135:0x2b7fbf1dbe49491f!8m2!3d35.7297768!4d139.7096863!16s%2Fg%2F11kryncr34!19sChIJNdFEP_iNGGARH0lJvh2_fys?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7096863,
+              35.7297768
+            ]
+          }
+        }
+      },
+      {
+        "key": "google-3",
+        "name": "Tonkatsu Marushichi - Fukagawa Fudo",
+        "source": "https://www.google.com/maps/place/Tonkatsu+Marushichi+-+Fukagawa+Fudo/data=!4m7!3m6!1s0x60188951e9f1e609:0xbd7d2ad84c2d352f!8m2!3d35.6725837!4d139.7966715!16s%2Fg%2F11t6kjxqm4!19sChIJCebx6VGJGGARLzUtTNgqfb0?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Tonkatsu Marushichi - Fukagawa Fudo",
+            "sourceURL": "https://www.google.com/maps/place/Tonkatsu+Marushichi+-+Fukagawa+Fudo/data=!4m7!3m6!1s0x60188951e9f1e609:0xbd7d2ad84c2d352f!8m2!3d35.6725837!4d139.7966715!16s%2Fg%2F11t6kjxqm4!19sChIJCebx6VGJGGARLzUtTNgqfb0?authuser=0&hl=ru&g_ep=EgoyMDI2MTExOC4xIJJjKgBIAVAD&rclk=1"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7966715,
+              35.6725837
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tokyoWatami": {
+    "feature": null,
+    "reason": "Найден филиал Kinshicho South Exit; он не выбран автоматически. Подтвердите, если подходит.",
+    "candidates": [
+      {
+        "key": "google-kinshicho",
+        "name": "Yakiniku Watami",
+        "source": "https://www.google.com/maps/place/Yakiniku+Watami/@35.6957226,139.8133675,17z/data=!3m1!4b1!4m6!3m5!1s0x60188972205e0e9d:0xf2c747977b693e07!8m2!3d35.6957226!4d139.8133675!16s%2Fg%2F11lg38t5qn?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "Yakiniku Watami",
+            "sourceURL": "https://www.google.com/maps/place/Yakiniku+Watami/@35.6957226,139.8133675,17z/data=!3m1!4b1!4m6!3m5!1s0x60188972205e0e9d:0xf2c747977b693e07!8m2!3d35.6957226!4d139.8133675!16s%2Fg%2F11lg38t5qn?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.8133675,
+              35.6957226
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "racersCafe": {
+    "feature": null,
+    "reason": "Исходное название Racers Café неоднозначно. Найден CafeRacers Stand; это возможное совпадение, а не подтверждённая идентификация исходного места. Выберите только если имели в виду его.",
+    "candidates": [
+      {
+        "key": "google-stand",
+        "name": "CafeRacers Stand",
+        "source": "https://www.google.com/maps/place/CafeRacers+Stand/@35.6477652,139.7191871,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b13208b636d:0x751610aa83fe32f5!8m2!3d35.6477652!4d139.7191871!16s%2Fg%2F11c1xcy1yq?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
+        "retrieved": "2026-11-21",
+        "precision": "Найденный вариант филиала Google Maps. Совпадение с исходным намерением и выбор филиала подтверждаются пользователем; вход не проверен.",
+        "feature": {
+          "type": "Feature",
+          "properties": {
+            "name": "CafeRacers Stand",
+            "sourceURL": "https://www.google.com/maps/place/CafeRacers+Stand/@35.6477652,139.7191871,17z/data=!3m1!4b1!4m6!3m5!1s0x60188b13208b636d:0x751610aa83fe32f5!8m2!3d35.6477652!4d139.7191871!16s%2Fg%2F11c1xcy1yq?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.7191871,
+              35.6477652
+            ]
+          }
+        }
+      }
+    ]
   }
 }

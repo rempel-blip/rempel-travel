@@ -1,0 +1,4 @@
+export function cleanLocationChoices(value,ids){return Object.fromEntries(Object.entries(value&&typeof value==='object'?value:{}).filter(([id,key])=>ids.has(id)&&typeof key==='string'&&key.length<100));}
+export function locationRecord(geo,choices,id){const base=geo[id];return base?.candidates?.find(c=>c.key===choices?.[id])||base;}
+export function locationPoint(geo,choices,id){const c=locationRecord(geo,choices,id)?.feature?.geometry?.coordinates;return c?.length===2&&c.every(Number.isFinite)&&Math.abs(c[0])<=180&&Math.abs(c[1])<=90?[c[1],c[0]]:null;}
+export function locationCoverage(places,geo,choices){const fixed=places.filter(p=>locationPoint(geo,choices,p.id));const alternatives=places.filter(p=>!locationPoint(geo,choices,p.id)&&geo[p.id]?.candidates?.length);const missing=places.filter(p=>!locationPoint(geo,choices,p.id)&&!geo[p.id]?.candidates?.length);return {total:places.length,fixed,alternatives,missing};}
