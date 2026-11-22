@@ -1,4 +1,4 @@
-import {journeyDay,journeyIncluded} from './journey.mjs?v=59';
+import {journeyDay,journeyIncluded} from './journey.mjs?v=61';
 import {completeDay,pointFor,dayAnchor} from './dayplan.mjs?v=59';
 export function itineraryMap({date,places,hotels,journey,coordinate,priority}){
  const list=journeyDay(places,date,journey).filter(p=>journeyIncluded(p,journey,priority(p))&&!journey.skipped[date+'|'+p.id]);let number=0;
