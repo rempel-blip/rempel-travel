@@ -4,7 +4,7 @@ export const DAY_ANCHORS={
  nigatsudo:{kind:'sunset',label:'Закат · Nigatsu-dō'},
  umeda:{kind:'sunset',label:'Закат · Umeda Sky'},
  ryuguden:{kind:'sunrise',label:'06:00 · онсэн, затем рассвет',time:'06:00'},
- inamura:{kind:'sunset',label:'Закат · Инамурагасаки'},
+ inamura:{kind:'sunset',label:'15:45–16:00 · к закату в Инамурагасаки',time:'15:45–16:00'},
  sky:{kind:'sunset',label:'15:00–15:20 · вход, остаёмся до заката',time:'15:00–15:20'},
  jingshan:{kind:'sunrise',label:'Рассвет · Цзиншань'}
 };
@@ -17,15 +17,15 @@ const TRANSIT_DAY_ORDERS={
 };
 export function dayAnchor(p){return DAY_ANCHORS[p.id]||(p.time?{kind:'fixed',label:p.time,time:p.time}:null);}
 export function hotelEndpoints(hotels=[],date){return {morning:hotels.find(h=>h.from<date&&date<=h.to)||null,evening:hotels.find(h=>h.from<=date&&date<h.to)||null};}
-export function baseDayOrder(places,date){const list=places.filter(p=>p.date===date&&!p.archived),ids=(list.some(p=>p.transportNode)?TRANSIT_DAY_ORDERS[date]:null)||DEFAULT_ORDERS[date]||list.map(p=>p.id);return [...list].sort((a,b)=>(ids.includes(a.id)?ids.indexOf(a.id):ids.length+list.indexOf(a))-(ids.includes(b.id)?ids.indexOf(b.id):ids.length+list.indexOf(b)));}
+export function baseDayOrder(places,date){const list=places.filter(p=>p.date===date&&!p.archived),ids=(list.some(p=>p.transportNode)?TRANSIT_DAY_ORDERS[date]:null)||DEFAULT_ORDERS[date]||list.map(p=>p.id);const sorted=[...list].sort((a,b)=>(ids.includes(a.id)?ids.indexOf(a.id):ids.length+list.indexOf(a))-(ids.includes(b.id)?ids.indexOf(b.id):ids.length+list.indexOf(b)));for(const p of list.filter(p=>p.catalogSuggestion)){const anchor=sorted.findIndex(q=>q.id===(p.transitBefore||p.transitAfter));if(anchor<0)continue;sorted.splice(sorted.indexOf(p),1);const at=sorted.findIndex(q=>q.id===(p.transitBefore||p.transitAfter));sorted.splice(at+(p.transitBefore?0:1),0,p);}return sorted;}
 export function mergeTransitOrder(base,order=[]){
  const ids=new Set(base.map(p=>p.id)),out=[...new Set(order.filter(id=>ids.has(id)))];if(!out.length)return base.map(p=>p.id);
- for(const p of base){if(out.includes(p.id))continue;let index=out.length;if(p.transportNode){if(p.transitBefore==='*')index=0;else if(p.transitAfter==='*')index=out.length;else if(p.transitBefore&&out.includes(p.transitBefore))index=out.indexOf(p.transitBefore);else if(p.transitAfter&&out.includes(p.transitAfter))index=out.indexOf(p.transitAfter)+1;else{const next=base.slice(base.indexOf(p)+1).find(q=>out.includes(q.id));if(next)index=out.indexOf(next.id);}}out.splice(index,0,p.id);}
+ for(const p of base){if(out.includes(p.id))continue;let index=out.length;if(p.transportNode||p.catalogSuggestion){if(p.transitBefore==='*')index=0;else if(p.transitAfter==='*')index=out.length;else if(p.transitBefore&&out.includes(p.transitBefore))index=out.indexOf(p.transitBefore);else if(p.transitAfter&&out.includes(p.transitAfter))index=out.indexOf(p.transitAfter)+1;else{const next=base.slice(base.indexOf(p)+1).find(q=>out.includes(q.id));if(next)index=out.indexOf(next.id);}}out.splice(index,0,p.id);}
  return out;
 }
 export function dayGroups(list,journey={}){
  const anchors=list.filter(dayAnchor),keys=['start',...anchors.map(p=>p.id)],groups=keys.map((key,i)=>({key,anchor:i?anchors[i-1]:null,places:[]}));let current='start';
- for(const p of list){if(dayAnchor(p)){current=p.id;continue;}let key=journey.periods?.[p.id];if(!keys.includes(key))key=current;if(anchors[0]?.id==='collina'&&key==='start')key='collina';groups.find(g=>g.key===key).places.push(p);}
+ for(const p of list){if(dayAnchor(p)){current=p.id;continue;}let key=journey.periods?.[p.id]||p.suggestedPeriod;if(!keys.includes(key))key=current;if(anchors[0]?.id==='collina'&&key==='start')key='collina';groups.find(g=>g.key===key).places.push(p);}
  return groups;
 }
 export function arrangeDay(list,journey={}){return dayGroups(list,journey).flatMap(g=>g.anchor?[g.anchor,...g.places]:g.places);}

@@ -1,4 +1,4 @@
-import {dayAnchor,hotelEndpoints,hotelStop,pointFor,plannedMode,baseDayOrder,arrangeDay,dayGroups,periodLabel,improveSegment,mergeTransitOrder} from './dayplan.mjs?v=51';
+import {dayAnchor,hotelEndpoints,hotelStop,pointFor,plannedMode,baseDayOrder,arrangeDay,dayGroups,periodLabel,improveSegment,mergeTransitOrder} from './dayplan.mjs?v=59';
 export const JOURNEY_MODES={walking:'Пешком',subway:'Пешком + метро',transit:'Пешком + транспорт',taxi:'Такси',driving:'Авто'};
 export function cleanJourney(value={},places=[],days=[]){
  const v=value&&typeof value==='object'?value:{},ids=new Set(places.map(p=>p.id)),dates=new Set(days.map(d=>d.date));
@@ -11,7 +11,7 @@ export function cleanJourney(value={},places=[],days=[]){
  for(const [date,x]of Object.entries(v.following||{}))if(dates.has(date)&&x===true)result.following[date]=true;
  for(const [id,key]of Object.entries(v.periods||{}))if(ids.has(id)&&typeof key==='string'&&key.length<100)result.periods[id]=key;
  for(const p of places)if(p.transportNode&&!(p.id in result.pinned))result.pinned[p.id]=true;
- for(const [date,order]of Object.entries(result.orders)){const base=arrangeDay(baseDayOrder(places,date),result),merged=mergeTransitOrder(base,order);if(base.some((p,i)=>(dayAnchor(p))&&merged[i]!==p.id))delete result.orders[date];else result.orders[date]=merged;}
+ for(const [date,order]of Object.entries(result.orders)){const base=arrangeDay(baseDayOrder(places,date),result),merged=mergeTransitOrder(base,order);if(base.filter(p=>!p.catalogSuggestion).some((p,i)=>(dayAnchor(p))&&merged.filter(id=>!base.find(q=>q.id===id)?.catalogSuggestion)[i]!==p.id))delete result.orders[date];else result.orders[date]=merged;}
  return result;
 }
 export function journeyDay(places,date,j){const list=baseDayOrder(places,date),order=mergeTransitOrder(list,j.orders[date]||[]);return arrangeDay([...list].sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id)),j);}

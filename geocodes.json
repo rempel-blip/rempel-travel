@@ -5456,5 +5456,199 @@
         ]
       }
     }
+  },
+  "nakanoshimaMuseum": {
+    "query": "Nakanoshima Museum of Art Osaka",
+    "source": "https://nominatim.openstreetmap.org/search?q=Nakanoshima+Museum+of+Art+Osaka&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1",
+    "retrieved": "2026-11-22",
+    "precision": "OSM/Nominatim: название, тип и город сопоставлены; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "大阪中之島美術館",
+        "display_name": "大阪中之島美術館, 田蓑橋筋, 中之島三丁目, 北区, 大阪市, 大阪府, 530-6103, 日本",
+        "osm_type": "way",
+        "osm_id": 343837388,
+        "sourceURL": "https://nominatim.openstreetmap.org/search?q=Nakanoshima+Museum+of+Art+Osaka&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4913682,
+          34.6923805
+        ]
+      }
+    }
+  },
+  "gardenFineArts": {
+    "query": "Garden of Fine Arts Kyoto",
+    "source": "https://nominatim.openstreetmap.org/search?q=Garden+of+Fine+Arts+Kyoto&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1",
+    "retrieved": "2026-11-22",
+    "precision": "OSM/Nominatim: название, тип и город сопоставлены; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "京都府立陶板名画の庭",
+        "display_name": "京都府立陶板名画の庭, 北山通, 上賀茂岩ケ垣内町, 北区, 京都市, 京都府, 606-0823, 日本",
+        "osm_type": "way",
+        "osm_id": 551634923,
+        "sourceURL": "https://nominatim.openstreetmap.org/search?q=Garden+of+Fine+Arts+Kyoto&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7654894,
+          35.0507778
+        ]
+      }
+    }
+  },
+  "narukawa": {
+    "query": "Narukawa Art Museum Hakone",
+    "source": "https://nominatim.openstreetmap.org/search?q=Narukawa+Art+Museum+Hakone&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1",
+    "retrieved": "2026-11-22",
+    "precision": "OSM/Nominatim: название, тип и город сопоставлены; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "箱根・芦ノ湖成川美術館",
+        "display_name": "箱根・芦ノ湖成川美術館, 国道1号, 箱根, 足柄下郡, 神奈川県, 250-0398, 日本",
+        "osm_type": "way",
+        "osm_id": 327550627,
+        "sourceURL": "https://nominatim.openstreetmap.org/search?q=Narukawa+Art+Museum+Hakone&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0311909,
+          35.2000279
+        ]
+      }
+    }
+  },
+  "sunnyHills": {
+    "query": "SunnyHills Minami Aoyama Tokyo",
+    "source": "https://nominatim.openstreetmap.org/search?q=SunnyHills+Minami+Aoyama+Tokyo&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1",
+    "retrieved": "2026-11-22",
+    "precision": "OSM/Nominatim: название, тип и город сопоставлены; приблизительное положение объекта, не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "サニーヒルズ",
+        "display_name": "サニーヒルズ, 20, 南青山三丁目, 南青山, 港区, 東京都, 107-0062, 日本",
+        "osm_type": "way",
+        "osm_id": 140013167,
+        "sourceURL": "https://nominatim.openstreetmap.org/search?q=SunnyHills+Minami+Aoyama+Tokyo&format=jsonv2&limit=3&countrycodes=jp&addressdetails=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7162145,
+          35.6657055
+        ]
+      }
+    }
+  },
+  "yuigahamaPark": {
+    "query": "鎌倉海浜公園 由比ガ浜地区, 長谷, 鎌倉市, 神奈川県, 248-0016, 日本",
+    "source": "https://nominatim.openstreetmap.org/search?q=%E9%8E%8C%E5%80%89%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92+%E7%94%B1%E6%AF%94%E3%82%AC%E6%B5%9C%E5%9C%B0%E5%8C%BA&format=jsonv2&limit=3&countrycodes=jp",
+    "retrieved": "2026-11-22",
+    "precision": "OSM/Nominatim: японское название сопоставлено с нужным районом; приблизительная точка объекта, не вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "鎌倉海浜公園 由比ガ浜地区, 長谷, 鎌倉市, 神奈川県, 248-0016, 日本",
+        "osm_id": 21783949,
+        "sourceURL": "https://nominatim.openstreetmap.org/search?q=%E9%8E%8C%E5%80%89%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92+%E7%94%B1%E6%AF%94%E3%82%AC%E6%B5%9C%E5%9C%B0%E5%8C%BA&format=jsonv2&limit=3&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5439688,
+          35.3099365
+        ]
+      }
+    }
+  },
+  "harakado": {
+    "query": "東急プラザ原宿, 表参道, 神宮前六丁目, 神宮前, 渋谷区, 東京都, 150-0001, 日本",
+    "source": "https://nominatim.openstreetmap.org/search?q=%E3%83%8F%E3%83%A9%E3%82%AB%E3%83%89+%E6%B8%8B%E8%B0%B7&format=jsonv2&limit=3&countrycodes=jp",
+    "retrieved": "2026-11-22",
+    "precision": "OSM/Nominatim: японское название сопоставлено с нужным районом; приблизительная точка объекта, не вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "東急プラザ原宿, 表参道, 神宮前六丁目, 神宮前, 渋谷区, 東京都, 150-0001, 日本",
+        "osm_id": 1073294162,
+        "sourceURL": "https://nominatim.openstreetmap.org/search?q=%E3%83%8F%E3%83%A9%E3%82%AB%E3%83%89+%E6%B8%8B%E8%B0%B7&format=jsonv2&limit=3&countrycodes=jp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7046937,
+          35.6683054
+        ]
+      }
+    }
+  },
+  "nationalArtOsaka": {
+    "query": "National Museum of Art, Osaka",
+    "source": "https://en.wikipedia.org/wiki/National_Museum_of_Art,_Osaka",
+    "retrieved": "2026-11-22",
+    "precision": "Координаты объекта из Wikipedia GeoData; сверено название и город. Не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "National Museum of Art, Osaka",
+        "sourceURL": "https://en.wikipedia.org/wiki/National_Museum_of_Art,_Osaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.492024,
+          34.691786
+        ]
+      }
+    }
+  },
+  "hokokuji": {
+    "query": "Hōkoku-ji",
+    "source": "https://en.wikipedia.org/wiki/H%C5%8Dkoku-ji",
+    "retrieved": "2026-11-22",
+    "precision": "Координаты объекта из Wikipedia GeoData; сверено название и город. Не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hōkoku-ji",
+        "sourceURL": "https://en.wikipedia.org/wiki/H%C5%8Dkoku-ji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5693,
+          35.32
+        ]
+      }
+    }
+  },
+  "tokyoForum": {
+    "query": "Tokyo International Forum",
+    "source": "https://en.wikipedia.org/wiki/Tokyo_International_Forum",
+    "retrieved": "2026-11-22",
+    "precision": "Координаты объекта из Wikipedia GeoData; сверено название и город. Не проверенный вход.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo International Forum",
+        "sourceURL": "https://en.wikipedia.org/wiki/Tokyo_International_Forum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76416667,
+          35.67694444
+        ]
+      }
+    }
   }
 }
