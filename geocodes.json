@@ -5799,5 +5799,26 @@
     "source": "https://www.google.com/maps/place/FlowerMOUNTAIN京都河原町/@35.0085458,135.7688438,17z/data=!3m1!4b1!4m6!3m5!1s0x600109000f0840d1:0xfae3754012c215ee!8m2!3d35.0085458!4d135.7688438!16s%2Fg%2F11y0l4sf_8",
     "retrieved": "2026-11-22",
     "precision": "Карточка Kyoto Kawaramachi, 33-2 Daikokucho; часы из недельной таблицы Google Maps, не гарантия на даты поездки."
+  },
+  "tokyoNodeBeyondEarth": {
+    "query": "TOKYO NODE 虎ノ門ヒルズ ステーションタワー 東京都港区虎ノ門2-6-2",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7466215,
+          35.6679141
+        ]
+      },
+      "properties": {
+        "name": "TOKYO NODE",
+        "sourceURL": "https://www.google.com/maps/place/TOKYO+NODE/@35.6679141,139.7466215,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bb693eca835:0x1bc3b74972ac1c54!8m2!3d35.6679141!4d139.7466215!16s%2Fg%2F11k9l77cr6",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/TOKYO+NODE/@35.6679141,139.7466215,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bb693eca835:0x1bc3b74972ac1c54!8m2!3d35.6679141!4d139.7466215!16s%2Fg%2F11k9l77cr6",
+    "retrieved": "2026-11-22",
+    "precision": "Координата карточки TOKYO NODE в Google Maps, точка здания. Адрес 2-6-2 Toranomon; вход и положение галереи на 45F на месте не проверены."
   }
 }
