@@ -1,5 +1,5 @@
-import {completeDay,pointFor,plannedMode,geoDistance} from './dayplan.mjs?v=59';
-import {journeyDay,journeyIncluded} from './journey.mjs?v=63';
+import {completeDay,pointFor,plannedMode,geoDistance} from './dayplan.mjs?v=64';
+import {journeyDay,journeyIncluded} from './journey.mjs?v=64';
 export const ORS_ENDPOINT='https://api.heigit.org/openrouteservice/v2/directions/';
 const profileFor=mode=>mode==='walking'?'foot-walking':['driving','taxi'].includes(mode)?'driving-car':null;
 export function routePlan(m,coordinate,priority,choice='walking'){

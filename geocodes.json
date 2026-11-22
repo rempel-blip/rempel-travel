@@ -5673,5 +5673,131 @@
     "source": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Station+Main+Store/data=!4m2!3m1!1s0x600109ad0ce48e89:0xbe293597391a388b!8m2!3d34.9880142!4d135.7546084",
     "retrieved": "2026-11-22",
     "precision": "Координаты карточки Google Maps; адрес сверён с официальным сайтом HASHI LAB: 京都府京都市下京区南町509−2. Вход на месте не проверен."
+  },
+  "kemariRun": {
+    "query": "kemariRun",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4987532,
+          34.6722786
+        ]
+      },
+      "properties": {
+        "name": "kemariRun",
+        "countrycode": "JP",
+        "sourceURL": "https://www.google.com/maps/place/kemari+run/@34.6722786,135.4987532,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e76a964d78cb:0x3d864d54333dc806!8m2!3d34.6722786!4d135.4987532!16s%2Fg%2F11xypsqmxf"
+      }
+    },
+    "source": "https://www.google.com/maps/place/kemari+run/@34.6722786,135.4987532,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e76a964d78cb:0x3d864d54333dc806!8m2!3d34.6722786!4d135.4987532!16s%2Fg%2F11xypsqmxf",
+    "retrieved": "2026-11-22",
+    "precision": "Карточка kemari run, адрес 1-6-14 Nishishinsaibashi, BIGSTEP 3F; вход на этаже не проверен."
+  },
+  "fascinateAnnex": {
+    "query": "fascinateAnnex",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4997449,
+          34.6729039
+        ]
+      },
+      "properties": {
+        "name": "fascinateAnnex",
+        "countrycode": "JP",
+        "sourceURL": "https://www.google.com/maps/place/FASCINATE_ANNEX/data=!4m7!3m6!1s0x6000e7718efb9ee1:0x3a18bd63713c81cc!8m2!3d34.6729039!4d135.4997449!16s%2Fg%2F11vx665vl4"
+      }
+    },
+    "source": "https://www.google.com/maps/place/FASCINATE_ANNEX/data=!4m7!3m6!1s0x6000e7718efb9ee1:0x3a18bd63713c81cc!8m2!3d34.6729039!4d135.4997449!16s%2Fg%2F11vx665vl4",
+    "retrieved": "2026-11-22",
+    "precision": "Карточка ANNEX, не соседний FASCINATE_THE R; адрес сверён с официальным сайтом."
+  },
+  "onHankyu": {
+    "query": "onHankyu",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4985323,
+          34.7028186
+        ]
+      },
+      "properties": {
+        "name": "onHankyu",
+        "countrycode": "JP",
+        "sourceURL": "https://www.google.com/maps/place/Hankyu+Umeda+Main+Store/@34.7028186,135.4985323,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e692589cb9eb:0xbc9b6d5116f447ad!8m2!3d34.7028186!4d135.4985323!16s%2Fg%2F125_j0gp9"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Hankyu+Umeda+Main+Store/@34.7028186,135.4985323,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e692589cb9eb:0xbc9b6d5116f447ad!8m2!3d34.7028186!4d135.4985323!16s%2Fg%2F125_j0gp9",
+    "retrieved": "2026-11-22",
+    "precision": "Точка здания Hankyu Umeda, не точное положение стойки ON на 8F."
+  },
+  "onSportsDepo": {
+    "query": "onSportsDepo",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5019199,
+          34.6614333
+        ]
+      },
+      "properties": {
+        "name": "onSportsDepo",
+        "countrycode": "JP",
+        "sourceURL": "https://www.google.com/maps/place/Sports+Depo/@34.6614333,135.5019199,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e79e02fe4ed9:0x24e57c6589af465b!8m2!3d34.6614333!4d135.5019199!16s%2Fg%2F11v0lztqt8"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Sports+Depo/@34.6614333,135.5019199,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e79e02fe4ed9:0x24e57c6589af465b!8m2!3d34.6614333!4d135.5019199!16s%2Fg%2F11v0lztqt8",
+    "retrieved": "2026-11-22",
+    "precision": "Карточка Sports DEPO Namba Parks 4F; не отдельный вход с улицы."
+  },
+  "flowerMountainOsaka": {
+    "query": "flowerMountainOsaka",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5112188,
+          34.7080451
+        ]
+      },
+      "properties": {
+        "name": "flowerMountainOsaka",
+        "countrycode": "JP",
+        "sourceURL": "https://www.google.com/maps/place/Flower+MOUNTAIN+Tenjinbashi-ten/@34.7080451,135.5112188,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7c74735034b:0xf986d398471ac55e!8m2!3d34.7080451!4d135.5112188!16s%2Fg%2F11n5y2c6hg"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Flower+MOUNTAIN+Tenjinbashi-ten/@34.7080451,135.5112188,17z/data=!3m1!4b1!4m6!3m5!1s0x6000e7c74735034b:0xf986d398471ac55e!8m2!3d34.7080451!4d135.5112188!16s%2Fg%2F11n5y2c6hg",
+    "retrieved": "2026-11-22",
+    "precision": "Карточка магазина по адресу 5-8-27 Tenjinbashi; адрес сверён со списком оператора."
+  },
+  "flowerMountainKyoto": {
+    "query": "flowerMountainKyoto",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7688438,
+          35.0085458
+        ]
+      },
+      "properties": {
+        "name": "flowerMountainKyoto",
+        "countrycode": "JP",
+        "sourceURL": "https://www.google.com/maps/place/FlowerMOUNTAIN京都河原町/@35.0085458,135.7688438,17z/data=!3m1!4b1!4m6!3m5!1s0x600109000f0840d1:0xfae3754012c215ee!8m2!3d35.0085458!4d135.7688438!16s%2Fg%2F11y0l4sf_8"
+      }
+    },
+    "source": "https://www.google.com/maps/place/FlowerMOUNTAIN京都河原町/@35.0085458,135.7688438,17z/data=!3m1!4b1!4m6!3m5!1s0x600109000f0840d1:0xfae3754012c215ee!8m2!3d35.0085458!4d135.7688438!16s%2Fg%2F11y0l4sf_8",
+    "retrieved": "2026-11-22",
+    "precision": "Карточка Kyoto Kawaramachi, 33-2 Daikokucho; часы из недельной таблицы Google Maps, не гарантия на даты поездки."
   }
 }
