@@ -1,5 +1,5 @@
-import {flowerMountainPlaces,networkInactive} from './catalog-additions.mjs?v=61';
-import {newCatalogPlaces,catalogEnhancements} from './catalog-additions.mjs?v=61';
+import {flowerMountainPlaces,hashiKyotoPlaces,networkInactive} from './catalog-additions.mjs?v=62';
+import {newCatalogPlaces,catalogEnhancements} from './catalog-additions.mjs?v=62';
 // Imported from the user-provided Tokyo CSV; search queries are not verified coordinates.
 const tokyoAdditions=[
   {
@@ -851,8 +851,8 @@ const transitStops=[{"id":"ofuna6","date":"2026-12-06","name":"Ōfuna Station ·
   }
 ];
 const existingPlaces=[...basePlaces.map(p=>({...p,...(p.id==='watami'?{routeDefault:false,candidateGroup:'watami',mapLabel:'Н'}:{}),city:catalogLinks.find(x=>x.placeId===p.id)?.city||(p.date==='2026-12-01'?(p.id==='collina'?'Омихатиман':'Нара'):p.date==='2026-12-06'?(p.id==='ryuguden'?'Хаконе':'Камакура'):p.date==='2026-12-10'||p.date==='2026-12-11'?'Пекин':p.id==='gcans'?'Касукабе':p.city),sourceIds:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.sourceId),sourceNames:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.name)})),...catalogExtraPlaces,...watamiBranches,...tokyoAdditions,...transitStops];
-export const places=[...existingPlaces.map(p=>catalogEnhancements[p.id]?{...p,...catalogEnhancements[p.id]}:p),...newCatalogPlaces,...flowerMountainPlaces];
+export const places=[...existingPlaces.map(p=>catalogEnhancements[p.id]?{...p,...catalogEnhancements[p.id]}:p),...newCatalogPlaces,...flowerMountainPlaces,...hashiKyotoPlaces].map(p=>p.id==='hashi'?{...p,networkGroup:'hashilab',networkName:'HASHI LAB'}:p);
 export function priorityFor(p,variant){return variant==='B'&&['otagi','gcans'].includes(p.id)?'main':p.priority;}
 export function placesForView(all,view){return all.filter(p=>view==='archive'?p.archived:!p.archived&&(view==='catalog'||(view==='reserve'?!p.date:p.date===view)));}
-export function filterPlaces(all,{date='',category='',priority='',status='',query='',variant='A',visited={},city=''}={}){return all.filter(p=>(!date||p.date===date)&&(!city||p.city===city)&&(!category||(p.categories||[p.category]).includes(category))&&(!priority||priorityFor(p,variant)===priority)&&(!status||(status==='visited'?visited[p.id]:!visited[p.id]&&!networkInactive(p,visited)))&&(!query||`${p.name} ${p.note} ${p.local} ${p.city||''} ${(p.sourceNames||[]).join(' ')}`.toLowerCase().includes(query.toLowerCase())));}
+export function filterPlaces(all,{date='',category='',priority='',status='',query='',variant='A',visited={},purchases={},city=''}={}){return all.filter(p=>(!date||p.date===date)&&(!city||p.city===city)&&(!category||(p.categories||[p.category]).includes(category))&&(!priority||priorityFor(p,variant)===priority)&&(!status||(status==='visited'?visited[p.id]:!visited[p.id]&&!networkInactive(p,purchases)))&&(!query||`${p.name} ${p.note} ${p.local} ${p.city||''} ${(p.sourceNames||[]).join(' ')}`.toLowerCase().includes(query.toLowerCase())));}
 export function linksFor(p,mode='transit',origin=''){const q=encodeURIComponent(p.query);return {google:`https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=${mode}${origin?'&origin='+encodeURIComponent(origin):''}`,apple:`https://maps.apple.com/?daddr=${q}&dirflg=${mode==='walking'?'w':'r'}${origin?'&saddr='+encodeURIComponent(origin):''}`,amap:`https://uri.amap.com/search?keyword=${q}&city=${p.country==='CN'?(p.city==='Пекин'?'北京':p.city==='Гуанчжоу'?'广州':p.city==='Альтернативный транзит'?'':p.date<'2026-12-01'?'广州':'北京'):''}&callnative=1`};}

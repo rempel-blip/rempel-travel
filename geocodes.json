@@ -5650,5 +5650,47 @@
         ]
       }
     }
+  },
+  "hashiKyotoGion": {
+    "query": "hashiKyotoGion",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7727139,
+          35.0025885
+        ]
+      },
+      "properties": {
+        "name": "hashiKyotoGion",
+        "sourceURL": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Gion+Store/data=!4m2!3m1!1s0x60010993daa685cb:0xd1b30c29c2b470f0!8m2!3d35.0025885!4d135.7727139",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Gion+Store/data=!4m2!3m1!1s0x60010993daa685cb:0xd1b30c29c2b470f0!8m2!3d35.0025885!4d135.7727139",
+    "retrieved": "2026-11-22",
+    "precision": "Координаты карточки Google Maps; адрес сверён с официальным сайтом HASHI LAB: 京都府京都市東山区亀井町34−7. Вход на месте не проверен."
+  },
+  "hashiKyotoStation": {
+    "query": "hashiKyotoStation",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7546084,
+          34.9880142
+        ]
+      },
+      "properties": {
+        "name": "hashiKyotoStation",
+        "sourceURL": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Station+Main+Store/data=!4m2!3m1!1s0x600109ad0ce48e89:0xbe293597391a388b!8m2!3d34.9880142!4d135.7546084",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/HASHI+LAB+Kyoto+Station+Main+Store/data=!4m2!3m1!1s0x600109ad0ce48e89:0xbe293597391a388b!8m2!3d34.9880142!4d135.7546084",
+    "retrieved": "2026-11-22",
+    "precision": "Координаты карточки Google Maps; адрес сверён с официальным сайтом HASHI LAB: 京都府京都市下京区南町509−2. Вход на месте не проверен."
   }
 }
