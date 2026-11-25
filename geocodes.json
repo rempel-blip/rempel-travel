@@ -5820,5 +5820,152 @@
     "source": "https://www.google.com/maps/place/TOKYO+NODE/@35.6679141,139.7466215,17z/data=!3m1!4b1!4m6!3m5!1s0x60188bb693eca835:0x1bc3b74972ac1c54!8m2!3d35.6679141!4d139.7466215!16s%2Fg%2F11k9l77cr6",
     "retrieved": "2026-11-22",
     "precision": "Координата карточки TOKYO NODE в Google Maps, точка здания. Адрес 2-6-2 Toranomon; вход и положение галереи на 45F на месте не проверены."
+  },
+  "artSasabe": {
+    "query": "Sasabe Art Material Store",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.506567,
+          34.6688026
+        ]
+      },
+      "properties": {
+        "name": "Sasabe Art Material Store",
+        "sourceURL": "https://www.google.com/maps/place/Sasabe%20Art%20Material%20Store/data=!4m5!3m4!1s0x6000e740009ff3b5:0x5d96cfc11fe40956!8m2!3d34.6688026!4d135.506567",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Sasabe%20Art%20Material%20Store/data=!4m5!3m4!1s0x6000e740009ff3b5:0x5d96cfc11fe40956!8m2!3d34.6688026!4d135.506567",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "artKawachi": {
+    "query": "KAWACHI Shinsaibashiten",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5024943,
+          34.6741075
+        ]
+      },
+      "properties": {
+        "name": "KAWACHI Shinsaibashiten",
+        "sourceURL": "https://www.google.com/maps/place/KAWACHI%20Shinsaibashiten/data=!4m5!3m4!1s0x6000e7672e5fa7a9:0x1c2ab8dbb0b7890f!8m2!3d34.6741075!4d135.5024943",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/KAWACHI%20Shinsaibashiten/data=!4m5!3m4!1s0x6000e7672e5fa7a9:0x1c2ab8dbb0b7890f!8m2!3d34.6741075!4d135.5024943",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "artHolbein": {
+    "query": "HOLBEIN ART SPACE",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5177631,
+          34.6678271
+        ]
+      },
+      "properties": {
+        "name": "HOLBEIN ART SPACE",
+        "sourceURL": "https://www.google.com/maps/place/HOLBEIN%20ART%20SPACE/data=!4m5!3m4!1s0x6000e74f1adca9c7:0x2279d248bff4ac0c!8m2!3d34.6678271!4d135.5177631",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/HOLBEIN%20ART%20SPACE/data=!4m5!3m4!1s0x6000e74f1adca9c7:0x2279d248bff4ac0c!8m2!3d34.6678271!4d135.5177631",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "artGwasendo": {
+    "query": "Gasendo Kawaramachi Gojo Honten",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.767268,
+          34.9973307
+        ]
+      },
+      "properties": {
+        "name": "Gasendo Kawaramachi Gojo Honten",
+        "sourceURL": "https://www.google.com/maps/place/Gasendo%20Kawaramachi%20Gojo%20Honten/data=!4m5!3m4!1s0x600108b94a5ef549:0x29fca14996dfc225!8m2!3d34.9973307!4d135.767268",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Gasendo%20Kawaramachi%20Gojo%20Honten/data=!4m5!3m4!1s0x600108b94a5ef549:0x29fca14996dfc225!8m2!3d34.9973307!4d135.767268",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "artSekaido": {
+    "query": "Sekaido Shinjuku",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7063963,
+          35.6900298
+        ]
+      },
+      "properties": {
+        "name": "Sekaido Shinjuku",
+        "sourceURL": "https://www.google.com/maps/place/Sekaido%20Shinjuku/data=!4m5!3m4!1s0x60188cdb568a6c15:0x4c84ac4975ce203!8m2!3d35.6900298!4d139.7063963",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Sekaido%20Shinjuku/data=!4m5!3m4!1s0x60188cdb568a6c15:0x4c84ac4975ce203!8m2!3d35.6900298!4d139.7063963",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "artTools": {
+    "query": "Tools Ochanomizu",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7625422,
+          35.6999178
+        ]
+      },
+      "properties": {
+        "name": "Tools Ochanomizu",
+        "sourceURL": "https://www.google.com/maps/place/Tools%20Ochanomizu/data=!4m5!3m4!1s0x60188c1762f81e33:0x7691882296564b67!8m2!3d35.6999178!4d139.7625422",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Tools%20Ochanomizu/data=!4m5!3m4!1s0x60188c1762f81e33:0x7691882296564b67!8m2!3d35.6999178!4d139.7625422",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "artUematsu": {
+    "query": "Uematsu Japanese Art Supply",
+    "feature": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7028226,
+          35.65929
+        ]
+      },
+      "properties": {
+        "name": "Uematsu Japanese Art Supply",
+        "sourceURL": "https://www.google.com/maps/place/Uematsu%20Japanese%20Art%20Supply/data=!4m5!3m4!1s0x60188b5841ac76af:0x567228a40120b6c4!8m2!3d35.65929!4d139.7028226",
+        "countrycode": "JP"
+      }
+    },
+    "source": "https://www.google.com/maps/place/Uematsu%20Japanese%20Art%20Supply/data=!4m5!3m4!1s0x60188b5841ac76af:0x567228a40120b6c4!8m2!3d35.65929!4d139.7028226",
+    "retrieved": "2026-11-25",
+    "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
   }
 }
