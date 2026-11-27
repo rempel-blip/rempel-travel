@@ -6,9 +6,10 @@ export const DAY_ANCHORS={
  ryuguden:{kind:'sunrise',label:'06:00 · онсэн, затем рассвет',time:'06:00'},
  inamura:{kind:'sunset',label:'15:45–16:00 · к закату в Инамурагасаки',time:'15:45–16:00'},
  sky:{kind:'sunset',label:'15:00–15:20 · вход, остаёмся до заката',time:'15:00–15:20'},
- jingshan:{kind:'sunrise',label:'Рассвет · Цзиншань'}
+ jingshan:{kind:'sunrise',label:'Рассвет · Цзиншань'},
+ shibauraLoop:{kind:'sunrise',label:'Рассвет · предварительно, 09.12'}
 };
-const DEFAULT_ORDERS={'2026-12-01':['collina','nara','todaiji','kasuga','kofuku','nigatsudo'],'2026-12-02':['castle','kuromon','gate','umeda','shinsaibashi','hashi','watami','shinsekai']};
+const DEFAULT_ORDERS={'2026-12-01':['collina','nara','todaiji','kasuga','kofuku','nigatsudo'],'2026-12-02':['castle','kuromon','gate','umeda','shinsaibashi','hashi','watami','shinsekai'],'2026-12-09':['shibauraLoop']};
 const TRANSIT_DAY_ORDERS={
  '2026-12-05':['kyotoStation5','odawara5','hakoneShrine','komagatake'],
  '2026-12-06':['ryuguden','odawara6','ofuna6','kamakuraArrival6','starbucksKam','ptj','chacha','renbai','kamaman','meggendorfer','buddha','hasedera','haseBoard6','enoden','inamuragasakiArrival6','inamura','inamuragasakiDeparture6','kamakuraReturn6','tokyoArrival6'],
@@ -41,4 +42,3 @@ export function improveSegment(stops,start,end,coordinate){
  const score=arr=>{let sum=0,prev=start;for(const p of arr){const c=coordinate(p.id);if(prev)sum+=geoDistance(prev,c);prev=c;}if(prev&&end)sum+=geoDistance(prev,end);return sum;};
  let best=score(out),changed=true,loops=0;while(changed&&loops++<30){changed=false;for(let i=start?0:1;i<out.length-1;i++)for(let k=i+1;k<out.length;k++){const next=[...out.slice(0,i),...out.slice(i,k+1).reverse(),...out.slice(k+1)],s=score(next);if(s+1<best){out=next;best=s;changed=true;}}}return out;
 }
-
