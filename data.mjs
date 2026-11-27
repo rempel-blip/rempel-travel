@@ -425,7 +425,7 @@ const tokyoAdditions=[
   },
   {
     "id": "shibauraLoop",
-    "date": "",
+    "date": "2026-12-09",
     "name": "Shibaura Loop Bridge — Shibaura Sound Studio",
     "query": "Shibaura Sound Studio 3 Chome-9-18 Kaigan Minato Tokyo",
     "local": "",
@@ -435,12 +435,12 @@ const tokyoAdditions=[
     "category": "Панорамы",
     "priority": "optional",
     "routeDefault": false,
-    "note": "Основной вариант рассвета. Ориентир: 3 Chome-9-18 Kaigan, Minato City; общественная фототочка рядом, не внутри здания. Восход около 06:38; точную дату и утренние поезда уточнить. Период из файла: 08 или 09.12. Дата не назначена; вариант для выбора при финализации маршрута. Основной кандидат на рассвет 8 или 9 декабря; точный день ещё не выбран.",
+    "note": "Рассветная точка; ориентир: 3 Chome-9-18 Kaigan, Minato City; общественная фототочка рядом, не внутри здания. Восход около 06:38. Предварительно назначена на 09.12; транспорт до точки уточнить.",
     "sourceNames": [
       "Shibaura Loop Bridge — Shibaura Sound Studio"
     ],
     "sourceURL": "https://chatgpt.com/library/share/libfile_1124426170d88191b729adca936e861e",
-    "suggestedDates": "08 или 09.12"
+    "suggestedDates": "09.12 (предварительно)"
   },
   {
     "id": "hanedaTorii",
