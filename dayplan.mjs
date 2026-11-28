@@ -7,7 +7,8 @@ export const DAY_ANCHORS={
  inamura:{kind:'sunset',label:'15:45–16:00 · к закату в Инамурагасаки',time:'15:45–16:00'},
  sky:{kind:'sunset',label:'15:00–15:20 · вход, остаёмся до заката',time:'15:00–15:20'},
  jingshan:{kind:'sunrise',label:'Рассвет · Цзиншань'},
- shibauraLoop:{kind:'sunrise',label:'Рассвет · предварительно, 09.12'}
+ shibauraLoop:{kind:'sunrise',label:'Рассвет · предварительно, 09.12'},
+ sumidaAzumabashi:{kind:'sunrise',label:'Рассвет · предварительно, 10.12'}
 };
 const DEFAULT_ORDERS={'2026-12-01':['collina','nara','todaiji','kasuga','kofuku','nigatsudo'],'2026-12-02':['castle','kuromon','gate','umeda','shinsaibashi','hashi','watami','shinsekai'],'2026-12-09':['shibauraLoop']};
 const TRANSIT_DAY_ORDERS={
