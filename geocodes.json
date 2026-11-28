@@ -1465,25 +1465,21 @@
     }
   },
   "sensoji": {
-    "query": "Sensoji Tokyo Tokyo",
-    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sensoji+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
-    "retrieved": "2026-11-21",
-    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "query": "Senso-ji, Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
     "feature": {
       "type": "Feature",
       "properties": {
-        "name": "金龍山 浅草寺",
-        "osm_type": "way",
-        "osm_id": 173154847,
-        "countrycode": "JP",
-        "display_name": "金龍山 浅草寺, 1, 浅草二丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
-        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Sensoji+Tokyo+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=Senso-ji%2C%20Tokyo",
+        "name": "Senso-ji, Tokyo"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7955265,
-          35.7134032
+          139.7966553,
+          35.7147651
         ]
       }
     }
@@ -1943,25 +1939,21 @@
     }
   },
   "catalog-p100": {
-    "query": "Kaminarimon Tokyo",
-    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kaminarimon+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
-    "retrieved": "2026-11-21",
-    "precision": "OSM/Nominatim: результат сопоставлен по названию и городу; приблизительное положение объекта, не проверенный вход.",
+    "query": "Kaminarimon, Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
     "feature": {
       "type": "Feature",
       "properties": {
-        "name": "雷門",
-        "osm_type": "way",
-        "osm_id": 173154849,
-        "countrycode": "JP",
-        "display_name": "雷門, 仲見世通り, 浅草一丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
-        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kaminarimon+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=Kaminarimon%2C%20Tokyo",
+        "name": "Kaminarimon, Tokyo"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7963683,
-          35.7111333
+          139.794926,
+          35.7098807
         ]
       }
     }
@@ -2029,25 +2021,21 @@
     }
   },
   "catalog-p101": {
-    "query": "Nakamise-dori Tokyo",
-    "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nakamise-dori+Tokyo&limit=3&addressdetails=1&countrycodes=jp",
-    "retrieved": "2026-11-21",
-    "precision": "OSM/Nominatim: сопоставлено название и город; приблизительное положение объекта, вход не проверен.",
+    "query": "Nakamise Shopping Street, Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
     "feature": {
       "type": "Feature",
       "properties": {
-        "name": "仲見世通り",
-        "osm_type": "way",
-        "osm_id": 573269291,
-        "countrycode": "JP",
-        "display_name": "仲見世通り, 浅草一丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
-        "sourceURL": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nakamise-dori+Tokyo&limit=3&addressdetails=1&countrycodes=jp"
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=Nakamise%20Shopping%20Street%2C%20Tokyo",
+        "name": "Nakamise Shopping Street, Tokyo"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7965171,
-          35.7125206
+          139.7964542,
+          35.7118413
         ]
       }
     }
@@ -5967,5 +5955,85 @@
     "source": "https://www.google.com/maps/place/Uematsu%20Japanese%20Art%20Supply/data=!4m5!3m4!1s0x60188b5841ac76af:0x567228a40120b6c4!8m2!3d35.65929!4d139.7028226",
     "retrieved": "2026-11-25",
     "precision": "Координаты объекта из карточки Google Maps (!3d/!4d), название и адрес сверены с сайтом. Не проверенный вход."
+  },
+  "sumidaPark10": {
+    "query": "Sumida Park, Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=Sumida%20Park%2C%20Tokyo",
+        "name": "Sumida Park, Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8014506,
+          35.7137617
+        ]
+      }
+    }
+  },
+  "kuramaeBridge10": {
+    "query": "Kuramae Bridge, Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=Kuramae%20Bridge%2C%20Tokyo",
+        "name": "Kuramae Bridge, Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7934626,
+          35.7009505
+        ]
+      }
+    }
+  },
+  "sumidaHokusai10": {
+    "query": "The Sumida Hokusai Museum, Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=The%20Sumida%20Hokusai%20Museum%2C%20Tokyo",
+        "name": "The Sumida Hokusai Museum, Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800414,
+          35.6963313
+        ]
+      }
+    }
+  },
+  "touristHotelReturn10": {
+    "query": "THE TOURIST Hotel & Cafe Akihabara Tokyo",
+    "source": "https://www.google.com/maps/dir/",
+    "retrieved": "2026-11-28",
+    "precision": "Координаты точки взяты из сегмента маршрута в предоставленной ссылке Google Maps.",
+    "feature": {
+      "type": "Feature",
+      "properties": {
+        "sourceURL": "https://www.google.com/maps/search/?api=1&query=THE%20TOURIST%20Hotel%20%26%20Cafe%20Akihabara%20Tokyo",
+        "name": "THE TOURIST Hotel & Cafe Akihabara Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7771036,
+          35.7008701
+        ]
+      }
+    }
   }
 }
