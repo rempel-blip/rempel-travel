@@ -14,7 +14,7 @@ const TRANSIT_DAY_ORDERS={
  '2026-12-05':['kyotoStation5','odawara5','hakoneShrine','komagatake'],
  '2026-12-06':['ryuguden','odawara6','ofuna6','kamakuraArrival6','starbucksKam','ptj','chacha','renbai','kamaman','meggendorfer','buddha','hasedera','haseBoard6','enoden','inamuragasakiArrival6','inamura','inamuragasakiDeparture6','kamakuraReturn6','tokyoArrival6'],
  '2026-12-07':['tokyoStation7','akihabaraStation7','harajukuStation7','seeen','omotesando','sky','ruru','syndicate','shibuyaStation7'],
- '2026-12-10':['akihabaraDeparture10','hamamatsucho10','shinagawa10','hanedaDeparture10','pkx','qianmen','shuiku']
+ '2026-12-10':['sumidaPark10','sumidaAzumabashi','catalog-p100','catalog-p101','sensoji','kuramaeBridge10','sumidaHokusai10','touristHotelReturn10','akihabaraDeparture10','hamamatsucho10','shinagawa10','hanedaDeparture10','pkx','qianmen','shuiku']
 };
 export function dayAnchor(p){return DAY_ANCHORS[p.id]||(p.time?{kind:'fixed',label:p.time,time:p.time}:null);}
 export function hotelEndpoints(hotels=[],date){return {morning:hotels.find(h=>h.from<date&&date<=h.to)||null,evening:hotels.find(h=>h.from<=date&&date<h.to)||null};}
