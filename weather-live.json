@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "active",
-  "generatedAt": 1795759869770,
+  "generatedAt": 1795843836129,
   "startsOn": "2026-11-27",
   "endsOn": "2026-12-11",
   "source": "Open-Meteo model forecast",
@@ -9,12 +9,12 @@
     {
       "date": "2026-11-29",
       "zone": "Asia/Shanghai",
-      "fetchedAt": 1795759869770,
-      "code": 3,
-      "min": 13.3,
-      "max": 23.1,
+      "fetchedAt": 1795843836129,
+      "code": 2,
+      "min": 13.7,
+      "max": 23.8,
       "rain": 0,
-      "wind": 10.3,
+      "wind": 10.8,
       "coords": [
         23.1288429,
         113.2589581
@@ -26,12 +26,12 @@
     {
       "date": "2026-11-30",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 2,
-      "min": 4.7,
-      "max": 13.8,
+      "min": 5.3,
+      "max": 14.7,
       "rain": 0,
-      "wind": 8.1,
+      "wind": 7.1,
       "coords": [
         34.70528,
         135.48972
@@ -43,12 +43,12 @@
     {
       "date": "2026-12-01",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 1,
-      "min": 7.8,
-      "max": 16.8,
-      "rain": 2,
-      "wind": 13.6,
+      "min": 9.7,
+      "max": 16.9,
+      "rain": 0,
+      "wind": 12,
       "coords": [
         34.6829008,
         135.8545975
@@ -60,12 +60,12 @@
     {
       "date": "2026-12-02",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 45,
-      "min": 7.3,
-      "max": 16.9,
-      "rain": 2,
-      "wind": 7,
+      "min": 7.8,
+      "max": 17.8,
+      "rain": 0,
+      "wind": 6.6,
       "coords": [
         34.70528,
         135.48972
@@ -77,12 +77,12 @@
     {
       "date": "2026-12-03",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
-      "code": 45,
-      "min": 6,
-      "max": 18.3,
-      "rain": 12,
-      "wind": 8.4,
+      "fetchedAt": 1795843836129,
+      "code": 51,
+      "min": 7.5,
+      "max": 18.5,
+      "rain": 35,
+      "wind": 6.9,
       "coords": [
         34.9675192,
         135.7797101
@@ -94,12 +94,12 @@
     {
       "date": "2026-12-04",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 45,
-      "min": 8.4,
-      "max": 17.8,
-      "rain": 29,
-      "wind": 4.7,
+      "min": 9.1,
+      "max": 17.2,
+      "rain": 14,
+      "wind": 6.3,
       "coords": [
         34.9675192,
         135.7797101
@@ -111,12 +111,12 @@
     {
       "date": "2026-12-05",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 51,
-      "min": 7,
-      "max": 13.7,
-      "rain": 31,
-      "wind": 10.5,
+      "min": 3.6,
+      "max": 13.8,
+      "rain": 44,
+      "wind": 6.5,
       "coords": [
         35.2116243,
         139.0108791
@@ -128,12 +128,12 @@
     {
       "date": "2026-12-06",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 80,
-      "min": 5.1,
-      "max": 8.1,
-      "rain": 53,
-      "wind": 8.2,
+      "min": 8.5,
+      "max": 12.7,
+      "rain": 75,
+      "wind": 6.5,
       "coords": [
         35.2116243,
         139.0108791
@@ -145,12 +145,12 @@
     {
       "date": "2026-12-07",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
-      "code": 80,
-      "min": 7.7,
-      "max": 11.7,
-      "rain": 53,
-      "wind": 11.6,
+      "fetchedAt": 1795843836129,
+      "code": 81,
+      "min": 8.3,
+      "max": 13.6,
+      "rain": 69,
+      "wind": 13.3,
       "coords": [
         35.6586529,
         139.7023835
@@ -162,12 +162,12 @@
     {
       "date": "2026-12-08",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
-      "code": 3,
-      "min": 4.8,
-      "max": 11.1,
-      "rain": 55,
-      "wind": 5.9,
+      "fetchedAt": 1795843836129,
+      "code": 53,
+      "min": 8.3,
+      "max": 15.5,
+      "rain": 63,
+      "wind": 13.2,
       "coords": [
         35.6586529,
         139.7023835
@@ -179,12 +179,12 @@
     {
       "date": "2026-12-09",
       "zone": "Asia/Tokyo",
-      "fetchedAt": 1795759869770,
-      "code": 81,
-      "min": 4,
-      "max": 8.2,
-      "rain": 47,
-      "wind": 17.4,
+      "fetchedAt": 1795843836129,
+      "code": 51,
+      "min": 5.8,
+      "max": 14.6,
+      "rain": 36,
+      "wind": 16.5,
       "coords": [
         35.6586529,
         139.7023835
@@ -196,12 +196,12 @@
     {
       "date": "2026-12-10",
       "zone": "Asia/Shanghai",
-      "fetchedAt": 1795759869770,
+      "fetchedAt": 1795843836129,
       "code": 3,
-      "min": -2.8,
-      "max": 5.3,
-      "rain": 4,
-      "wind": 11.5,
+      "min": -7.9,
+      "max": 0.8,
+      "rain": 9,
+      "wind": 5.4,
       "coords": [
         39.9057136,
         116.3912972
@@ -213,12 +213,12 @@
     {
       "date": "2026-12-11",
       "zone": "Asia/Shanghai",
-      "fetchedAt": 1795759869770,
-      "code": 0,
-      "min": -3.8,
-      "max": 3,
-      "rain": 4,
-      "wind": 5.6,
+      "fetchedAt": 1795843836129,
+      "code": 71,
+      "min": -3,
+      "max": 1,
+      "rain": 9,
+      "wind": 4.9,
       "coords": [
         39.9057136,
         116.3912972
