@@ -1,4 +1,4 @@
-import {dayAnchor,hotelEndpoints,hotelStop,pointFor,plannedMode,baseDayOrder,arrangeDay,dayGroups,periodLabel,improveSegment,mergeTransitOrder} from './dayplan.mjs?v=73';
+import {dayAnchor,hotelEndpoints,hotelStop,pointFor,plannedMode,baseDayOrder,arrangeDay,dayGroups,periodLabel,improveSegment,mergeTransitOrder} from './dayplan.mjs?v=74';
 export const JOURNEY_MODES={walking:'Пешком',subway:'Пешком + метро',transit:'Пешком + транспорт',taxi:'Такси',driving:'Авто'};
 export function cleanJourney(value={},places=[],days=[]){
  const v=value&&typeof value==='object'?value:{},ids=new Set(places.map(p=>p.id)),dates=new Set(days.map(d=>d.date));
