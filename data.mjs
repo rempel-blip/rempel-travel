@@ -463,7 +463,7 @@ const tokyoAdditions=[
   }
 ];
 
-import {catalogExtraPlaces,catalogLinks} from './catalog.mjs';
+import {catalogExtraPlaces,catalogLinks} from './catalog.mjs?v=75';
 export const days=[
 ['2026-11-29','Гуанчжоу','Пересадка и вечер у реки','CN','guangzhou','Ночёвка в SPA не подтверждена. Ocean Palace — только после проверки работы.'],
 ['2026-11-30','Осака','Первый вечер в Японии','JP','osaka','Из Гуанчжоу в Осаку. Прилёт KIX 14:10 — из истории, сверить билет.'],
