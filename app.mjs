@@ -12,7 +12,7 @@ import {weatherCondition,createWeatherService,startWeatherRefresh,forecastWindow
 import {resolveMobileView,shareableAppURL} from './mobile.mjs';
 import {googleEmbedURL,googleOpenURL} from './google-map.mjs';
 import {mountBasemap} from './map.mjs';
-import {days,hotels,places,priorityFor,filterPlaces,linksFor,placesForView} from './data.mjs?v=74';
+import {days,hotels,places,priorityFor,filterPlaces,linksFor,placesForView} from './data.mjs?v=76';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const KEY='rempel-travel-v1',labels={main:'Обязательно',optional:'По желанию',reserve:'Резерв'};let storageOK=true;
 function read(){try{return JSON.parse(localStorage.getItem(KEY)||'{}');}catch{return {};}}
