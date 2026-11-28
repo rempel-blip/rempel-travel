@@ -1,9 +1,10 @@
-import {dayAnchor,hotelEndpoints,hotelStop,pointFor,plannedMode,baseDayOrder,arrangeDay,dayGroups,periodLabel,improveSegment,mergeTransitOrder} from './dayplan.mjs?v=72';
+import {dayAnchor,hotelEndpoints,hotelStop,pointFor,plannedMode,baseDayOrder,arrangeDay,dayGroups,periodLabel,improveSegment,mergeTransitOrder} from './dayplan.mjs?v=71';
 export const JOURNEY_MODES={walking:'Пешком',subway:'Пешком + метро',transit:'Пешком + транспорт',taxi:'Такси',driving:'Авто'};
 export function cleanJourney(value={},places=[],days=[]){
  const v=value&&typeof value==='object'?value:{},ids=new Set(places.map(p=>p.id)),dates=new Set(days.map(d=>d.date));
  const result={orders:{},included:{},pinned:{},modes:{},skipped:{},visits:{},following:{},periods:{}};
  for(const [date,order]of Object.entries(v.orders||{}))if(dates.has(date)&&Array.isArray(order))result.orders[date]=[...new Set(order.filter(id=>places.some(p=>p.id===id&&(p.date===date||p.visitDates?.includes(date)))))];
+ if(places.some(p=>p.id==='sumidaPark10')&&!v.orders?.['2026-12-10']?.includes('sumidaPark10'))delete result.orders['2026-12-10'];
  for(const name of ['included','pinned'])for(const [id,x]of Object.entries(v[name]||{}))if(ids.has(id)&&typeof x==='boolean')result[name][id]=x;
  for(const [key,x]of Object.entries(v.modes||{})){const [date,id]=key.split('|');if(dates.has(date)&&ids.has(id)&&JOURNEY_MODES[x])result.modes[key]=x;}
  for(const [key,x]of Object.entries(v.skipped||{})){const [date,id]=key.split('|');if(dates.has(date)&&places.some(p=>p.id===id&&p.date===date)&&x===true)result.skipped[key]=true;}
