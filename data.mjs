@@ -368,17 +368,17 @@ const tokyoAdditions=[
   },
   {
     "id": "sumidaAzumabashi",
-    "date": "",
-    "name": "Sumida Park / Azumabashi Bridge",
-    "query": "Sumida Park Azumabashi Bridge Tokyo",
+    "date": "2026-12-10",
+    "name": "Azumabashi Bridge",
+    "query": "Azumabashi Bridge Tokyo",
     "local": "",
     "time": "",
     "country": "JP",
     "city": "Токио",
     "category": "Природа",
-    "priority": "reserve",
-    "routeDefault": false,
-    "note": "Парк Сумида и мост Адзумбаси — вариант рассветной прогулки у реки. Период из файла: без даты. Дата не назначена; вариант для выбора при финализации маршрута.",
+    "priority": "main",
+    "routeDefault": true,
+    "note": "Мост Адзумбаси — точка рассветного круга 10 декабря по присланному маршруту Google Maps; отдельно отмечен парк Сумида.",
     "sourceNames": [
       "Sumida Park / Azumabashi Bridge"
     ],
@@ -563,7 +563,7 @@ const raw=[
 ['jingshan',12,'Jingshan Park Beijing','Панорамы','main','Фаворит для рассвета. Уточнить ранний вход и предварительную запись для иностранцев.','北京景山公园'],
 ['pkxReturn',12,'Beijing Daxing International Airport','Транспорт','main','Цель — в аэропорту к 10:00–10:30, вылет 13:00 по истории.','北京大兴国际机场']
 ];
-export const basePlaces=raw.map(([id,day,name,category,priority,note,local='',time=''])=>({id,date:days[day].date,name,category,priority,note,query:local||name,local,time,country:days[day].country,city:days[day].city}));
+export const basePlaces=raw.map(([id,day,name,category,priority,note,local='',time=''])=>({id,date:days[day].date,name,category,priority,note,query:local||name,local,time,country:days[day].country,city:days[day].city,...(id==='sensoji'?{visitDates:['2026-12-10']}: {})}));
 const watamiBranches=[{id:'watamiUmeda',date:'2026-12-02',name:'Yakiniku no Watami · Умеда Chayamachi',local:'焼肉の和民 梅田茶屋町店 大阪府大阪市北区茶屋町2-16',mapLabel:'У',note:'Вариант ужина: Умеда Chayamachi, 2-16 Chayamachi, E-Square Chayamachi, 4F. Бронирование не подтверждено.'},{id:'watamiNamba3',date:'2026-12-03',name:'Yakiniku no Watami · Намба',local:'焼肉の和民 なんば店 大阪府大阪市中央区難波千日前12-30',mapLabel:'Н',note:'Вариант ужина в Осаке. Основной день проходит в Киото: посещение потребует отдельной поездки в Осаку и возвращения. Бронирование не подтверждено.'},{id:'watamiUmeda3',date:'2026-12-03',name:'Yakiniku no Watami · Умеда Chayamachi',local:'焼肉の和民 梅田茶屋町店 大阪府大阪市北区茶屋町2-16',mapLabel:'У',note:'Вариант ужина в Осаке. Основной день проходит в Киото: посещение потребует отдельной поездки в Осаку и возвращения. Бронирование не подтверждено.'}].map(p=>({...p,category:'Еда',priority:'optional',query:p.local,time:'',country:'JP',city:'Осака',routeDefault:false,candidateGroup:'watami'}));
 const transitStops=[{"id":"ofuna6","date":"2026-12-06","name":"Ōfuna Station · пересадка в Камакуру","city":"Офуна","country":"JP","category":"Транспорт","priority":"main","query":"Ofuna Station Japan","local":"大船駅","time":"","note":"Рабочая железнодорожная схема: от Одавары по JR Tokaido до Ofuna, затем в сторону Камакуры по JR Yokosuka. Конкретные поезда и время пересадки проверить в навигации.","transportNode":true,"coordinateSource":"ofunaStation","transitAfter":"odawara6"},
   {
@@ -853,7 +853,66 @@ const transitStops=[{"id":"ofuna6","date":"2026-12-06","name":"Ōfuna Station ·
     "transitAfter": "shinagawa10"
   }
 ];
-const existingPlaces=[...basePlaces.map(p=>({...p,...(p.id==='watami'?{routeDefault:false,candidateGroup:'watami',mapLabel:'Н'}:{}),city:catalogLinks.find(x=>x.placeId===p.id)?.city||(p.date==='2026-12-01'?(p.id==='collina'?'Омихатиман':'Нара'):p.date==='2026-12-06'?(p.id==='ryuguden'?'Хаконе':'Камакура'):p.date==='2026-12-10'||p.date==='2026-12-11'?'Пекин':p.id==='gcans'?'Касукабе':p.city),sourceIds:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.sourceId),sourceNames:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.name)})),...catalogExtraPlaces,...watamiBranches,...tokyoAdditions,...transitStops];
+const dec10WalkPlaces=[
+  {
+    "id": "sumidaPark10",
+    "date": "2026-12-10",
+    "name": "Sumida Park",
+    "query": "Sumida Park, 1 Chome-1 Hanakawado, Taito City, Tokyo",
+    "local": "隅田公園",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Природа",
+    "priority": "main",
+    "routeDefault": true,
+    "note": "Начало рассветного круга по маршруту Google Maps; далее мост Адзумбаси."
+  },
+  {
+    "id": "kuramaeBridge10",
+    "date": "2026-12-10",
+    "name": "Kuramae Bridge",
+    "query": "Kuramae Bridge, Tokyo, Japan",
+    "local": "蔵前橋",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Архитектура",
+    "priority": "main",
+    "routeDefault": true,
+    "note": "Промежуточная точка пешего круга после Сэнсо-дзи."
+  },
+  {
+    "id": "sumidaHokusai10",
+    "date": "2026-12-10",
+    "name": "The Sumida Hokusai Museum",
+    "query": "The Sumida Hokusai Museum, 2 Chome-7-2 Kamezawa, Sumida City, Tokyo",
+    "local": "すみだ北斎美術館",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Музеи",
+    "priority": "main",
+    "routeDefault": true,
+    "note": "Последняя городская точка круга перед возвращением в отель."
+  },
+  {
+    "id": "touristHotelReturn10",
+    "date": "2026-12-10",
+    "name": "Возвращение в The Tourist Hotel & Cafe Akihabara",
+    "query": "THE TOURIST Hotel & Cafe Akihabara, 1 Chome-6-6 Taito, Taito City, Tokyo 110-0016, Japan",
+    "local": "",
+    "time": "",
+    "country": "JP",
+    "city": "Токио",
+    "category": "Отели",
+    "priority": "main",
+    "hotelReturn": true,
+    "coordinateId": "tourist",
+    "note": "Финиш утреннего круга; вернуться в отель перед выездом в аэропорт."
+  }
+];
+const existingPlaces=[...basePlaces.map(p=>({...p,...(p.id==='watami'?{routeDefault:false,candidateGroup:'watami',mapLabel:'Н'}:{}),city:catalogLinks.find(x=>x.placeId===p.id)?.city||(p.date==='2026-12-01'?(p.id==='collina'?'Омихатиман':'Нара'):p.date==='2026-12-06'?(p.id==='ryuguden'?'Хаконе':'Камакура'):p.date==='2026-12-10'||p.date==='2026-12-11'?'Пекин':p.id==='gcans'?'Касукабе':p.city),sourceIds:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.sourceId),sourceNames:catalogLinks.filter(x=>x.placeId===p.id).map(x=>x.name)})),...catalogExtraPlaces,...watamiBranches,...tokyoAdditions,...transitStops,...dec10WalkPlaces];
 export const places=[...existingPlaces.map(p=>catalogEnhancements[p.id]?{...p,...catalogEnhancements[p.id]}:p),...newCatalogPlaces,tokyoNodePlace,...flowerMountainPlaces,...hashiKyotoPlaces.filter(p=>p.id!=='catalog-p52'),...onShopPlaces,...artSuppliesPlaces].map(p=>p.id==='catalog-p52'?{...p,...hashiKyotoPlaces.find(q=>q.id===p.id)}:p.id==='hashi'?{...p,networkGroup:'hashilab',networkName:'HASHI LAB'}:p).map(p=>shopEnhancements[p.id]?{...p,...shopEnhancements[p.id]}:p);
 export function priorityFor(p,variant){return variant==='B'&&['otagi','gcans'].includes(p.id)?'main':p.priority;}
 export function placesForView(all,view){return all.filter(p=>view==='archive'?p.archived:!p.archived&&(view==='catalog'||(view==='reserve'?!p.date:shopOnDate(p,view))));}
