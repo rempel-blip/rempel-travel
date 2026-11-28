@@ -3962,12 +3962,12 @@ export const catalogExtraPlaces=[
   },
   {
     "id": "catalog-p100",
-    "date": "",
+    "date": "2026-12-10",
     "name": "Kaminarimon",
     "city": "Токио",
     "region": "Япония",
     "category": "Город",
-    "priority": "reserve",
+    "priority": "main",
     "note": "Знаменитые ворота Асакусы и фототочка.",
     "query": "Kaminarimon Токио",
     "local": "",
@@ -3975,6 +3975,7 @@ export const catalogExtraPlaces=[
     "country": "JP",
     "archived": false,
     "sourceDate": "08–09.12",
+    "routeDefault": true,
     "sourceStatus": "история",
     "sourceIds": [
       "p100"
@@ -3983,12 +3984,12 @@ export const catalogExtraPlaces=[
   },
   {
     "id": "catalog-p101",
-    "date": "",
+    "date": "2026-12-10",
     "name": "Nakamise-dori",
     "city": "Токио",
     "region": "Япония",
     "category": "Город",
-    "priority": "reserve",
+    "priority": "main",
     "note": "Торговая улица к храму Сэнсо-дзи.",
     "query": "Nakamise-dori Токио",
     "local": "",
@@ -3996,6 +3997,7 @@ export const catalogExtraPlaces=[
     "country": "JP",
     "archived": false,
     "sourceDate": "08–09.12",
+    "routeDefault": true,
     "sourceStatus": "история",
     "sourceIds": [
       "p101"
