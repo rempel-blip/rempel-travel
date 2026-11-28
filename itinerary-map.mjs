@@ -1,5 +1,5 @@
-import {journeyDay,journeyIncluded} from './journey.mjs?v=73';
-import {completeDay,pointFor,dayAnchor} from './dayplan.mjs?v=73';
+import {journeyDay,journeyIncluded} from './journey.mjs?v=74';
+import {completeDay,pointFor,dayAnchor} from './dayplan.mjs?v=74';
 export function itineraryMap({date,places,hotels,journey,coordinate,priority,showInactive=false}){
  const allPlaces=places;places=places.filter(p=>!p.networkInactive);const list=journeyDay(places,date,journey).filter(p=>journeyIncluded(p,journey,priority(p))&&!journey.skipped[date+'|'+p.id]);let number=0;
  const entries=completeDay(list,hotels,date).stops.map((p,index)=>({p,index,label:p.hotel?(p.role==='start'?'С':p.role==='end'?'Ф':'Б'):String(++number),coords:pointFor(p,coordinate),anchor:dayAnchor(p)}));
